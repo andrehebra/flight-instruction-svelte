@@ -1,5 +1,5 @@
 <script>
-    import {  Heading, P, A, Mark, Secondary, Listgroup, MegaMenu } from 'flowbite-svelte'
+    import {  Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion } from 'flowbite-svelte'
 
     export let contents;
 </script>
@@ -16,10 +16,16 @@
                 {item}
             </Listgroup>
         </div>
-    {:else if widget.widget == 'megalist'}
-        <MegaMenu items={widget.items} let:item open={true}>
-            {item}
-        </MegaMenu>
+    {:else if widget.widget == 'accordion'}
+        <Accordion>
+            {#each widget.items as item}
+                <AccordionItem>
+                    <span slot="header">{item.title}</span>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">{item.info}</p>
+                    
+                </AccordionItem>
+            {/each}
+        </Accordion>
     {/if}
     <div class="padding"></div>
 {/each}

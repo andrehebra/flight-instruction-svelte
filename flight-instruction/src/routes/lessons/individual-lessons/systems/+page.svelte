@@ -8,8 +8,7 @@
             {widget: 'text', text: 'This lesson will start by going through the primary and secondary control systems, and then progress through the other, more complex, but equally important systems.'},
             {widget: 'header', text: 'What am I required to know?'},
             {widget: 'text', text: 'Regardless of the regulations or requirements, it is incredibly important to understand all of the systems in any aircraft that you fly. That being said, both the private and commercial ACS requires a person demonstrate an understanding of: '},
-            {widget: 'megalist', items: ["Primary flight controls","Secondary flight controls","Powerplant and propeller","Landing gear","Fuel, oil, and hydraulic", "Electrical", "Avionics","Pitot-static, vacuum/pressure, and associated flight instruments","Environmental","Deicing and anti-icing", "Water rudders (only ASES OR AMES)", "Oxygen System"]},
-            {widget: 'text', text: 'hello'},
+            {widget: 'accordion', items: [{title: "Primary flight controls"},{title: "Secondary flight controls"},{title: "Powerplant and propeller"},{title: "Landing gear"},{title: "Fuel, oil, and hydraulic"}, {title: "Electrical"}, {title: "Avionics"},{title: "Pitot-static, vacuum/pressure, and associated flight instruments"},{title: "Environmental"},{title: "Deicing and anti-icing"}, {title: "Water rudders (only ASES OR AMES)"}, {title: "Oxygen System"}]},
         ]}, {
         title: "second onee", contents: [
             {widget: "header", text: "this is the second page boyyyy"},
