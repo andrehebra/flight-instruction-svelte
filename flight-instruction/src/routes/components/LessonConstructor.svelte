@@ -6,8 +6,17 @@
 
 {#each contents as widget}
     {#if widget.widget == 'header'}
-        <Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold  md:text-5xl lg:text-6xl">{widget.text}</Heading>
+        <Heading tag="h1">{widget.text}</Heading>
+        <div class="padding"></div>
     {:else if widget.widget == 'text'}
         <P size="base">{widget.text}</P>
     {/if}
+    <div class="padding"></div>
 {/each}
+
+<style>
+    .padding {
+        min-height: 10px;
+    }
+</style>
+    

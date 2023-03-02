@@ -3,8 +3,9 @@
 
     const systems = [
         {title: "Introduction", contents: [
-            {widget: "header", text: "This is a sample header"},
-            {widget: "text", text: "this is a sample of some text"}
+            {widget: "header", text: "What exactly are aircraft systems?"},
+            {widget: "text", text: "Aircraft systems are simply the devices used to operate an aircraft. These can range from the flight controls to the avionics or electrical system. For learning purposes, it can be easier to separate them into a few different broad categories. While this lesson will broadly cover the systems onboard a Cessna 172S, many other aircraft have more complex systems or entirely unique ones."},
+            {widget: 'text', text: 'This lesson will start by going through the primary and secondary control systems, '},
         ]}, {
         title: "second onee", contents: [
             {widget: "header", text: "this is the second page boyyyy"},
