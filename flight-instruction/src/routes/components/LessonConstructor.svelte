@@ -1,5 +1,5 @@
 <script>
-    import {  Heading, P, A, Mark, Secondary } from 'flowbite-svelte'
+    import {  Heading, P, A, Mark, Secondary, Listgroup } from 'flowbite-svelte'
 
     export let contents;
 </script>
@@ -10,6 +10,10 @@
         <div class="padding"></div>
     {:else if widget.widget == 'text'}
         <P size="base">{widget.text}</P>
+    {:else if widget.widget == 'list'}
+        <Listgroup items={widget.items} let:item class="w-48">
+            {item}
+        </Listgroup>
     {/if}
     <div class="padding"></div>
 {/each}
