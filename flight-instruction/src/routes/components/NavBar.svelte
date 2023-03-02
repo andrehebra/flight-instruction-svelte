@@ -18,6 +18,7 @@
       <NavLi><button id="theme-toggle">{modeSwitch} Mode</button></NavLi>
     </NavUl>
     
+    
   </Navbar>
 
   

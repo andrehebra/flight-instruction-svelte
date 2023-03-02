@@ -4,22 +4,7 @@
     import LessonCard from "../components/LessonCard.svelte";
     
     let lessons = [
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
-        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
+        {title: 'Operation of Systems', sub: 'Gain an understanding of the operation of flight systems, specifically the Cessna 172S', link: '../lessons/individual-lessons/systems'},
         
     ]
 
@@ -30,7 +15,7 @@
 <div class="cardContainer">
     {#each lessons as lesson}
         <div class="cardHolder">
-            <LessonCard class='lessonCard' title={lesson.title} sub={lesson.sub}/>
+            <LessonCard  class='lessonCard' title={lesson.title} sub={lesson.sub}/>
         </div>
     {/each}
 </div>
