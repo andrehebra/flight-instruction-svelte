@@ -29,12 +29,6 @@
   
   
     onMount(() => {
-      
-      if (localStorage.getItem('color-theme') === 'light') {
-          modeSwitch = 'Dark';
-      } else {
-          modeSwitch = 'Light';
-      }
   
       var themeToggleBtn = document.getElementById('theme-toggle');
       
@@ -63,13 +57,15 @@
             }
         }
     
-        if (localStorage.getItem('color-theme') === 'light') {
-            modeSwitch = 'Dark';
-        } else {
-            modeSwitch = 'Light';
-        }
+        
 
       });
+
+      if (localStorage.getItem('color-theme') === 'light') {
+          modeSwitch = 'Dark';
+      } else {
+          modeSwitch = 'Light';
+      }
     });
     
     
