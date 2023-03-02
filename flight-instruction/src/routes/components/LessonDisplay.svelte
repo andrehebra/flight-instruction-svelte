@@ -7,10 +7,15 @@
 	let pages = [];
 
 	for (let i = 0; i < contents.length; i++) {
-		sidebarItems.push({title: contents[i].title, id: i});
-
+		if (i == 0) {
+			sidebarItems.push({title: contents[i].title, id: i, active: true});
+		} else {
+			sidebarItems.push({title: contents[i].title, id: i, active: false});
+		}
+		
 		pages.push(contents[i].contents);
 	}
+
 	let children;
 
     import { Sidebar, SidebarGroup, SidebarItem, SidebarWrapper, SidebarDropdownItem, SidebarDropdownWrapper } from 'flowbite-svelte';
@@ -20,6 +25,14 @@
 	let unique = {};
 	children = pages[0];
 	function openPage(id) {
+		sidebarItems = [];
+		for (let i = 0; i < contents.length; i++) {
+			if (i == id) {
+				sidebarItems.push({title: contents[i].title, id: i, active: true});
+			} else {
+				sidebarItems.push({title: contents[i].title, id: i, active: false});
+			}
+		}
 		children = pages[id];
 		console.log(pages[id]);
 		unique = {};
@@ -32,7 +45,7 @@
 		<SidebarWrapper>
 		  <SidebarGroup>
 				{#each sidebarItems as item}
-					<SidebarItem on:click={()=>{openPage(item.id)}} label={item.title}>
+					<SidebarItem active={item.active} on:click={()=>{openPage(item.id)}} label={item.title}>
 					</SidebarItem>
 				{/each}
 			  </SidebarGroup>
