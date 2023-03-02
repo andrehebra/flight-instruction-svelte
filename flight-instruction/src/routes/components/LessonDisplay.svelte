@@ -11,13 +11,13 @@
 
 		pages.push({id: i, contents: contents[i].contents});
 	}
-	console.log(pages);
 
     import { Sidebar, SidebarGroup, SidebarItem, SidebarWrapper, SidebarDropdownItem, SidebarDropdownWrapper } from 'flowbite-svelte';
+	import LessonConstructor from "./LessonConstructor.svelte";
     let spanClass = 'flex-1 ml-3 whitespace-nowrap';
 
 	function openPage(id) {
-
+		alert('no more alerts');
 	}
 </script>
 
@@ -26,9 +26,11 @@
     <SidebarWrapper>
       <SidebarGroup>
 			{#each sidebarItems as item}
-				<SidebarItem label={item.title} href={openPage(item.id)}>
+				<SidebarItem on:click={openPage(item.id)} label={item.title}>
 				</SidebarItem>
 			{/each}
       	</SidebarGroup>
     </SidebarWrapper>
 </Sidebar>
+
+<LessonConstructor />
