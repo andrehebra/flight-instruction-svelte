@@ -17,11 +17,14 @@
             </Listgroup>
         </div>
     {:else if widget.widget == 'accordion'}
-        <Accordion>
+        <Accordion
+            activeClasses="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800"
+            inactiveClasses="text-gray-500 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800">
+            
             {#each widget.items as item}
                 <AccordionItem>
                     <span slot="header">{item.title}</span>
-                    <p class="mb-2 text-gray-500 dark:text-gray-400">{item.info}</p>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">{item.text}</p>
                     
                 </AccordionItem>
             {/each}
