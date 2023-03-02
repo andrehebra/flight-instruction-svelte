@@ -14,6 +14,12 @@
         {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
         {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
         {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
+        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
+        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
+        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
+        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
+        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
+        {title: 'Principles of Flight', sub: 'The basics of lift and fundamentals of how airplanes fly and are controlled.'},
         
     ]
 
@@ -33,9 +39,12 @@
     .cardContainer {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .cardHolder {
-        padding: 10px;
+        padding-top: 16px;
+        padding-right: 8px;
+        padding-left: 8px;
         min-width: 300px;
     }
 </style>
