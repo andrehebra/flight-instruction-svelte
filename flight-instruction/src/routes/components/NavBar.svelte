@@ -11,7 +11,7 @@
         alt="Logo"
       />
       <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-        Flight Instruction
+        Flight Instructionnnn
       </span>
     </NavBrand>
     <NavHamburger on:click={toggle} />
