@@ -27,18 +27,47 @@
 </script>
 
 <NavBar />
-<Sidebar>
-    <SidebarWrapper>
-      <SidebarGroup>
-			{#each sidebarItems as item}
-				
-				<SidebarItem on:click={()=>{openPage(item.id)}} label={item.title}>
-				</SidebarItem>
-			{/each}
-      	</SidebarGroup>
-    </SidebarWrapper>
-</Sidebar>
+<div class="display">
+	<Sidebar>
+		<SidebarWrapper>
+		  <SidebarGroup>
+				{#each sidebarItems as item}
+					<SidebarItem on:click={()=>{openPage(item.id)}} label={item.title}>
+					</SidebarItem>
+				{/each}
+			  </SidebarGroup>
+		</SidebarWrapper>
+	</Sidebar>
+	
+	<div class="holder">
+		<div class="lesson">
+			{#key unique}
+				<LessonConstructor class='content' contents={children} />
+			{/key}
+		</div>
+	</div>
+	
+	
+</div>
 
-{#key unique}
-<LessonConstructor contents={children} />
-{/key}
+<style>
+	.display {
+		display: flex;
+	}
+	.holder {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+	.lesson {
+		display: flex;
+		max-width: 800px;
+		flex-direction: column;
+		min-height: 100%;
+		padding: 20px;
+	}
+	.content {
+
+	}
+</style>
