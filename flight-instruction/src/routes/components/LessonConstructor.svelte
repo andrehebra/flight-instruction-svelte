@@ -1,5 +1,5 @@
 <script>
-    import {  Heading, P, A, Mark, Secondary, Listgroup } from 'flowbite-svelte'
+    import {  Heading, P, A, Mark, Secondary, Listgroup, MegaMenu } from 'flowbite-svelte'
 
     export let contents;
 </script>
@@ -11,9 +11,15 @@
     {:else if widget.widget == 'text'}
         <P size="base">{widget.text}</P>
     {:else if widget.widget == 'list'}
-        <Listgroup items={widget.items} let:item class="w-48">
+        <div class="center">
+            <Listgroup items={widget.items} let:item class="w-48">
+                {item}
+            </Listgroup>
+        </div>
+    {:else if widget.widget == 'megalist'}
+        <MegaMenu items={widget.items} let:item open={true}>
             {item}
-        </Listgroup>
+        </MegaMenu>
     {/if}
     <div class="padding"></div>
 {/each}
@@ -21,6 +27,12 @@
 <style>
     .padding {
         min-height: 10px;
+    }
+
+    .center {
+        display: flex;
+        align-items: center;
+		justify-content: center;
     }
 </style>
     
