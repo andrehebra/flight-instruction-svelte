@@ -3,7 +3,7 @@
 <Navbar let:hidden let:toggle>
     <NavBrand href="/">
       <img
-        src="./navBarLogo.svg"
+        src={logoDecoded}
         class="mr-3 h-6 sm:h-9"
         alt="Logo"
       />
@@ -23,6 +23,7 @@
 
   
   <script>
+    import logoDecoded from './navBarLogo.svg';
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, DarkMode } from 'flowbite-svelte'
     import { onMount } from 'svelte';
   
