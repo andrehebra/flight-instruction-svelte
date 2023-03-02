@@ -5,15 +5,7 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
-		<script>
-			function darkMode() {
-				if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-					document.documentElement.classList.add('dark');
-				} else {
-					document.documentElement.classList.remove('dark');
-				}
-			}
-		</script>
+		
 	</head>
 	<body data-sveltekit-preload-data="hover" class="bg-white dark:bg-gray-800">
 		<div style="display: contents">%sveltekit.body%</div>
