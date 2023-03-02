@@ -1,1 +1,7 @@
-<h1>hello</h1>
+<script>
+	import LessonDisplay from "../components/LessonDisplay.svelte";
+
+</script>
+
+<LessonDisplay />
+
