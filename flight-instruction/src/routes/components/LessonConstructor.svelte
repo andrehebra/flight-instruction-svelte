@@ -34,7 +34,7 @@
         </Accordion>
     {:else if widget.widget == 'image'}
         <div class="image center">
-            <Img src={widget.src} caption={widget.caption}/>
+            <Img size="max-w-md" src={widget.src} caption={widget.caption}/>
         </div>
     {/if}
     <div class="padding"></div>
