@@ -24,9 +24,10 @@
 				sidebarItems.push({title: contents[i].title, id: counter, active: false, drop: false});
 			}
 			pages.push(contents[i].contents);
+			counter++;
 		}
 
-		counter++;
+		
 		
 	}
 	console.log(pages);
@@ -66,9 +67,10 @@
 				} else {
 					sidebarItems.push({title: contents[i].title, id: counter, active: active, drop: false});
 				}
+				counter++;
 			}
 		active = false;
-		counter++;
+		
 	}
 
 		children = pages[id];
@@ -84,8 +86,8 @@
 		  <SidebarGroup>
 				{#each sidebarItems as item}
 					{#if item.drop == false}
-					<SidebarItem active={item.active} on:click={()=>{openPage(item.id)}} label={item.title}>
-					</SidebarItem>
+						<SidebarItem active={item.active} on:click={()=>{openPage(item.id)}} label={item.title}>
+						</SidebarItem>
 					{:else if item.drop == true}
 						<SidebarDropdownWrapper label={item.title}>
 							{#each item.contents as content}

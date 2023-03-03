@@ -13,7 +13,10 @@
         drop: true, title: "Aircraft Controls", contents: [
             {title: "Primary Controls", contents: [{widget: "header", text: "testing"}]},
             {title: "Secondary Controls", contents: [{widget: "header", text: "testing2"}]}
-        ]}
+        ]},{
+        drop: false, title: "testing", contents: [
+            {widget: "header", text: "this is working"},
+        ]},
     ];
 </script>
 
