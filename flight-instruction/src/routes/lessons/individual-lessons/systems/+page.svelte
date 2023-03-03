@@ -41,7 +41,10 @@
                 header1("Elevator"),
                 text("The elevator is used to control the aircraft's rotation about the lateral axis (pitch). In the 172, the elevator is connected to the control column by a series of mechanical linkages, which is shown below:"),
                 image("172 Elevator Control System (cfinotebook.net)", "https://www.cfinotebook.net/graphics/operation-of-aircraft-systems/flight-controls/elevator-system.webp"),
-                
+                text("It is important to understand that the elevator functions by generating lift either upwards or downwards. When pulling the control wheel back, you decrease the camber of the elevator and create a downward aerodynamic force that is greater than the normal tail-down force that exists in straight and level flight. This is what causes the nost to pitch up."),
+                image("Downward aerodynamic force of the elevator (PHAK Chapter 6)", "https://i.imgur.com/hBZm6HR.png"),
+                text("Another important note: the elevator will always rotate the aircraft around the center of gravity.")
+
 
 
             ]},
@@ -51,8 +54,14 @@
         ]},{
         drop: true, title: "Powerplant", contents: [
             {title: "Engine", contents: [
-                {widget: "header", text: "Engine"}
-            ]},
+                {widget: "header", text: "Powerplant... or Engine?"},
+                text("The engine, generally referred to as the powerplant, is what produces thrust to propel an aircraft. Reciprocating and turboprop engines both work with a propeller to produce thrust, while turbojet and turbofan engines produce thrust by increasing the velocity of air flowing through the engine. It is important to note that the general convention is to refer to an aircraft engine as a powerplant, although they are often times used interchangeably. For this lesson, we'll focus mainly on reciprocating engines, as that is what is in the 172."),
+                header1("Reciprocating Engines"),
+                text("Most small aircraft use reciprocating engines, which operate on the basic principle of converting chemical energy (fuel) into mechanical energy. This conversion occurs within the cylinders of the engine through combustion."),
+                image("4 Stroke Engine Airflow", "https://upload.wikimedia.org/wikipedia/commons/d/d7/4-Stroke-Engine-with-airflows.gif"),
+                text("The graphic above may look complicated, but we can break it down to understand the prupose.")
+
+            ]}, 
             {title: "Propeller", contents: [
                 {widget: "header", text: "Propeller"}
             ]},
