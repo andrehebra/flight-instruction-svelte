@@ -30,7 +30,19 @@
                 image("Differential Ailerons","https://i.imgur.com/7lfLCIB.png"),
                 text("The cessna 172 has differential ailerons. When the down aileron is deflected 15 degrees, the up aileron will be deflected 20 degrees, as stated in the POH."),
                 header3("Coupled Ailerons and Rudder"),
-                text("By using rudder-aileron interconnect springs, it is possible to deflect the rudder automatically when deflecting the ailerons.")
+                text("By using rudder-aileron interconnect springs, it is possible to deflect the rudder automatically when deflecting the ailerons. Important to note, however, that the rudders can be overpowered when necessary to skid or slip the aircraft."),
+                image ("Coupled Ailerons and Rudder (PHAK Chapter 6)","https://i.imgur.com/HHSJnfN.png"),
+                header3("Flaperons"),
+                text("Flaperons combine both aspects of flaps and ailerons. The surfaces can be lowered simultaneously to act as flaps when needed, but are still able to operate fully as ailerons. This is accomplished by using a mixer that combines the serparate inputs into one movement."),
+                image("Flaperons", "https://i.imgur.com/u4jkYio.png"),
+                header3("Frise-Type Ailerons"),
+                text("When pressure is applied to the control wheel, the aileron that is being raised pivots on an offset hinge, projecting the leading edge of the aileron into the airflow and creating drag. This helps to equalize the drag created by the lowered aileron. Additionally, the frise-type aileron forms a slot so that air can flow smoothly over the lowered aileron, making it more effective at high angles of attack."),
+                image("Frise-Type Aileron (PHAK Chapter 6)", "https://i.imgur.com/klfdHTt.png"),
+                header1("Elevator"),
+                text("The elevator is used to control the aircraft's rotation about the lateral axis (pitch). In the 172, the elevator is connected to the control column by a series of mechanical linkages, which is shown below:"),
+                image("172 Elevator Control System (cfinotebook.net)", "https://www.cfinotebook.net/graphics/operation-of-aircraft-systems/flight-controls/elevator-system.webp"),
+                
+
 
             ]},
             {title: "Secondary Controls", contents: [
