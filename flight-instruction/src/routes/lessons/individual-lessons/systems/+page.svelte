@@ -43,8 +43,8 @@
                 image("172 Elevator Control System (cfinotebook.net)", "https://www.cfinotebook.net/graphics/operation-of-aircraft-systems/flight-controls/elevator-system.webp"),
                 text("It is important to understand that the elevator functions by generating lift either upwards or downwards. When pulling the control wheel back, you decrease the camber of the elevator and create a downward aerodynamic force that is greater than the normal tail-down force that exists in straight and level flight. This is what causes the nost to pitch up."),
                 image("Downward aerodynamic force of the elevator (PHAK Chapter 6)", "https://i.imgur.com/hBZm6HR.png"),
-                text("Another important note: the elevator will always rotate the aircraft around the center of gravity.")
-
+                text("Another important note: the elevator will always rotate the aircraft around the center of gravity."),
+                
 
 
             ]},
@@ -59,7 +59,19 @@
                 header1("Reciprocating Engines"),
                 text("Most small aircraft use reciprocating engines, which operate on the basic principle of converting chemical energy (fuel) into mechanical energy. This conversion occurs within the cylinders of the engine through combustion."),
                 image("4 Stroke Engine Airflow", "https://upload.wikimedia.org/wikipedia/commons/d/d7/4-Stroke-Engine-with-airflows.gif"),
-                text("The graphic above may look complicated, but we can break it down to understand the prupose.")
+                text("The graphic above may look complicated, but we can break it down to understand the prupose. The goal of this engine, and most aircraft engines, is to turn the fuel that we have into rotational energy that can turn the propeller. Let's take a look at the individual components."),
+                image("Components of a reciprocating engine (PHAK Chapter 7)", "https://i.imgur.com/aY3BFgW.png"),
+                {widget: "accordion", expanded: true, items: [
+                    {title: "Cylinder", text: "The space in which a piston travels. The piston is seated inside of the cylinder and moves up and down."},
+                    {title: "Intake Valve", text: "A valve that is opened at the correct time to allow the fuel air mixture to enter into the cylingder. Generally the intake valve is opened just before the piston reaches top dead center, meaning that the piston is at the top of the cylinder."},
+                    {title: "Exhaust Valve", text: "A valve that is opened to allow the exhaust fumes from combustion to exit the cylinder."},
+                    {title: "Piston", text: ""},
+                    {title: "Spark Plug", text: ""},
+                    {title: "Crankcase", text: ""},
+                    {title: "Connecting Rod", text: ""},
+                    {title: "Crankshaft", text: ""},
+                ]},
+                
 
             ]}, 
             {title: "Propeller", contents: [
@@ -111,6 +123,9 @@
     }
     function image(caption, src) {
         return {widget: 'image', src: src, caption: caption};
+    }
+    function youtube(src) {
+        return {widget: 'youtube', src: src};
     }
 </script>
 

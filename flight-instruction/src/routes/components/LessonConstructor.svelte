@@ -26,12 +26,10 @@
         <Accordion
             activeClasses="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800"
             inactiveClasses="text-gray-500 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800">
-            
             {#each widget.items as item}
                 <AccordionItem>
                     <span slot="header">{item.title}</span>
                     <p class="mb-2 text-gray-500 dark:text-gray-400">{item.text}</p>
-                    
                 </AccordionItem>
             {/each}
         </Accordion>
@@ -39,6 +37,11 @@
         <div class="image center">
             <Img size="max-w-md" src={widget.src} caption={widget.caption}/>
         </div>
+    {:else if widget.widget == 'youtube'}
+        <div class="center">
+            <iframe width="560" height="315" src={widget.src} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        
     {/if}
     <div class="padding"></div>
 {/each}
