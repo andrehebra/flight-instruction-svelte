@@ -1,5 +1,5 @@
 <script>
-    import {  Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion } from 'flowbite-svelte'
+    import {  Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion } from 'flowbite-svelte'
 
     export let contents;
 </script>
@@ -7,6 +7,9 @@
 {#each contents as widget}
     {#if widget.widget == 'header'}
         <Heading tag="h1">{widget.text}</Heading>
+        <div class="padding"></div>
+    {:else if widget.widget == 'header2'}
+        <Heading tag="h4">{widget.text}</Heading>
         <div class="padding"></div>
     {:else if widget.widget == 'text'}
         <P size="base">{widget.text}</P>
@@ -29,6 +32,10 @@
                 </AccordionItem>
             {/each}
         </Accordion>
+    {:else if widget.widget == 'image'}
+        <div class="image center">
+            <Img src={widget.src} caption={widget.caption}/>
+        </div>
     {/if}
     <div class="padding"></div>
 {/each}
@@ -42,6 +49,9 @@
         display: flex;
         align-items: center;
 		justify-content: center;
+    }
+
+    .image {
     }
 </style>
     

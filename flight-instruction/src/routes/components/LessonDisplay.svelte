@@ -30,8 +30,6 @@
 		
 		
 	}
-	console.log(pages);
-	console.log(sidebarItems);
 
 	let children;
 
