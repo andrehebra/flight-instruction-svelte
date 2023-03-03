@@ -106,8 +106,16 @@
                 text("A propeller that allows for changes in propeller pitch during flight. A governor maintains a constant rpm, and changes the pitch of the propeller to maintain that rpm. We won't go into detail on these types of propellers, but they are important to know about and fully understand before flying a plane that has one."),
                 header1("The 172S Propeller"),
                 text("Our 172s have a 76 inch diameter fixed-pitch propeller. The propeller is connected directly to the crankshaft, meaning that the propeller rpm is always equal to the engine rpm.")
-            ]}, {title: "Ignition System", contents: [
+            ]}, {title: "Ignition", contents: [
                 header1("The Ignition System"),
+                text("In a spark ignition engine, the ignition system provides a spark that ignites the fuel-air mixture in the cylinders. This system is made up of magnetos, spark plugs, high-tension leads, and an ignition switch."),
+                header1("Magnetos"),
+                text("The magneto uses a permanent magnet to generate an electrical current, independent of the electrical system, which generates a high enough voltage to jump a spark across the spark plug gap in each cylinder. See the video below for more information:"),
+                youtube("https://www.youtube.com/embed/P5JWuYvf1Jk?start=14"),
+                text("Most aircraft have two separate magnetos, each connected to its own spark plug in each cylinder. This ensures that in the case of one magneto or spark plug failing, the engine can still operate. The firing of two spark plugs also improves combustion and results in a slightly higher power output."),
+                image("Magnetos and Connection to Spark Plugs (PHAK Chapter 7)", "https://i.imgur.com/BweV4oO.png"),
+                text("This is the reason for the magneto check during the run up. It is imperative to check that both sets of magnetos and spark plugs are operating, and the normal drop in rpm is due to the less complete combustion from just one spark plug."),
+                header1("Spark Plugs"),
                 
             ]},
         ]}, {
