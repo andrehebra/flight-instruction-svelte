@@ -117,13 +117,39 @@
                 text("This is the reason for the magneto check during the run up. It is imperative to check that both sets of magnetos and spark plugs are operating, and the normal drop in rpm is due to the less complete combustion from just one spark plug."),
                 header1("Spark Plugs"),
                 text("A spark plug ignites when a high voltage is applied between the center and ground electrode, which breaks down the insulation between the electrodes and generates a spark. The magnetos provide this voltage at the correct time, which allows the fuel air mixture to ignite. High-voltage leads are what connect the spark plug to the magneto."),
-                image("Spark Plug Diagram", "https://static.summitracing.com/global/images/FAQs/5075/Spark%20Plug%20Anatomy.png")
-
+                image("Spark Plug Diagram", "https://static.summitracing.com/global/images/FAQs/5075/Spark%20Plug%20Anatomy.png"),
             ]},
         ]}, {
         drop: true, title: "Liquids", contents: [
             {title: "Fuel", contents: [
-                {widget: "header", text: "Fuel"}
+                {widget: "header", text: "Fuel System"},
+                text("The fuel system comprises of all the components handling the fuel going from the tanks into the cylinders. While it may seem complex, if we break it down into its individual components it becomes more clear. Displayed below is a diagram of the 172S fuel system:"),
+                image("Diagram of the Fuel System", "https://i.imgur.com/SKZCXhq.png"),
+                header2("Fuel Tanks"),
+                text("The 172S has two fuel tanks, located in either wing. Each has a total capacity of 28 gallons, or 56 gallons in total. However, due to the design of the tanks, only 26 gallons is actually usable, making the total usable capacity of the fuel tanks 53 gallons."),
+                text('Each tank is connected to 5 drains, which are located on the underside of the wing. Those are the "sumps" that are used to visually inspect the fuel during preflight.'),
+                text("Each tank is also connected to a fuel quantity transmitter, which is an electrical quantity gauge that measures the approximate quantity of fuel in the tank by using a float."),
+                header2("Selector Valve"),
+                text("The selector valve is located inside of the cockpit, and controls the tank from which fuel is drawn into the system. You can either draw from one tank, or both. It also has a drain valve connected to it, which is located below the fuselage."),
+                header2("Fuel Reservoir Tank"),
+                text("The reservoir tank is a small tank that collects the fuel from the fuel selector. It is also connected to a fuel return which allows the fuel/air control unit to return excess fuel back into the tank if it is not needed immediatly."),
+                header2("Fuel Pumps"),
+                text("The 172S has both an engine driven fuel pump and an electric switch activated auxilary fuel pump. The auxilary fuel pump is mainly used when priming the engine, as the engine drive fuel pump only runs when the engine is running. However, it can also be used if the engine drive fuel pump malfunctions."),
+                text("It is also important to note that gravity alone can provide fuel pressure, but it is required in high wing aircraft that the fuel flow of a gravity system must be able to provide at least 150% of the takeoff fuel consumption of the engine (FAR 23.955)."),
+                header2("Fuel Shutoff Valve"),
+                text("The fuel shutoff valve is located in the cockpit and allows for all fuel to be stopped before reaching the fuel strainer in the case of an emergency."),
+                header2("Fiel Strainer"),
+                text("The fuel strainer is used to remove sediment from the fuel, and ensure that none of it is going into the engine. It is connected to a drain valve to check that there is fuel flowing through it and to make sure clean fuel is coming out."),
+                header2("Fuel/Air Control Unit"),
+                text("The control unit acts as a computer to determine the amount of fuel needed to deliver the power requested. When you set a certain throttle and mixture setting, the fuel/air control unit provides the correct amount of fuel required."),
+                header2("Fuel Return"),
+                text("The fuel return line connects from the fuel/air control unit to the reservoir tank to allow for excess fuel to be returned and reused in the fuel system. A check valve is included in the line to prevent fuel from flowing in the opposite direction"),
+                header2("Fuel Distribution Valve"),
+                text("This valve equally distributes the fuel into each cylinder. This allows for a more uniform fuel-air ratio in each cylinder when compared to a carburated engine."),
+                header1("Avgas"),
+                text("100 Low Lead, colloquially referred to as avgas, is a specific fuel designed for piston aircraft. The 172S uses 100LL."),
+                header2("Identifying 100LL"),
+                text("Refueling facilities will mark 100LL with a plate that reads AVGAS in white letters against a red background, preceded by a vertical bar in light blue. Additionally, 100LL will have a blue tint from additives, which allow a pilot to check their fuel before flight and ensure they are using the correct fuel type."),
             ]},
             {title: "Oil", contents: [
                 {widget: "header", text: "Oil"}
