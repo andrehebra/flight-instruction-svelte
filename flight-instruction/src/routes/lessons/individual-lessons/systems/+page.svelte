@@ -11,12 +11,40 @@
             {widget: 'accordion', items: [{title: "Primary flight controls", text: "The group of controls that are used to directly control the aircraft. Think of ailerons, elevator (or stabilator), and rudder. While these are not the only controls, primary controls are the controls that are required to safely control an aircraft."},{title: "Secondary flight controls", text: "Secondary flight controls are intended to improve the performance characteristics of the aircraft, or to relieve the control pressure required by the primary flight controls."},{title: "Powerplant and propeller", text: "The powerplant, or engine, combined with a propeller, is what produces thrust to propel an aircraft. Fully understanding how a propeller and powerplant operate is critical to the safety of flight."},{title: "Landing gear", text: "Although the 172 doesn't have retractable landing gear, there is still a lot of information to learn about tricycle landing gear and its advantages and disadvantages when compared to tailwheel configurations. Understanding how they operate and the stresses they endure can help ensure safe takeoffs and landings."},{title: "Fuel, oil, and hydraulic systems", text: "Understanding how fuel and oil are controlled and operated properly in an aircraft can save you from a potential engine failure. Hydraulic systems are also critical, particularly in the brakes, to help ensure safe landings, because nobody wants to run off the end of the runway!"}, {title: "Electrical system", text: "The electrical system is connected to every device in the aircraft that uses power. From starting up the engine to keeping the PFD and MFD on, as well as charging up the batteries. Understaning potential malfunctions with this system is critical."}, {title: "Avionics", text: "Avionics refer to the electronic systems used on aircraft. For the 172S, we can generally think of the PFD and MFD, as well as the radios and navigation aids it provides as avionics."},{title: "Pitot-static, vacuum/pressure, and associated flight instruments", text: "These systems are what provide airspeed, altitude, and attitude information to a pilot. As with any system, it has limitations, and a full understanding of how these sytems work will prevent a loss of critical information in flight."},{title: "Environmental", text: "Unfortunately, the 172 doesn't have the best temperature control other than the air vents and a heater, but it is still important to understand how they function and their limitations."},{title: "Deicing and anti-icing", text: "Beyond understanding the potential dangers that icing causes, understanding how aircraft can protect themselves and the limitations of those protections is very important."}, {title: "Water rudders (only ASES OR AMES)", text: "Unfortunately we won't be going through this system in this lesson, as it is not relevant to ASEL pilots."}, {title: "Oxygen System", text: "While it is unlikely that you'll find a 172 with an oxygen system, it's important to know the requirements for different oxygen systems and the limitations and advantages of different types."}]},
         ]}, {
         drop: true, title: "Aircraft Controls", contents: [
-            {title: "Primary Controls", contents: [{widget: "header", text: "testing"}]},
-            {title: "Secondary Controls", contents: [{widget: "header", text: "testing2"}]}
+            {title: "Primary Controls", contents: [
+                {widget: "header", text: "Primary Controls"}
+            ]},
+            {title: "Secondary Controls", contents: [
+                {widget: "header", text: "Secondary Controls"}
+            ]}
         ]},{
-        drop: false, title: "testing", contents: [
-            {widget: "header", text: "this is working"},
-        ]},
+        drop: true, title: "Powerplant", contents: [
+            {title: "Engine", contents: [
+                {widget: "header", text: "Engine"}
+            ]},
+            {title: "Propeller", contents: [
+                {widget: "header", text: "Propeller"}
+            ]},
+        ]}, {
+        drop: true, title: "Liquids", contents: [
+            {title: "Fuel", contents: [
+                {widget: "header", text: "Fuel"}
+            ]},
+            {title: "Oil", contents: [
+                {widget: "header", text: "Oil"}
+            ]},
+            {title: "Hydraulic Fluid", contents: [
+                {widget: "header", text: "Hydraulic Fluid"}
+            ]},
+        ]}, {drop: false, title: "Electrical System", contents: [
+            {widget: "header", text: "Electrical System"}
+        ]}, {drop: true, title: "Avionics", contents: [
+            {title: "Avionics", contents: [
+                {widget: "header", text: "Avionics"}
+            ]}, {title: "Autopilot", contents: [
+                {widget: "header", text: "Autopilot"}
+            ]}
+        ]}
     ];
 </script>
 
