@@ -12,7 +12,7 @@
         <Heading tag="h3">{widget.text}</Heading>
         <div class="padding"></div>
     {:else if widget.widget == 'header3'}
-        <Heading tag="h4">{widget.text}</Heading>
+        <Heading tag="h5">{widget.text}</Heading>
         <div class="padding"></div>
     {:else if widget.widget == 'text'}
         <P size="base">{widget.text}</P>

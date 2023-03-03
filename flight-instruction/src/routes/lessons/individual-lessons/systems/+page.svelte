@@ -44,9 +44,6 @@
                 text("It is important to understand that the elevator functions by generating lift either upwards or downwards. When pulling the control wheel back, you decrease the camber of the elevator and create a downward aerodynamic force that is greater than the normal tail-down force that exists in straight and level flight. This is what causes the nost to pitch up."),
                 image("Downward aerodynamic force of the elevator (PHAK Chapter 6)", "https://i.imgur.com/hBZm6HR.png"),
                 text("Another important note: the elevator will always rotate the aircraft around the center of gravity."),
-                
-
-
             ]},
             {title: "Secondary Controls", contents: [
                 {widget: "header", text: "Secondary Controls"}
@@ -65,17 +62,53 @@
                     {title: "Cylinder", text: "The space in which a piston travels. The piston is seated inside of the cylinder and moves up and down."},
                     {title: "Intake Valve", text: "A valve that is opened at the correct time to allow the fuel air mixture to enter into the cylingder. Generally the intake valve is opened just before the piston reaches top dead center, meaning that the piston is at the top of the cylinder."},
                     {title: "Exhaust Valve", text: "A valve that is opened to allow the exhaust fumes from combustion to exit the cylinder."},
-                    {title: "Piston", text: ""},
-                    {title: "Spark Plug", text: ""},
-                    {title: "Crankcase", text: ""},
-                    {title: "Connecting Rod", text: ""},
-                    {title: "Crankshaft", text: ""},
+                    {title: "Piston", text: "The circular device that slides up and down the cylinder, allowing it to compress the fuel air mixture, or to push out exhaust gasses."},
+                    {title: "Spark Plug", text: "What initiates the combustion. By creating a spark using electricty, the spark plug ignites the fuel air mixutre and forces the piston down to the bottom of the cylinder."},
+                    {title: "Connecting Rod", text: "What connects the piston to the crankshaft. As the piston moves up and down, the connecting rod pushes and rotates the crankshaft."},
+                    {title: "Crankshaft", text: "The crankshaft is what converts the linear motion of the piston into rotational motion."},
+                    {title: "Crankcase", text: "The crankcase is what houses the entire crankshaft. Can be thought of as the main component of the engine, where all of the work is done."},
                 ]},
-                
-
+                header2("Four Stroke Engines"),
+                text('Nearly all aviation reciprocating engines are four stroke engines. We can think of a stroke as a step that the engine takes, and in a four stroke engine those steps are intake, compression, power (or ignition), and exhaust (A good way to remember this is "Suck Squeeze Bang Blow").'),
+                image("The stages of a four stroke engine", "https://cdn2.picryl.com/photo/2020/03/23/stroke-psf-fd2876-1024.png"),
+                header3("Intake"),
+                text(" The intake stroke begins as the piston starts its downward travel. When this happens, the intake valve opens and the fuel-air mixture is drawn into the cylinder."),
+                header3("Compression"),
+                text("The compression stroke begins when the intake valve closes, and the piston starts moving back to the top of the cylinder. This phase of the cycle is used to obtain a much greater power output from the fuel-air mixture once it is ignited. "),
+                header3("Power"),
+                text("The power stroke begins when the fuel-air mixture is ignited. This causes a tremendous pressure increase in the cylinder and forces the piston downward away from the cylinder head, creating the power that turns the crankshaft. "),
+                header3("Exhaust"),
+                text("The exhaust stroke is used to purge the cylinder of burned gases. It begins when the exhaust valve opens, and the piston starts to move toward the cylinder head once again. "),
+                header3("Video Explanation"),
+                text("Watch the beginning of this video explaining the four strokes of an engine. This explanation is focused on a car engine, but the concept is the same."),
+                youtube("https://www.youtube.com/embed/ZQvfHyfgBtA?start=14"),
+                header2("Horizontally opposed engines"),
+                text("The most common type of engine found in small aircraft is the horizontally opposed engine. These engine always have an even number of cylinders, which face in opposite directions. They are generally air cooled. Using this design allows for a higher power to weight ratio as the crankshaft can be smaller. Below is a depiction of a horizontally opposed engine:"),
+                image("Depiction of a horizontall opposed engine (PHAK Chapter 7)", "https://i.imgur.com/p7jIfD8.png"),
+                header2("The 172S Engine"),
+                text("While there can be a variety of different engines installed in the 172, all of ours are fitted with the Lyoming IO-360-L2A. It's important to note that the name of the engine can be thought of as a code to make it easier to remember the different components. I: fuel injected, O: horizontally opposed, 360: 360 cubic inches of displacement. Displacement here can be understood as the total amount of volume that all of the cylinders combined make up."),
             ]}, 
             {title: "Propeller", contents: [
-                {widget: "header", text: "Propeller"}
+                {widget: "header", text: "The Propeller - Just Another Airfoil"},
+                text("It may be obvious that the propeller is what drives the aircraft forward and produces the thrust necessary for flight. But it is important to remember that the propeller does this in the same way that a wing generates lift. To fully comprehend how a propeller works, requires an understanding that a propeller in essence is a rotating wing that is subject to the same lift theories that govern a wing. The amount of thrust produced, therefore, depends on the propeller's angle of attack, and RPM"),
+                header1("Propeller Pitch"),
+                text("Propellers are twisted to have a high angle of incidence at the hub, which tapers out to a low angle at the tip. The reason for this is due to the fact that the speed of the propeller is much faster at the wing tip, as shown below:"),
+                image("Speed Changes Along Propeller (PHAK Chapter 7)", "https://i.imgur.com/15rqiid.png"),
+                text("As there is an increase in speed along the length of the propeller, tapering the angle of the propeller as it goes further out allows for the a uniform amount of thrust to be generated by maintaining a constant angle of attack."),
+                image("Changes in Propeller Angle (PHAK Chapter 7)", "https://i.imgur.com/0y82Zwi.png"),
+                header2("Fixed-Pitch Propeller"),
+                text("The 172 has a fixed-pitch propeller. This simply means that the pitch of the propeller is set by the manufacturer and cannot be changed. This means that for a given fixed-pitch propeller, the amount of thrust can be directly related to a combination of airspeed and rpm."),
+                header3("Types of Fixed-Pitch Propellers"),
+                text("The two types of Fixed-Pitch propellers are climb propellers and cruise propellers. Climb propellers are designed with a lower angle of incidence, and therefore less drag, which results in higher rpm and more horsepower capability. Cruise propellers, on the other hand, have a higher pitch, and therefore more drag. This decreases climb and takeoff performance, but increases efficiency during cruise flight."),
+                header2("Adjustable-Pitch Propeller"),
+                text("The forerunner of what is now referred to as the constant speed propeller, these propellers allow a pilot to change the pitch of the propeller on the ground, but not in flight. These can be referred to as a ground-adjustable propeller."),
+                header3("Constant-Speed Propeller"),
+                text("A propeller that allows for changes in propeller pitch during flight. A governor maintains a constant rpm, and changes the pitch of the propeller to maintain that rpm. We won't go into detail on these types of propellers, but they are important to know about and fully understand before flying a plane that has one."),
+                header1("The 172S Propeller"),
+                text("Our 172s have a 76 inch diameter fixed-pitch propeller. The propeller is connected directly to the crankshaft, meaning that the propeller rpm is always equal to the engine rpm.")
+            ]}, {title: "Ignition System", contents: [
+                header1("The Ignition System"),
+                
             ]},
         ]}, {
         drop: true, title: "Liquids", contents: [
