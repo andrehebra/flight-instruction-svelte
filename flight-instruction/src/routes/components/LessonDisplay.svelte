@@ -72,7 +72,6 @@
 	}
 
 		children = pages[id];
-		console.log(pages[id]);
 		unique = {};
 	}
 </script>
