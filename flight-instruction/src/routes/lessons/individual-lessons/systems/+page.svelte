@@ -116,7 +116,9 @@
                 image("Magnetos and Connection to Spark Plugs (PHAK Chapter 7)", "https://i.imgur.com/BweV4oO.png"),
                 text("This is the reason for the magneto check during the run up. It is imperative to check that both sets of magnetos and spark plugs are operating, and the normal drop in rpm is due to the less complete combustion from just one spark plug."),
                 header1("Spark Plugs"),
-                
+                text("A spark plug ignites when a high voltage is applied between the center and ground electrode, which breaks down the insulation between the electrodes and generates a spark. The magnetos provide this voltage at the correct time, which allows the fuel air mixture to ignite. High-voltage leads are what connect the spark plug to the magneto."),
+                image("Spark Plug Diagram", "https://static.summitracing.com/global/images/FAQs/5075/Spark%20Plug%20Anatomy.png")
+
             ]},
         ]}, {
         drop: true, title: "Liquids", contents: [
