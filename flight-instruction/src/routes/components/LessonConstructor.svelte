@@ -1,5 +1,5 @@
 <script>
-    import {  Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion } from 'flowbite-svelte'
+    import {  Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
 
     export let contents;
 </script>
@@ -41,7 +41,8 @@
         <div class="center">
             <iframe width="560" height="315" src={widget.src} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        
+    {:else if widget.widget == 'link'}
+        <Button href={widget.src}>{widget.text}</Button>
     {/if}
     <div class="padding"></div>
 {/each}
