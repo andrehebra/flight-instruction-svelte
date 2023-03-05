@@ -197,7 +197,18 @@
 
             ]},
         ]}, {drop: false, title: "Electrical System", contents: [
-            {widget: "header", text: "Electrical System"}
+            {widget: "header", text: "Electrical System"},
+            text("The 172S has a 28 volt direct current system that powers all of the electrical components on the aircraft. An alternator, combined with a main and standby battery, both 24 volts, power electricity can be provided without the use of the alternator. While this system may seem complex, we can break it down into a few categories to aid in understanding the system. Below is a great interactive depiction of the electrical system in the 172S:"),
+            {widget: "link", text: "UND Interactive Electrical System Demonstration", src: "https://mediafiles.aero.und.edu/aero.und.edu/aviation/trainers/c172s-electrical-system/"},
+            header2("Alternator"),
+            text("Alternators generate electric current based on the principle of magnetic induction. An electromagnet (rotor) spins inside multiple windings of a conductor (stator) which generates an alternating current inside of the conductor from the varying north-south lines of magnetic force. Below is a general depiction of the conecpt: "),
+            image("Alternating Current Generation Inside of Alternator", "https://upload.wikimedia.org/wikipedia/commons/0/06/Flux_switching_alternator.gif"),
+            header3("Alternating Current to Direct Current"),
+            text("The alternating current generated, however, needs to be converted to direct current for use in the system. This is accomplished by using a series of diodes (rectifiers) that allow current to flow in one direction but not the other. A simple description of a rectifier is shown below:"),
+            youtube("https://www.youtube.com/embed/5cbQNfO0Mwg"),
+            header3("Alternator Control Unit"),
+            text("The alternator control unit is what allows the alternator to output a consistent voltage. Without it, the voltage ouput would be directly related to engine rpm. Instead, a voltage regulator controls the strength of the rotor electromagnetic, which in turn provides the correct voltage ouput. The voltage regulator compares the output voltage from the alternator with a reference voltage and adjusts the current supplied to the rotor."),
+            
         ]}, {drop: true, title: "Avionics", contents: [
             {title: "Avionics", contents: [
                 {widget: "header", text: "Avionics"}
