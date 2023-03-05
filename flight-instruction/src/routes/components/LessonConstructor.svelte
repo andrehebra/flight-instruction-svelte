@@ -1,5 +1,5 @@
 <script>
-    import {  Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion } from 'flowbite-svelte'
+    import {  Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video } from 'flowbite-svelte'
 
     export let contents;
 </script>
