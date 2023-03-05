@@ -25,6 +25,7 @@
                 >
               </div>
               <Button type="submit" class="w-full1">Sign in</Button>
+              <Button color="green" type="submit" class="w-full1">Sign in with Google</Button>
               <p class="text-sm font-light text-gray-500 dark:text-gray-400">
                 Don’t have an account yet? <a
                   href="/"
