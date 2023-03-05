@@ -11,7 +11,10 @@
         Flight Instruction
       </span>
     </NavBrand>
-    <NavHamburger on:click={toggle} />
+    <div class="flex md:order-2">
+      <Button size="sm" href="/login">Login / Sign Up</Button>
+      <NavHamburger on:click={toggle} />
+    </div>
     <NavUl {hidden}>
       <NavLi href="/" active={false}>Home</NavLi>
       <NavLi href="/lessons" active={false}>Lessons</NavLi>
@@ -24,7 +27,7 @@
   
   <script>
     import logoDecoded from './navBarLogo.svg';
-    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, DarkMode } from 'flowbite-svelte'
+    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, DarkMode, Button } from 'flowbite-svelte'
     import { onMount } from 'svelte';
   
     let modeSwitch = 'light';
