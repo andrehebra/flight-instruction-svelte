@@ -6,7 +6,7 @@
 <NavBar />
 
 <div class="padding">
-    <Card>
+    
         <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
             <form class="flex flex-col space-y-6" action="/">
               <h3 class="text-xl font-medium text-gray-900 dark:text-white p-0">Login</h3>
@@ -33,7 +33,7 @@
               </p>
             </form>
           </div>
-      </Card>
+      
 </div>
 
 
@@ -42,8 +42,5 @@
   <style>
     .padding {
         padding: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
   </style>
