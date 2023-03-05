@@ -248,13 +248,10 @@
     }
 
 
-<<<<<<< HEAD
 
     //add propeller pitch explanation using jello
     //add camshaft to engine lesson
-=======
     //add type of oil used in 172
->>>>>>> refs/remotes/origin/main
 </script>
 
 <LessonDisplay contents={systems} />
