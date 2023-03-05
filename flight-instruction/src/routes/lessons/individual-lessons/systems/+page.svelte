@@ -215,6 +215,11 @@
     function youtube(src) {
         return {widget: 'youtube', src: src};
     }
+
+
+
+    //add propeller pitch explanation using jello
+    //add camshaft to engine lesson
 </script>
 
 <LessonDisplay contents={systems} />
