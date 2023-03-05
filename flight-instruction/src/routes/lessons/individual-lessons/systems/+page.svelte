@@ -106,7 +106,8 @@
                 text("A propeller that allows for changes in propeller pitch during flight. A governor maintains a constant rpm, and changes the pitch of the propeller to maintain that rpm. We won't go into detail on these types of propellers, but they are important to know about and fully understand before flying a plane that has one."),
                 header1("The 172S Propeller"),
                 text("Our 172s have a 76 inch diameter fixed-pitch propeller. The propeller is connected directly to the crankshaft, meaning that the propeller rpm is always equal to the engine rpm.")
-            ]}, {title: "Ignition", contents: [
+            ]}, 
+            {title: "Ignition", contents: [
                 header1("The Ignition System"),
                 text("In a spark ignition engine, the ignition system provides a spark that ignites the fuel-air mixture in the cylinders. This system is made up of magnetos, spark plugs, high-tension leads, and an ignition switch."),
                 header1("Magnetos"),
@@ -115,9 +116,21 @@
                 text("Most aircraft have two separate magnetos, each connected to its own spark plug in each cylinder. This ensures that in the case of one magneto or spark plug failing, the engine can still operate. The firing of two spark plugs also improves combustion and results in a slightly higher power output."),
                 image("Magnetos and Connection to Spark Plugs (PHAK Chapter 7)", "https://i.imgur.com/BweV4oO.png"),
                 text("This is the reason for the magneto check during the run up. It is imperative to check that both sets of magnetos and spark plugs are operating, and the normal drop in rpm is due to the less complete combustion from just one spark plug."),
+                header2("Impusle Coupling"),
+                text("A mechanism that sits between the magneto's drive shaft and the engine's accessory drive. This device is used as a way to generate sufficient current for the spark plugs during engine startup. The impulse coupling intensifies the spark at slow engine speeds by using a spring loaded flyweight in one magneto which winds up and quickly accelerates to generate the proper current. It also has the effect of delaying the spark slightly so that it fires directly at top dead center, rather than slightly before during normal engine operation. See the video below for more information:"),
+                youtube("https://www.youtube.com/embed/DAntiSOgh5k"),
                 header1("Spark Plugs"),
                 text("A spark plug ignites when a high voltage is applied between the center and ground electrode, which breaks down the insulation between the electrodes and generates a spark. The magnetos provide this voltage at the correct time, which allows the fuel air mixture to ignite. High-voltage leads are what connect the spark plug to the magneto."),
                 image("Spark Plug Diagram", "https://static.summitracing.com/global/images/FAQs/5075/Spark%20Plug%20Anatomy.png"),
+            ]}, 
+            {title: "Starter", contents: [
+                header1("Starting The Engine"),
+                text("The starter is a system on the aircraft designed to use electrical power from the batteries to rotate the engine at a speed high enough allow for combustion. The system consists of a source of electricity (battery), wiring, switches, and solenoids to operate the starter and starter motor. See the video below for a visual explanation:"),
+                youtube("https://www.youtube.com/embed/kFsl5r34lCI"),
+                header2("Why use a solenoid?"),
+                text("Rather than provide power directly to the starter motor, the ignition switch is wired through a solenoid that transfers that power to the motor. This is because the power required by the starter motor is large, and conncting the starter directly to it would require a large switch and heavily insulated wiring. Another advantage of the solenoid is the linear motion it produces when engaged. When supplied with power, the core of the solenoid shifts back, and since it is connected to the pinion, this allows it to push the pinion forward and lock with the flywheel."),
+                header2("The Pinion"),
+                text("The pinion is what connects to the flywheel and allows it to rotate the engine to a sufficient rpm for starting. It uses a helical gear to rotate it slightly as it engages on the flywheel to mesh smoothly and prevent any possible damage. In addition to this, a one way clutch is used to ensure that the starter motor is not oversped when the engine starts running."),
             ]},
         ]}, {
         drop: true, title: "Liquids", contents: [
@@ -174,10 +187,28 @@
                 text("Both the oil temperature and oil pressure are required to be indicated in the cockpit. On the G1000, the oil pressure gauge will have a green region where the oil pressure should be. Oil pressure falling outside of this range could be dangerous and cause engine damage or an engine failure. Also, excessively hot oil temperatures are an indication that the system is not working properly or that the engine is overheating."),
             ]},
             {title: "Hydraulic Fluid", contents: [
-                {widget: "header", text: "Hydraulic Fluid"}
+                {widget: "header", text: "Hydraulic Fluid"},
+                text("Hydraulic fluid utilises the relatively simple concept that many liquids resist compression. This allows certain devices, such as the brakes, to be operated with a much simpler system."),
+                header2("The Brakes"),
+                text("The brakes use friction generated from pressure of the brake pads rubbing against the disks. The pads are hydraulically connected to the pedals, which allows for direct control of the brakes. A spring inside of the hydraulic cylinder allows for the brakes to be released when the brakes are no longer pressed. Below is a simplified diagram of the system:"),
+                image("Diagram of disk brakes using hydrailic fluid to actuate them", "https://upload.wikimedia.org/wikipedia/commons/4/47/Hydraulic_disc_brake_diagram.gif"),
+                text("Checking the proper function of the brakes before any flight is critical. During preflight, this consists of checking the brake disks and pads, as well as the hydraulic lines connected to them. Remember that the hydraulic fluid on the 172 is colored red, so any amount of red fluid found on or near the brakes is a sign of a leak and the system neeeds to be investigated. The video below gives more information on the braking system specific to the 172:"),
+                youtube("https://www.youtube.com/embed/M1UddxRAjbc"),
+
             ]},
         ]}, {drop: false, title: "Electrical System", contents: [
-            {widget: "header", text: "Electrical System"}
+            {widget: "header", text: "Electrical System"},
+            text("The 172S has a 28 volt direct current system that powers all of the electrical components on the aircraft. An alternator, combined with a main and standby battery, both 24 volts, power electricity can be provided without the use of the alternator. While this system may seem complex, we can break it down into a few categories to aid in understanding the system. Below is a great interactive depiction of the electrical system in the 172S:"),
+            {widget: "link", text: "UND Interactive Electrical System Demonstration", src: "https://mediafiles.aero.und.edu/aero.und.edu/aviation/trainers/c172s-electrical-system/"},
+            header2("Alternator"),
+            text("Alternators generate electric current based on the principle of magnetic induction. An electromagnet (rotor) spins inside multiple windings of a conductor (stator) which generates an alternating current inside of the conductor from the varying north-south lines of magnetic force. Below is a general depiction of the conecpt: "),
+            image("Alternating Current Generation Inside of Alternator", "https://upload.wikimedia.org/wikipedia/commons/0/06/Flux_switching_alternator.gif"),
+            header3("Alternating Current to Direct Current"),
+            text("The alternating current generated, however, needs to be converted to direct current for use in the system. This is accomplished by using a series of diodes (rectifiers) that allow current to flow in one direction but not the other. A simple description of a rectifier is shown below:"),
+            youtube("https://www.youtube.com/embed/5cbQNfO0Mwg"),
+            header3("Alternator Control Unit"),
+            text("The alternator control unit is what allows the alternator to output a consistent voltage. Without it, the voltage ouput would be directly related to engine rpm. Instead, a voltage regulator controls the strength of the rotor electromagnetic, which in turn provides the correct voltage ouput. The voltage regulator compares the output voltage from the alternator with a reference voltage and adjusts the current supplied to the rotor."),
+            
         ]}, {drop: true, title: "Avionics", contents: [
             {title: "Avionics", contents: [
                 {widget: "header", text: "Avionics"}
@@ -217,10 +248,13 @@
     }
 
 
+<<<<<<< HEAD
 
     //add propeller pitch explanation using jello
     //add camshaft to engine lesson
-    //add starter information
+=======
+    //add type of oil used in 172
+>>>>>>> refs/remotes/origin/main
 </script>
 
 <LessonDisplay contents={systems} />
