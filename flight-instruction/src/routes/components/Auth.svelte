@@ -53,7 +53,7 @@
         }
 
         if ($authStore.currentUser) {
-            window.location.href="/privatedashboard";
+            window.location.href="/dashboard";
         }
     }
 </script>
