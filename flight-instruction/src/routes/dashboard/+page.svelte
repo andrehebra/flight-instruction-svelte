@@ -1,5 +1,6 @@
 <script>
 	import { authStore } from "../../stores/authStore";
+    import NavBar from "../components/NavBar.svelte"
 
     let email;
     authStore.subscribe(curr => {
@@ -7,4 +8,4 @@
     })
 </script>
 
-<h1>current user: {email}</h1>
+<NavBar />
