@@ -213,7 +213,9 @@
             header3("Alternator Relay"),
             text("The alternator relay is what closes the circuit between the alternator and the electrical system. The ALT MASTER switch is what energizes the relay. A different power source (battery or external power) is required to energize the relay."),
             header2("Electrical Busses"),
-            text(""),
+            text("The electrical system in the 172 is divided into 5 busses comprising of electrical bus 1 & 2, avionics bus 1 & 2, and the essential bus. A crossfeed bus is also included to ensure that power is available to the ALT FIELD and WARN circuits. Take a look below at what is connected to each bus below: "),
+            {widget: "accordion", items: [{title: "test", text: "testing"}]},
+
         ]}, {drop: true, title: "Avionics", contents: [
             {title: "Avionics", contents: [
                 {widget: "header", text: "Avionics"}
