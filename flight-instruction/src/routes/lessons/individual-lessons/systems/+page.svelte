@@ -137,7 +137,7 @@
             {title: "Fuel", contents: [
                 {widget: "header", text: "Fuel System"},
                 text("The fuel system comprises of all the components handling the fuel going from the tanks into the cylinders. While it may seem complex, if we break it down into its individual components it becomes more clear. Displayed below is a diagram of the 172S fuel system:"),
-                image("Diagram of the Fuel System", "https://i.imgur.com/SKZCXhq.png"),
+                image("Diagram of the Fuel System", "https://i.imgur.com/BZchn6I.png"),
                 header2("Fuel Tanks"),
                 text("The 172S has two fuel tanks, located in either wing. Each has a total capacity of 28 gallons, or 56 gallons in total. However, due to the design of the tanks, only 26 gallons is actually usable, making the total usable capacity of the fuel tanks 53 gallons."),
                 text('Each tank is connected to 5 drains, which are located on the underside of the wing. Those are the "sumps" that are used to visually inspect the fuel during preflight.'),
