@@ -208,8 +208,12 @@
             text("Here it is important to have an understanding of diodes. A diode is an electronic component that conducts current primarily in one direction, meaning that it has (ideally) zero resistance in one direction, and (ideally) infinite resistance in the other. Their primary purpose, in our case, is to assist in converting AC to DC."),
             youtube("https://www.youtube.com/embed/5cbQNfO0Mwg"),
             header3("Alternator Control Unit"),
-            text("The alternator control unit is what allows the alternator to output a consistent voltage. Without it, the voltage ouput would be directly related to engine rpm. Instead, a voltage regulator controls the strength of the rotor electromagnetic, which in turn provides the correct voltage ouput. The voltage regulator compares the output voltage from the alternator with a reference voltage and adjusts the current supplied to the rotor."),
-            
+            text("The alternator control unit is what allows the alternator to output a consistent voltage. Without it, the voltage ouput would be directly related to engine rpm. Instead, a voltage regulator controls the strength of the rotor electromagnet, which in turn provides the correct voltage ouput. The voltage regulator compares the output voltage from the alternator with a reference voltage and adjusts the current supplied to the rotor (in our case it attempts to maintain 28.5 volts)."),
+            text("In the case of overvoltage, the alternator control unit will automatically open the ALT FIELD circuit breaker, which removes the alternator field current and therefore stops all electrical output. A HIGH VOLTS annunciator indiciates that this system has failed and the pilot should turn the alternator off by switching the ALT MASTER to off."),
+            header3("Alternator Relay"),
+            text("The alternator relay is what closes the circuit between the alternator and the electrical system. The ALT MASTER switch is what energizes the relay. A different power source (battery or external power) is required to energize the relay."),
+            header2("Electrical Busses"),
+            text(""),
         ]}, {drop: true, title: "Avionics", contents: [
             {title: "Avionics", contents: [
                 {widget: "header", text: "Avionics"}
