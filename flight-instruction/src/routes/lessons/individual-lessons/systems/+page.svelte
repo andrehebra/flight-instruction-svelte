@@ -205,9 +205,8 @@
             image("Alternating Current Generation Inside of Alternator", "https://upload.wikimedia.org/wikipedia/commons/0/06/Flux_switching_alternator.gif"),
             header3("Alternating Current to Direct Current"),
             text("The alternating current generated, however, needs to be converted to direct current for use in the system. This is accomplished by using a series of diodes (rectifiers) that allow current to flow in one direction but not the other. A simple description of a rectifier is shown below:"),
+            text("Here it is important to have an understanding of diodes. A diode is an electronic component that conducts current primarily in one direction, meaning that it has (ideally) zero resistance in one direction, and (ideally) infinite resistance in the other. Their primary purpose, in our case, is to assist in converting AC to DC."),
             youtube("https://www.youtube.com/embed/5cbQNfO0Mwg"),
-            header3("Diodes"),
-            text("A diode is an electronic component that conducts current primarily in one direction, meaning that it has (ideally) zero resistance in one direction, and (ideally) infinite resistance in the other. Their primary purpose, in our case, is to assist in converting AC to DC."),
             header3("Alternator Control Unit"),
             text("The alternator control unit is what allows the alternator to output a consistent voltage. Without it, the voltage ouput would be directly related to engine rpm. Instead, a voltage regulator controls the strength of the rotor electromagnetic, which in turn provides the correct voltage ouput. The voltage regulator compares the output voltage from the alternator with a reference voltage and adjusts the current supplied to the rotor."),
             
