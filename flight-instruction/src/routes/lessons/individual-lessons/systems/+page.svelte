@@ -265,6 +265,7 @@
     //add propeller pitch explanation using jello
     //add camshaft to engine lesson
     //add type of oil used in 172
+    //add landing gear information
 </script>
 
 <LessonDisplay contents={systems} />
