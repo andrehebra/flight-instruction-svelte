@@ -27,13 +27,4 @@ if (!getApps().length) {
 export const auth = getAuth(firebaseApp);
 export const db = getFirestore(firebaseApp);
 
-try {
-    const docRef = await addDoc(collection(db, "users"), {
-      first: "Addddda",
-      last: "Lovelace",
-      born: 1815
-    });
-    console.log("Document written with ID: ", docRef.id);
-  } catch (e) {
-    console.error("Error adding document: ", e);
-  }
+
