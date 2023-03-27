@@ -1,13 +1,15 @@
 <script>
 	import NavBar from "../components/NavBar.svelte";
-    import {  Heading, P, A, Mark, Secondary } from 'flowbite-svelte';
+    import {  Heading, P, A, Mark, Secondary, Card } from 'flowbite-svelte';
     import { Input, Label, Helper } from 'flowbite-svelte';
 
 </script>
 
 <NavBar />
-<Heading>Rate of turn calculator</Heading>
-<div>
-    <Label for="first_name" class="mb-2">First name</Label>
-    <Input type="text" id="first_name" placeholder="John" required  />
-</div>
+<Card href='/calculators/pressureanddensityaltitude' >
+    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pressure and Density Altitude</h5>
+    <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+      Calculate the Pressure and density altitude from the indicated altitude and altimeter setting and temperature
+
+    </p>
+</Card>
