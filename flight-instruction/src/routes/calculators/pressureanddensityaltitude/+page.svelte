@@ -8,7 +8,7 @@
     let pressureAlt;
     let densityAlt
 
-    $: pressureAlt = parseInt(((pressure - 29.92) * 1000) + indicated);
+    $: pressureAlt = parseInt(((pressure - 29.92) * 1000) + parseInt(indicated));
     $: densityAlt = parseInt(pressureAlt + (120 * (temperature - 15)));
     
 </script>
