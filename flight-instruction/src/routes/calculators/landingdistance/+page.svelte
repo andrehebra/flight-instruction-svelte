@@ -7,6 +7,7 @@
     let headwind = 0;
 
     let landingDistance = 0;
+    let clearanceDistance = 0;
 
     let distanceValues = [
         [
@@ -88,9 +89,11 @@
 
             if (pressureCalc % 1000 == 0) {
                 landingDistance = calculateTemperatureDistance(pressureCalc);
+                clearanceDistance = calculateTemperatureClearanceDistance(pressureCalc);
             } else {
                 multiplier = pressureCalc % 1000 / 1000;
                 landingDistance = (calculateTemperatureDistance(Math.ceil(pressureCalc / 1000) * 1000) * multiplier) + (calculateTemperatureDistance(Math.floor(pressureCalc / 1000) * 1000) * (1 - multiplier));
+                clearanceDistance = (calculateTemperatureClearanceDistance(Math.ceil(pressureCalc / 1000) * 1000) * multiplier) + (calculateTemperatureClearanceDistance(Math.floor(pressureCalc / 1000) * 1000) * (1 - multiplier));
             }
         } else {
             return "Error";
@@ -127,8 +130,32 @@
         }
     }
 
-    function calculateDistance(temperature, pressure) {
-        return distanceValues[pressure / 1000][temperature / 10][0];
+    function calculateTemperatureClearanceDistance(pressure) {
+        if (temperature <= 40) {
+            if (temperature <=0) {
+                temperatureCalc = 0;
+            } else {
+                temperatureCalc = temperature;
+            }
+
+            if (temperatureCalc % 10 == 0) {
+                return calculateDistance(temperatureCalc, pressure, true);
+            } else {
+                tempMultiplier = temperatureCalc % 10 / 10;
+                return (calculateDistance(Math.ceil(temperatureCalc / 10) * 10, pressure, true) * tempMultiplier) + (calculateDistance(Math.floor(temperatureCalc / 10) * 10, pressure, true) * (1-tempMultiplier));
+            }
+        } else {
+            return "Error";
+        }
+    }
+
+    function calculateDistance(temperature, pressure, clearance) {
+        if (clearance == undefined) {
+            return distanceValues[pressure / 1000][temperature / 10][0];
+        } else if (clearance == true) {
+            return distanceValues[pressure / 1000][temperature / 10][1];
+        }
+        
     }
 
     console.log(calculatePressureDistance());
@@ -144,6 +171,7 @@
             <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Headwind (enter negative for tailwind)" bind:value={headwind} />
     
     <Heading tag="h2" customSize="text-4xl font-extrabold ">Ground Roll: {Math.ceil(landingDistance)} feet</Heading>
+    <Heading tag="h2" customSize="text-4xl font-extrabold ">50 Foot Obstacle Distance: {Math.ceil(clearanceDistance)} feet</Heading>
 </div>
 
 <style>
