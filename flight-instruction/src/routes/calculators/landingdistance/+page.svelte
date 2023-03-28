@@ -103,8 +103,10 @@
         //calculate change resulting from headwind or tailwind
         if (headwind >= 0) {
             landingDistance = landingDistance - (landingDistance * 0.1 * (headwind / 9));
+            clearanceDistance = clearanceDistance - (clearanceDistance * 0.1 * (headwind / 9));
         } else if (headwind < 0) {
             landingDistance = landingDistance + (landingDistance * 0.1 * (-headwind / 2));
+            clearanceDistance = clearanceDistance + (clearanceDistance * 0.1 * (-headwind / 2));
         }
     }
 
@@ -167,8 +169,8 @@
 
 <div class="holder">
     <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Pressure Altitude" bind:value={pressureAlt} />
-        <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Temperature" bind:value={temperature} />
-            <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Headwind (enter negative for tailwind)" bind:value={headwind} />
+    <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Temperature" bind:value={temperature} />
+    <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Headwind (enter negative for tailwind)" bind:value={headwind} />
     
     <Heading tag="h2" customSize="text-4xl font-extrabold ">Ground Roll: {Math.ceil(landingDistance)} feet</Heading>
     <Heading tag="h2" customSize="text-4xl font-extrabold ">50 Foot Obstacle Distance: {Math.ceil(clearanceDistance)} feet</Heading>
@@ -179,7 +181,7 @@
         padding: 20px;
         display: flex;
         flex-direction: column;
-        max-width: 500px;
+        max-width: 800px;
         gap: 15px;
         
     }
