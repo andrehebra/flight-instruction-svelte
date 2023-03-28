@@ -1,6 +1,12 @@
 <script>
     import NavBar from "../../components/NavBar.svelte";
-    import { FloatingLabelInput, Heading } from "flowbite-svelte";
+    import { FloatingLabelInput, Heading, Radio } from "flowbite-svelte";
+
+
+    import { Select, Label } from 'flowbite-svelte';
+    
+    let selected = "paved";
+    let flaps = "extended";
 
     let pressureAlt = 3000;
     let temperature = 15;
@@ -108,6 +114,17 @@
             landingDistance = landingDistance + (landingDistance * 0.1 * (-headwind / 2));
             clearanceDistance = clearanceDistance + (clearanceDistance * 0.1 * (-headwind / 2));
         }
+
+        //calculate different runway surface
+        if (selected == "grass") {
+            landingDistance = landingDistance * 1.45;
+        }
+
+        //calculate different flap settings
+        if (flaps == "retracted") {
+            landingDistance = landingDistance * 1.35;
+            clearanceDistance = clearanceDistance * 1.35;
+        }
     }
 
     
@@ -160,7 +177,7 @@
         
     }
 
-    console.log(calculatePressureDistance());
+    calculatePressureDistance();
 
 
 </script>
@@ -171,6 +188,23 @@
     <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Pressure Altitude" bind:value={pressureAlt} />
     <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Temperature" bind:value={temperature} />
     <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Headwind (enter negative for tailwind)" bind:value={headwind} />
+
+    <div class="radio">
+        <p class="mb-4 font-semibold text-gray-900 dark:text-white">Runway Surface</p>
+        <ul class="items-center w-full rounded-lg border border-gray-200 sm:flex dark:bg-gray-800 dark:border-gray-600 divide-x divide-gray-200 dark:divide-gray-600">
+            <li class="w-full"><Radio on:change={() => calculatePressureDistance()} bind:group={selected} value="paved" name="runway-list" class="p-3">Paved</Radio></li>
+            <li class="w-full"><Radio on:change={() => calculatePressureDistance()} bind:group={selected} value="grass" name="runway-list" class="p-3">Dry Grass</Radio></li>
+        </ul>
+    </div>
+
+    <div class="radio">
+        <p class="mb-4 font-semibold text-gray-900 dark:text-white">Flaps</p>
+        <ul class="items-center w-full rounded-lg border border-gray-200 sm:flex dark:bg-gray-800 dark:border-gray-600 divide-x divide-gray-200 dark:divide-gray-600">
+            <li class="w-full"><Radio on:change={() => calculatePressureDistance()} bind:group={flaps} value="extended" name="flap-list" class="p-3">Extended</Radio></li>
+            <li class="w-full"><Radio on:change={() => calculatePressureDistance()} bind:group={flaps} value="retracted" name="flap-list" class="p-3">Retracted</Radio></li>
+        </ul>
+    </div>
+        
     
     <Heading tag="h2" customSize="text-4xl font-extrabold ">Ground Roll: {Math.ceil(landingDistance)} feet</Heading>
     <Heading tag="h2" customSize="text-4xl font-extrabold ">50 Foot Obstacle Distance: {Math.ceil(clearanceDistance)} feet</Heading>
