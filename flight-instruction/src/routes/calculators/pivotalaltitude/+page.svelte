@@ -3,10 +3,10 @@
     import { Heading, FloatingLabelInput } from "flowbite-svelte";
 
     let groundSpeed;
-    let elevation = 0;
+    let elevation;
     let pivotalAltitude, pivotalAGL;
     $: pivotalAltitude = Math.round((groundSpeed * groundSpeed) / 11.3);
-    $: pivotalAGL = pivotalAltitude + parseInt(elevation);
+    $: pivotalAGL = parseInt(pivotalAltitude) + parseInt(elevation);
 </script>
 
 <CalculatorDisplay>
