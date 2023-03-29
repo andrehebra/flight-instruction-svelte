@@ -1,6 +1,7 @@
 <script>
     import NavBar from "../../components/NavBar.svelte";
     import { FloatingLabelInput, Heading, Radio } from "flowbite-svelte";
+    import TableBuilder from "../../components/TableBuilder.svelte";
 
 
     import { Select, Label } from 'flowbite-svelte';
@@ -209,6 +210,8 @@
     
     <Heading tag="h2" customSize="text-4xl font-extrabold ">Ground Roll: {Math.ceil(landingDistance)} feet</Heading>
     <Heading tag="h2" customSize="text-4xl font-extrabold ">50 Foot Obstacle Distance: {Math.ceil(clearanceDistance)} feet</Heading>
+
+    <TableBuilder contents={distanceValues}></TableBuilder>
 </div>
 
 <style>

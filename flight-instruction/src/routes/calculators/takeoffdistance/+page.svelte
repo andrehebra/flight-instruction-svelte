@@ -230,7 +230,8 @@
 
             }
         } else {
-            return "Error, too much weight";
+            takeoffDistance = "Error, too much weight";
+            clearanceDistance = "Error, too much weight";
         }
 
         //calculate change resulting from headwind or tailwind
