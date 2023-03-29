@@ -251,6 +251,12 @@
         <P>Next, headwind and tailwind is used to modify the previous calculations. For this calculator, distances are decreased by 10% for each 9 knots of headwind, and distances are increased by 10% for each 2 knots of tailwind.</P>
         <P>If a grass runway is selected, the ground roll is increased by 45%, and that increase is then added into the total value.</P>
         <P>Finally, the distances are increased by 35% if the option of flaps retracted is selected.</P>
+    
+        <Hr class="my-8" height="h-px" />
+        
+        <Heading tag="h2" customSize="text-4xl font-extrabold ">Disclaimer</Heading>
+        <P>This calculator is intended to be used for demonstration purposes only to aid in understanding how takeoff and landing calculations are made. This calculator should never be used as a replacement to required performance calculations.</P>
+        
     </div>
 </div>
 
