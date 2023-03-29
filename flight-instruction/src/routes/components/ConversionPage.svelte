@@ -10,15 +10,6 @@
     const { convert } = getContext('convert');
     let currentChange = 0;
 
-    function changeCurrent(number) {
-        if (number == 1) {
-            currentChange = 1;
-        } else if (number == 2) {
-            currentChange = 2;
-        }
-        console.log(currentChange);
-    }
-
     function handleConversion(place) {
         if (place == 1) {
             if (currentChange == 1) {

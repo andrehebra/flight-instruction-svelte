@@ -71,6 +71,18 @@
             <Card href={calculatorroute + "fttom"} >
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Feet and Meters</h5>
             </Card>
+            <Card href={calculatorroute + "lbtokg"} >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pounds and Kilograms</h5>
+            </Card>
+            <Card href={calculatorroute + "galtoliters"} >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Gallons and Liters</h5>
+            </Card>
+            <Card href={calculatorroute + "avggaltolb"} >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Avgas: Gallons and Pounds</h5>
+            </Card>
+            <Card href={calculatorroute + "inhgtomillibars"} >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">In. of Mercury and Millibars</h5>
+            </Card>
         </div>
         
 </div>
