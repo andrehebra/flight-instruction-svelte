@@ -58,6 +58,11 @@
                 <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
                 Calculate the pivotal altitude based on groundspeed and elevation for use in eights on pylons</p>
             </Card>
+            <Card href='/calculators/rateofturn' >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rate of Turn</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+                Calculate the required bank angle for a standard rate turn given a true airspeed, or calculate rate of turn given a bank angle</p>
+            </Card>
         </div>
         <Heading>Conversion Calculators</Heading>
         <div class="list">
