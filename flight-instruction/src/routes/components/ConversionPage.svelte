@@ -5,7 +5,7 @@
     import { getContext, setContext } from "svelte";
 
     export let first, second;
-    let firstval = 0, secondval;
+    let firstval, secondval;
 
     const { convert } = getContext('convert');
     let currentChange = 0;
@@ -26,8 +26,6 @@
     $: firstval, handleConversion(1);
     $: secondval, handleConversion(2);
     $: currentChange
-
-    firstval = 0;
     
 
 </script>
