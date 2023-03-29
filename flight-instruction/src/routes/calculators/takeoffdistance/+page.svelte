@@ -344,6 +344,7 @@
 <NavBar />
 
 <div class="holder">
+    <Heading>Cessna 172S Short Field Takeoff Distance Calculator</Heading>
     <FloatingLabelInput on:change={() => calculateWeightDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Weight" bind:value={weight} />
     <FloatingLabelInput on:change={() => calculateWeightDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Pressure Altitude" bind:value={pressureAlt} />
     <FloatingLabelInput on:change={() => calculateWeightDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Temperature" bind:value={temperature} />

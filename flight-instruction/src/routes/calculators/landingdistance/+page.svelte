@@ -187,6 +187,7 @@
 <NavBar />
 
 <div class="holder">
+    <Heading>Cessna 172S Short Field Landing Distance Calculator</Heading>
     <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Pressure Altitude" bind:value={pressureAlt} />
     <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Temperature" bind:value={temperature} />
     <FloatingLabelInput on:change={() => calculatePressureDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Headwind (enter negative for tailwind)" bind:value={headwind} />
