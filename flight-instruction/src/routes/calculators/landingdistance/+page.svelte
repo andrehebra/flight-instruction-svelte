@@ -5,6 +5,12 @@
 
 
     import { Select, Label } from 'flowbite-svelte';
+
+    let unique = {}
+
+    function restart() {
+        unique = {}
+    }
     
     let selected = "paved";
     let flaps = "extended";
@@ -83,10 +89,20 @@
         
     ];
     
+    function clearTable(table) {
+        for (let i = 0; i < table.length; i++) {
+            for (let j = 0; j < table[i].length; j++) {
+                table[i][j].length = 2;
+            }
+        }
+    }
 
     let pressureCalc;
     let multiplier;
     function calculatePressureDistance() {
+
+        clearTable(distanceValues);
+
         if (pressureAlt <= 8000) {
             if (pressureAlt <=0) {
                 pressureCalc = 0;
@@ -127,6 +143,8 @@
             landingDistance = landingDistance * 1.35;
             clearanceDistance = clearanceDistance * 1.35;
         }
+
+        restart();
     }
 
     
@@ -171,6 +189,7 @@
     }
 
     function calculateDistance(temperature, pressure, clearance) {
+        distanceValues[pressure / 1000][temperature / 10].push(true);
         if (clearance == undefined) {
             return distanceValues[pressure / 1000][temperature / 10][0];
         } else if (clearance == true) {
@@ -212,7 +231,10 @@
     <Heading tag="h2" customSize="text-4xl font-extrabold ">Ground Roll: {Math.ceil(landingDistance)} feet</Heading>
     <Heading tag="h2" customSize="text-4xl font-extrabold ">50 Foot Obstacle Distance: {Math.ceil(clearanceDistance)} feet</Heading>
 
-    <TableBuilder contents={distanceValues}></TableBuilder>
+    {#key unique}
+        <TableBuilder contents={distanceValues}></TableBuilder>
+    {/key}
+    
 </div>
 
 <style>

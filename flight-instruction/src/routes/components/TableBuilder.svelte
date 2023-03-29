@@ -3,6 +3,8 @@
 
     export let contents;
 
+    let tablefont = ["notselected",'selected']
+
     let pressureAlt = -1000;
     function getPressureAlt() {
         pressureAlt = pressureAlt + 1000;
@@ -25,10 +27,16 @@
         <TableBodyRow>
             <TableBodyCell>{getPressureAlt()}</TableBodyCell>
             {#each pressureAlt as values}
-                    <TableBodyCell tdClass='px-6 py-4 whitespace-nowrap font-medium'>{values[0]}</TableBodyCell>
+                    <TableBodyCell><p class={(values[3] == true) ? tablefont[1] : tablefont[2]}>{values[0]}</p></TableBodyCell>
             {/each}
         </TableBodyRow>
     {/each}
     </TableBody>
 </Table>
 
+<style>
+    .selected {
+        font-weight: bold;
+        color: red;
+    }
+</style>
