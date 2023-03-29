@@ -3,6 +3,7 @@
     import {  Heading, P, A, Mark, Secondary, Card } from 'flowbite-svelte';
     import { Input, Label, Helper } from 'flowbite-svelte';
 
+    let calculatorroute = '/calculators/conversion/';
 </script>
 
 <NavBar />
@@ -53,6 +54,22 @@
                 Calculate the pivotal altitude based on groundspeed and elevation for use in eights on pylons</p>
             </Card>
         </div>
+        <Heading>Conversion Calculators</Heading>
+        <div class="list">
+            <Card href='/calculators/conversion/ctof' >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Celsius and Fahrenheit</h5>
+            </Card>
+            <Card href={calculatorroute + "nmtosm"} >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Nautical and Statute Miles</h5>
+            </Card>
+            <Card href={calculatorroute + "nmtokm"} >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Nautical Miles and Kilometers</h5>
+            </Card>
+            <Card href={calculatorroute + "smtokm"} >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Statute Miles and Kilometers</h5>
+            </Card>
+        </div>
+        
 </div>
 
 
