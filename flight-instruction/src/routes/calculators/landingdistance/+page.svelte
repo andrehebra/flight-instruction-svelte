@@ -5,6 +5,7 @@
 
 
     import { Select, Label } from 'flowbite-svelte';
+    import { Hr } from 'flowbite-svelte';
 
     let unique = {}
 
@@ -231,8 +232,14 @@
     <Heading tag="h2" customSize="text-4xl font-extrabold ">Ground Roll: {Math.ceil(landingDistance)} feet</Heading>
     <Heading tag="h2" customSize="text-4xl font-extrabold ">50 Foot Obstacle Distance: {Math.ceil(clearanceDistance)} feet</Heading>
 
+    <Hr class="my-8" height="h-px" />
+
     {#key unique}
-        <TableBuilder contents={distanceValues}></TableBuilder>
+        <Heading tag="h2" customSize="text-4xl font-extrabold ">Takeoff Distance Numbers, (data used shown in red)</Heading>
+        <Heading tag="h3" customSize="text-4xl font-extrabold ">Ground Roll</Heading>
+        <TableBuilder contents={distanceValues} index=0></TableBuilder>
+        <Heading tag="h3" customSize="text-4xl font-extrabold ">Total Distance Over 50 Foot Obstacle</Heading>
+        <TableBuilder contents={distanceValues} index=1></TableBuilder>
     {/key}
     
 </div>

@@ -1,7 +1,7 @@
 <script>
     import { Table, TableBody, TableBodyCell, TableBodyRow, TableHead, TableHeadCell } from 'flowbite-svelte';
 
-    export let contents;
+    export let contents, index;
 
     let tablefont = ["notselected",'selected']
 
@@ -27,7 +27,7 @@
         <TableBodyRow>
             <TableBodyCell>{getPressureAlt()}</TableBodyCell>
             {#each pressureAlt as values}
-                    <TableBodyCell><p class={(values[3] == true) ? tablefont[1] : tablefont[2]}>{values[0]}</p></TableBodyCell>
+                    <TableBodyCell><p class={(values[3] == true) ? tablefont[1] : tablefont[2]}>{values[index]}</p></TableBodyCell>
             {/each}
         </TableBodyRow>
     {/each}
