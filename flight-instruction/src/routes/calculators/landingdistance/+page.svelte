@@ -236,7 +236,7 @@
         <Hr class="my-8" height="h-px" />
     
         {#key unique}
-            <Heading tag="h2" customSize="text-4xl font-extrabold ">Takeoff Distance Numbers, (data used shown in red)</Heading>
+            <Heading tag="h2" customSize="text-4xl font-extrabold ">Landing Distance Numbers, (data used shown in red)</Heading>
             <Heading tag="h3" customSize="text-4xl font-extrabold ">Ground Roll</Heading>
             <TableBuilder contents={distanceValues} index=0></TableBuilder>
             <Heading tag="h3" customSize="text-4xl font-extrabold ">Total Distance Over 50 Foot Obstacle</Heading>
