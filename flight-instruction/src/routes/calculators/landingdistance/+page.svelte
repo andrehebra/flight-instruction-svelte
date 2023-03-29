@@ -246,7 +246,7 @@
     
     <Heading tag="h2" customSize="text-4xl font-extrabold ">Explanation of Calculation</Heading>
     <P>This calculator uses data from the Cessna 172S POH, which assumes a weight of 2550 pounds, flaps set at 30 degrees, power off, maximum braking used, a paved, level, and dry runway, zero wind, and a speed of 61 KIAS at 50 feet.</P>
-    <P>First, data is interpoled from the temperature and pressure numbers given.</P>
+    <P>First, data is interpolated from the temperature and pressure numbers given.</P>
     <P>Next, headwind and tailwind is used to modify the previous calculations. For this calculator, distances are decreased by 10% for each 9 knots of headwind, and distances are increased by 10% for each 2 knots of tailwind.</P>
     <P>If a grass runway is selected, the ground roll is increased by 45%, and that increase is then added into the total value.</P>
     <P>Finally, the distances are increased by 35% if the option of flaps retracted is selected.</P>
