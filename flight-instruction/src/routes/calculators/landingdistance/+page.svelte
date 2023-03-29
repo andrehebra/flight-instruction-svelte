@@ -117,6 +117,7 @@
 
         //calculate different runway surface
         if (selected == "grass") {
+            clearanceDistance = clearanceDistance + (landingDistance * 0.45);
             landingDistance = landingDistance * 1.45;
         }
 
