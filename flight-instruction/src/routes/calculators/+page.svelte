@@ -68,6 +68,9 @@
             <Card href={calculatorroute + "smtokm"} >
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Statute Miles and Kilometers</h5>
             </Card>
+            <Card href={calculatorroute + "fttom"} >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Feet and Meters</h5>
+            </Card>
         </div>
         
 </div>
