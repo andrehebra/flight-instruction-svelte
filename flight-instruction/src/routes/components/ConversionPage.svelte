@@ -8,7 +8,7 @@
     let firstval = 0, secondval;
 
     const { convert } = getContext('convert');
-    let currentChange = 1;
+    let currentChange = 0;
 
     function changeCurrent(number) {
         if (number == 1) {
@@ -34,6 +34,7 @@
 
     $: firstval, handleConversion(1);
     $: secondval, handleConversion(2);
+    $: currentChange
 
     firstval = 0;
     
@@ -43,9 +44,9 @@
 <CalculatorDisplay>
     <Heading>Convert {first} and {second}</Heading>
     <Heading tag="h2" customSize="text-4xl font-extrabold ">{first}</Heading>
-    <FloatingLabelInput on:input={() => changeCurrent(1)} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" bind:value={firstval} />
+    <FloatingLabelInput on:focus={() => currentChange = 1} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" bind:value={firstval} />
 
     <Heading tag="h2" customSize="text-4xl font-extrabold ">{second}</Heading>
-    <FloatingLabelInput on:input={() => changeCurrent(2)} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" bind:value={secondval} />
+    <FloatingLabelInput on:focus={() => currentChange = 2} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" bind:value={secondval} />
 
 </CalculatorDisplay>
