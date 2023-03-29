@@ -4,17 +4,27 @@
 
 <NavBar></NavBar>
 
-<div class="display">
-    <slot></slot>
+<div class="holder">
+    <div class="display">
+        <slot></slot>
+    </div>
 </div>
 
+
 <style>
-    .display {
+    .holder {
         padding: 20px;
         display: flex;
         flex-direction: column;
-        max-width: 800px;
+        width: 100%;
         gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    .display {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
         
     }
 </style>

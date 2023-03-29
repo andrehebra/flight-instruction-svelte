@@ -15,6 +15,6 @@
 <CalculatorDisplay>
     <Heading>Hydroplane Speed Calculator</Heading>
     <FloatingLabelInput placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Tire Pressure (PSI)" bind:value={pressure} />
-    <Heading>Hydroplane Speed (Kts): {kts}</Heading>
-    <Heading>Hydroplane Speed (mph): {mph}</Heading>
+    <Heading tag="h2" customSize="text-4xl font-extrabold ">Hydroplane Speed (Kts): {kts}</Heading>
+    <Heading tag="h2" customSize="text-4xl font-extrabold ">Hydroplane Speed (mph): {mph}</Heading>
 </CalculatorDisplay>

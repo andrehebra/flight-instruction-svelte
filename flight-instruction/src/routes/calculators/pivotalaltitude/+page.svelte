@@ -14,6 +14,6 @@
     <FloatingLabelInput placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Groundspeed (Kts)" bind:value={groundSpeed} />
     <FloatingLabelInput placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Ground Elevation (feet)" bind:value={elevation} />
 
-    <Heading>Pivotal Altitude (AGL): {pivotalAltitude}</Heading>
-    <Heading>Pivotal Altitude (MSL): {pivotalAGL}</Heading>
+    <Heading tag="h2" customSize="text-4xl font-extrabold ">Pivotal Altitude (AGL): {pivotalAltitude}</Heading>
+    <Heading tag="h2" customSize="text-4xl font-extrabold ">Pivotal Altitude (MSL): {pivotalAGL}</Heading>
 </CalculatorDisplay>

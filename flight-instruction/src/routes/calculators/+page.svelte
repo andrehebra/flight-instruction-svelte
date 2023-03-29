@@ -101,7 +101,7 @@
         display: flex;
         flex-direction: column;
         gap: 15px;
-        padding: 15px;
+        padding: 30px;
     }
     .list {
         display: flex;
