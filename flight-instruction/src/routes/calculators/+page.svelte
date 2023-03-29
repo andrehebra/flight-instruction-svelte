@@ -45,6 +45,11 @@
                 <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
                 Calculate the landing distance of a short field landing in a Cessna 172S based on the information in the POH</p>
             </Card>
+            <Card href='/calculators/takeoffdistance' >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cessna 172S Short Field Takeoff Distance</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+                Calculate the takeoff distance in a Cessna 172S based on the information in the POH regarding short field takeoffs</p>
+            </Card>
         </div>
         <Heading>Maneuver Calculators</Heading>
         <div class="list">
