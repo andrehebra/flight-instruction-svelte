@@ -1,14 +1,32 @@
 <script>
     import NavBar from "../../components/NavBar.svelte";
     import { FloatingLabelInput, Heading, Radio } from "flowbite-svelte";
+    import TableBuilder from "../../components/TableBuilder.svelte";
 
 
     import { Select, Label } from 'flowbite-svelte';
+    import { Hr, P } from 'flowbite-svelte';
+
+    let unique = {};
+
+    function restart() {
+        unique = {};
+    }
+
+    let weightValues = [2550, 2400, 2200];
+    let weightCounter = [0, 1, 2];
+    function tableString(index, type) {
+        if (type == "groundroll") {
+            return "Ground Roll Distance at " + weightValues[index] + " Pounds";
+        } else if (type == "total") {
+            return "Total Distance Over 50 Foot Obstacle at " + weightValues[index] + " Pounds";
+        }
+    }
     
     let selected = "paved";
     let flaps = "extended";
 
-    let weight = 2200;
+    let weight = 2300;
     let pressureAlt = 3000;
     let temperature = 15;
     let headwind = 0;
@@ -196,9 +214,22 @@
         
     ];
 
+    function clearTable(table) {
+        for (let h = 0; h < table.length; h++) {
+            for (let i = 0; i < table[h].length; i++) {
+                for (let j = 0; j < table[h][i].length; j++) {
+                    table[h][i][j].length = 2;
+                }
+            }
+        }
+    }
+
     let weightCalc;
     let weightMultiplier;
     function calculateWeightDistance() {
+
+        clearTable(distanceValues);
+
         if (weight <= 2550) {
             if (weight < 2200) {
                 weightCalc = 2200
@@ -230,8 +261,7 @@
 
             }
         } else {
-            takeoffDistance = "Error, too much weight";
-            clearanceDistance = "Error, too much weight";
+            return "Error, too much weight";
         }
 
         //calculate change resulting from headwind or tailwind
@@ -245,9 +275,11 @@
 
         //calculate different runway surface
         if (selected == "grass") {
-            clearanceDistance = clearanceDistance + (takeoffDistance * 0.15)
+            clearanceDistance = clearanceDistance + (takeoffDistance * 0.15);
             takeoffDistance = takeoffDistance * 1.15;
         }
+
+        restart();
         
     }
     
@@ -328,6 +360,7 @@
     }
 
     function calculateDistance(temperature, pressure, clearance, weightIndex) {
+        distanceValues[weightIndex][pressure / 1000][temperature / 10].push(true);
         if (clearance == false) {
             return distanceValues[weightIndex][pressure / 1000][temperature / 10][0];
         } else if (clearance == true) {
@@ -344,7 +377,6 @@
 <NavBar />
 
 <div class="holder">
-    <Heading>Cessna 172S Short Field Takeoff Distance Calculator</Heading>
     <FloatingLabelInput on:change={() => calculateWeightDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Weight" bind:value={weight} />
     <FloatingLabelInput on:change={() => calculateWeightDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Pressure Altitude" bind:value={pressureAlt} />
     <FloatingLabelInput on:change={() => calculateWeightDistance()} placeholder="" style="outlined"  id="floating_outlined" name="floating_outlined" type="text" label="Temperature" bind:value={temperature} />
@@ -361,8 +393,51 @@
     
         
     
-    <Heading tag="h2" customSize="text-4xl font-extrabold ">Ground Roll: {Math.ceil(takeoffDistance)} feet</Heading>
-    <Heading tag="h2" customSize="text-4xl font-extrabold ">50 Foot Obstacle Distance: {Math.ceil(clearanceDistance)} feet</Heading>
+    <Heading tag="h2">Ground Roll: {Math.ceil(takeoffDistance)} feet</Heading>
+    <Heading tag="h2">50 Foot Obstacle Distance: {Math.ceil(clearanceDistance)} feet</Heading>
+
+    <Hr class="my-8" height="h-px" />
+
+    {#key unique}
+        <Heading tag="h2">Ground Roll Figures</Heading>
+        <div class="tableContainer">
+            
+                {#each weightCounter as index}
+                    <div class="tableHolder">
+                        <Heading tag="h3"></Heading>
+                        <TableBuilder contents={distanceValues[index]} index=0 caption={tableString(index, "groundroll")}></TableBuilder>
+                    </div>
+                {/each}
+            
+        </div>
+
+        <Heading tag="h2">Total Distance Figures</Heading>
+        <div class="tableContainer">
+            
+                {#each weightCounter as index}
+                    <div class="tableHolder">
+                        <Heading tag="h3"></Heading>
+                        <TableBuilder contents={distanceValues[index]} index=1 caption={tableString(index, "total")}></TableBuilder>
+                    </div>
+                {/each}
+            
+        </div>
+    {/key}
+
+    <Hr class="my-8" height="h-px" />
+    
+    <Heading tag="h2" customSize="text-4xl font-extrabold ">Explanation of Calculation</Heading>
+    <P>This calculator uses data from the Cessna 172S POH, which assumes flaps set at 10 degrees, full throttle applied prior to brake release, a paved, level, and dry runway, and zero wind.</P>
+    <P>First, data is interpolated from the weight, temperature, and pressure numbers given.</P>
+    <P>Next, headwind and tailwind is used to modify the previous calculations. For this calculator, distances are decreased by 10% for each 9 knots of headwind, and distances are increased by 10% for each 2 knots of tailwind.</P>
+    <P>Finally, if a grass runway is selected, the ground roll is increased by 15%, and that increase is then added into the total value.</P>
+
+    <Hr class="my-8" height="h-px" />
+    
+    <Heading tag="h2" customSize="text-4xl font-extrabold ">Disclaimer</Heading>
+    <P>This calculator is intended to be used for demonstration purposes only to aid in understanding how takeoff and landing calculations are made. This calculator should never be used as a replacement to required performance calculations.</P>
+        
+    
 </div>
 
 <style>
@@ -370,8 +445,16 @@
         padding: 20px;
         display: flex;
         flex-direction: column;
-        max-width: 800px;
         gap: 15px;
         
+    }
+    .tableContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .tableHolder {
+        max-width: 700px;
     }
 </style>

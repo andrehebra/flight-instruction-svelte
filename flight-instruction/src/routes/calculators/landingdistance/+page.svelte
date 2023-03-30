@@ -237,10 +237,8 @@
     
         {#key unique}
             <Heading tag="h2" customSize="text-4xl font-extrabold ">Landing Distance Numbers, (data used shown in red)</Heading>
-            <Heading tag="h3" customSize="text-4xl font-extrabold ">Ground Roll</Heading>
-            <TableBuilder contents={distanceValues} index=0></TableBuilder>
-            <Heading tag="h3" customSize="text-4xl font-extrabold ">Total Distance Over 50 Foot Obstacle</Heading>
-            <TableBuilder contents={distanceValues} index=1></TableBuilder>
+            <TableBuilder contents={distanceValues} index=0 caption="Ground Roll"></TableBuilder>
+            <TableBuilder contents={distanceValues} index=1 caption="Total Distance Over 50 Foot Obstacle"></TableBuilder>
         {/key}
     
         <Hr class="my-8" height="h-px" />

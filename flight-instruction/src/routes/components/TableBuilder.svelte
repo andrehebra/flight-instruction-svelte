@@ -1,7 +1,7 @@
 <script>
     import { Table, TableBody, TableBodyCell, TableBodyRow, TableHead, TableHeadCell } from 'flowbite-svelte';
 
-    export let contents, index;
+    export let contents, index, caption;
 
     let tablefont = ["notselected",'selected']
 
@@ -13,7 +13,8 @@
 </script>
 
 
-<Table hoverable=true>
+<Table hoverable=true shadow=true>
+    <caption class="p-5 text-lg font-semibold text-left text-gray-900 bg-white dark:text-white dark:bg-gray-800">{caption}</caption>
     <TableHead>
         <TableHeadCell>Pressure Alt. (feet)</TableHeadCell>
         <TableHeadCell>0&#176;C</TableHeadCell>
