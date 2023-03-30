@@ -452,7 +452,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 10px;
     }
     .tableHolder {
         max-width: 510px;
