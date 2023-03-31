@@ -201,7 +201,7 @@
 
     calculatePressureDistance();
 
-
+    //hello
 </script>
 
 <NavBar />
@@ -254,6 +254,7 @@
         
         <Heading tag="h2" customSize="text-4xl font-extrabold ">Disclaimer</Heading>
         <P>This calculator is intended to be used for demonstration purposes only to aid in understanding how takeoff and landing calculations are made. This calculator should never be used as a replacement to required performance calculations.</P>
+        
         
     </div>
 </div>
