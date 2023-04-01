@@ -18,6 +18,7 @@
     <NavUl {hidden}>
       <NavLi href="/" active={false}>Home</NavLi>
       <NavLi href="/lessons" active={false}>Lessons</NavLi>
+      <NavLi href="/maneuvers" active={false}>Maneuvers</NavLi>
       <NavLi href="/calculators" active={false}>Calculators</NavLi>
       <NavLi><button id="theme-toggle">{modeSwitch} Mode</button></NavLi>
     </NavUl>
