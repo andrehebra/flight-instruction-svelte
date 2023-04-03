@@ -8,10 +8,54 @@
 <div class="displayContainer">
     <Heading>Takeoffs</Heading>
         <div class="list">
-            <Card href='/calculators/pressureanddensityaltitude' >
+            <Card href='/normallanding' >
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Normal Takeoff</h5>
                 <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
                 Learn the basics of the normal takeoff
+                </p>
+            </Card>
+            <Card href='/shorttakeoff' >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Short Field Takeoff</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+                Learn the basics of the normal takeoff
+                </p>
+            </Card>
+            <Card href='/softtakeoff' >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Soft Field Takeoff</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+                Learn the basics of the normal takeoff
+                </p>
+            </Card>
+        </div>
+
+        <Heading>Landings</Heading>
+        <div class="list">
+            <Card href='/normallanding' >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Normal Landing</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+                Learn the basics of the normal takeoff
+                </p>
+            </Card>
+            <Card href='/shortlanding' >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Short Field Landing</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+                Learn the basics of the normal takeoff
+                </p>
+            </Card>
+            <Card href='/softlanding' >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Soft Field Landing</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+                Learn the basics of the normal takeoff
+                </p>
+            </Card>
+        </div>
+
+        <Heading>Private Pilot</Heading>
+        <div class="list">
+            <Card href='/maneuvers/slowflight' >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Slow Flight</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+                Learn how to do slow flight
                 </p>
             </Card>
         </div>

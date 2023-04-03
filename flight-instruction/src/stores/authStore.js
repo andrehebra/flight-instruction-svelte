@@ -27,3 +27,5 @@ export const authHandlers = {
         await updatePassword(auth, password);
     },
 }
+
+export default authStore;

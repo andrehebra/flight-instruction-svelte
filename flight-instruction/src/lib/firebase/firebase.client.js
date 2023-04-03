@@ -25,6 +25,8 @@ if (!getApps().length) {
 }
 
 export const auth = getAuth(firebaseApp);
-export const db = getFirestore(firebaseApp);
+const db = getFirestore(firebaseApp);
+
+export default db;
 
 
