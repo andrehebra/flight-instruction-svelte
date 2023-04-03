@@ -90,7 +90,13 @@
         ["text", "Sometimes slow flight can be intimidating. Understanding how it conceptually works, however, can make it a lot easier. Also remember why we are learning it in the first place: to be able to land the airplane! Ask your flight instructor if there is something you don't understand or if you feel uncomfortable performing the maneuver, they are there to help you."],
         
     ];
-
+    //add load factor calculator
+    //add objective
+    //add load factor same given any airspeed in banked turn
+    //add note on sight picture, landing config is slightly lower
+    //add that momentary stall warning horn will not result in a failure (appendix 7 page A-19)
+    //add how the controls become more and more mushy as the airspeed decreases
+    //add speed instability
     
 </script>
 
