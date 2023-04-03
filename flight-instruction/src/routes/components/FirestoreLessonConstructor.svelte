@@ -27,7 +27,7 @@
                     <Img size="max-w-md" src={item[1]}></Img>
                 </div>
             {:else if item[0] == "list"}
-                <List tag="ul" class="space-y-1">
+                <List ulClass='max-w' tag="ul" class="space-y-1">
                     {#each item[1] as li}
                         <Li>{li}</Li>
                     {/each}
