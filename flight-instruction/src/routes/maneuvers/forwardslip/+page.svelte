@@ -48,7 +48,7 @@
         ["text","To enter a forward slip, firmly and equally apply opposite control pressures on the ailerons and rudder while simultaneously reducing pitch with the elevator. Remember that we are dramatically increasing drag, which means that our airspeed will have to be maintained with forward elevator."],
         ["heading3","Which Direction to Slip?"],
         ["text","Banking into the wind will be most effective during a forward slip. This will allow for the greatest angle between the fuselage and the relative wind."],
-        ["heading3","Airspeed Inducations"],
+        ["heading3","Airspeed Indications"],
         ["text","Per the Cessna 172S POH, left slips can cause an airspeed indication up to 20 knots below actual airspeed, while right slips can cause an airspeed indication up to 5 knots above actual airspeed. This has to do with the disruption of airflow caused by the fuselage over the pitot tube, and should be carefully monitored. Remember that a forward slip is an uncoordinated maneuver, so any stall that occurs from them could lead to a spin, which is especially dangerous at low altitude where the maneuver is performed."],
         ["heading3","Fuel Concerns"],
         ["text","The 172S POH gives specific instructions on performing slips with different fuel quantities and tank selections. The fuel selector should be selected to BOTH before commencing a slip. Additionally, when operating with one empty fuel tank, or when the tanks are 1/4 or less, uncoordinated flight should be restricted to 30 seconds or less. This is because the fuel tank outlets can become uncovered and cause fuel starvation."],
