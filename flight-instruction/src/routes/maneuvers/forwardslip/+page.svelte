@@ -68,6 +68,12 @@
         ]],
         ["",""],
     ];
+
+    //add aileron into wind to maintain same controls for slip on touchdown
+    //add airspeed indication clarification on direction of slip (rudder/aileron input)
+        //add that airspeed indications are because of static port changes as well
+    //change fuel tank outlet information and how fuel starvation can occur
+    //correct airspeed indications spelling
 </script>
 
 <FirestoreLessonConstructor contents={contents}></FirestoreLessonConstructor>
