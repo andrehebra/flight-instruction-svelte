@@ -58,6 +58,12 @@
                 Learn how to do slow flight
                 </p>
             </Card>
+            <Card href='/maneuvers/forwardslip' >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Forward Slip to a Landing</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+                Learn how to do slow flight
+                </p>
+            </Card>
         </div>
 </div>
 
