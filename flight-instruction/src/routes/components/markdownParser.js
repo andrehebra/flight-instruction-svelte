@@ -59,18 +59,41 @@ function parseMarkdown(path) {
                 } else if (singleLine[0] == '#') {
                     singleLine = singleLine.substring(1);
                     appendSvelte("<Heading tag='h1'>" + singleLine + "</Heading>");
+                } else if (singleLine[0] == '!') {
+                    let addressMarker = false;
+                    let address = "";
+                    let text = "";
+                    for (let j = 0; j < singleLine.length; j++) {
+                        if (singleLine.charAt(j) == '"') {
+                            if (addressMarker == true) {
+                                addressMarker = false;
+                            } else {
+                                addressMarker = true;
+                            }
+                        }
+
+                        if (addressMarker == true) {
+                            if (singleLine.charAt(j) != '"') {
+                                address = address.concat(singleLine.charAt(j));
+                            }
+                        } else if (singleLine.charAt(j) != '"' && singleLine.charAt(j) != '!') {
+                            text = text.concat(singleLine.charAt(j));
+                        }
+                    }
+
+                    appendSvelte("<Button href='" + address + "'>" + text + "</Button>");
                 } else if (singleLine[0] == "*") {
                     if (listMarker == false && markdown.charAt(i+1) == "*") {
-                        appendSvelte('<List ulClass="max-w" tag="ul" class="space-y-1"><Li>' + singleLine + "</Li>");
+                        appendSvelte('<List ulClass="max-w" tag="ul" class="space-y-1"><Li>' + singleLine.substring(1) + "</Li>");
                         listMarker = true;
                     } else if (listMarker == false && markdown.charAt(i+1) != "*") {
                         console.log(markdown.charAt(i+1))
-                        appendSvelte('<List ulClass="max-w" tag="ul" class="space-y-1"><Li>' + singleLine + "</Li></List>");
+                        appendSvelte('<List ulClass="max-w" tag="ul" class="space-y-1"><Li>' + singleLine.substring(1) + "</Li></List>");
                     } else if (listMarker == true && markdown.charAt(i+1) != "*") {
-                        appendSvelte('<Li>' + singleLine + "</Li></List>");
+                        appendSvelte('<Li>' + singleLine.substring(1) + "</Li></List>");
                         listMarker = false;
                     } else if (listMarker == true && markdown.charAt(i+1) == "*") {
-                        appendSvelte('<Li>' + singleLine + "</Li>");
+                        appendSvelte('<Li>' + singleLine.substring(1) + "</Li>");
                     }
                 } else {
                     appendSvelte("<P>" + singleLine + "</P>");

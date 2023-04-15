@@ -14,7 +14,7 @@
                 Learn the basics of the normal takeoff
                 </p>
             </Card>
-            <Card href='/shorttakeoff' >
+            <Card href='/maneuvers/shortfield/takeoff' >
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Short Field Takeoff</h5>
                 <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
                 Learn the basics of the normal takeoff
