@@ -48,6 +48,7 @@ function parseMarkdown(path) {
         
         for (let i = 0; i < markdown.length; i++) {
             if (markdown.charAt(i) == '\n') {
+                singleLine = singleLine.replace(/(\r\n|\n|\r)/gm, "");
                 if (singleLine == "") {
 
                 } else if (singleLine[2] == '#') {
@@ -59,7 +60,11 @@ function parseMarkdown(path) {
                 } else if (singleLine[0] == '#') {
                     singleLine = singleLine.substring(1);
                     appendSvelte("<Heading tag='h1'>" + singleLine + "</Heading>");
-                } else if (singleLine[0] == '!') {
+                } else if (singleLine[0] == '@') {
+                    console.log(singleLine);
+                    singleLine = singleLine.substring(1);
+                    appendSvelte('<div class="image"><Img size="max-w-md" src=' + singleLine + '></Img></div>')
+                }else if (singleLine[0] == '!') {
                     let addressMarker = false;
                     let address = "";
                     let text = "";
@@ -116,4 +121,4 @@ function parseMarkdown(path) {
     
 }
 
-parseMarkdown("maneuvers/softfield/takeoff/");
+parseMarkdown("maneuvers/softfield/landing/");
