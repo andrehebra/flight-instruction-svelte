@@ -20,7 +20,7 @@
                 Learn the basics of the normal takeoff
                 </p>
             </Card>
-            <Card href='/softtakeoff' >
+            <Card href='/maneuvers/softfield/takeoff' >
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Soft Field Takeoff</h5>
                 <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
                 Learn the basics of the normal takeoff
@@ -42,7 +42,7 @@
                 Learn the basics of the normal takeoff
                 </p>
             </Card>
-            <Card href='/softlanding' >
+            <Card href='/maneuvers/softfield/landing' >
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Soft Field Landing</h5>
                 <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
                 Learn the basics of the normal takeoff
