@@ -112,7 +112,7 @@ function parseMarkdown(path) {
 
         appendSvelte('</div></div>\n\n\n');
 
-        appendSvelte("<style>\n.holder { \ndisplay: flex;\njustify-content: center;\nalign-items: center;\n}\n.contents {\nmax-width: 800px;\npadding: 20px;\ndisplay: flex;\nflex-direction: column;\ngap: 15px;\n}\n.image {\ndisplay: flex;\nalign-items: center;\njustify-content: center;\n}\n</style>");
+        appendSvelte("<style>\n.holder { \ndisplay: flex;\njustify-content: center;\nalign-items: center;\n}\n.contents {\nmax-width: 800px;\npadding: 20px;\ndisplay: flex;\nflex-direction: column;\ngap: 20px;\n}\n.image {\ndisplay: flex;\nalign-items: center;\njustify-content: center;\n}\n</style>");
 
         writeFile(writeToFile);
     });
@@ -121,4 +121,4 @@ function parseMarkdown(path) {
     
 }
 
-parseMarkdown("maneuvers/softfield/landing/");
+parseMarkdown("maneuvers/shortfield/takeoff/");
