@@ -25,7 +25,7 @@ The belief that conditions are not as threatening as they are and the approach i
 
 ###Pride
 
-Going around is not a failure, in fact it is a good measure of aeronautical decision making. Maybe you're worried about impressing your DPE, or just a passenger. Trust me, neither of them are going to be impressed with you continuing a bad landing and ripping off one of the landing gear. Turning a bad approach into an even worse landing is never a good idea.
+Going around is not a failure, in fact it is a good measure of aeronautical decision making. Maybe you're worried about impressing your DPE, or just a passenger. Trust me, neither of them are going to be impressed with you continuing a bad landing and ripping off the landing gear. Turning a bad approach into an even worse landing is never a good idea, no matter how embaressing it might feel.
 
 ##Executing a Go-Around
 
@@ -37,11 +37,28 @@ A proper go-around includes three principles, in this order:
 
 ###Power
 
-This should be your first concern. As soon as you decide to go around, apply full power. You need to overcome the inertia of the airplane's descent and increase your airspeed. Remember that the application of power should be smooth, so don't just slam the throttle forward. 
+This should be your first concern. As soon as you decide to go around, apply full power. You need to overcome the inertia of the airplane's descent and increase your airspeed. Remember that the application of power should be smooth, so don't just slam the throttle forward. It should take about 3-5 seconds to get to full throttle in the 172S.
 
 ###Attitude
 
+Remember that when you add full power the nose is going to rise. Combining this with your flap settings and low airspeed, this can quickly cause a hazardous attitude. Be ready to quickly react and set a Vx climb attitude. Also, remember that increasing pitch past a Vx attitude will not increase your climb performance. If you are still sinking, it is better to allow the airplane to touch down on the ground vs increasing pitch further and potentially stalling.
+
+Your trim is also a large concern here. Depending on the conditions of the day, you will most likely be trimmed for a higher pitch attitude than you are used to during a normal takeoff climb, especially when factoring in flaps. Counteract this with the elevator, and adjust your trim as necessary once you are under control.
+
+As you increase pitch and power, make sure to be proactive with your rudder usage. Quickly switiching to a high power setting and angle of attach will result in strong left turning tendencies, so combine your power application and pitch adjustments with sufficient right ruder to maintain coordination throughout the go-around.
+
 ###Configuration
+
+Our final concern during a go-around is to retract the flaps. Flaps, especially when fully extended, will dramatically reduce climb performance. However, retracting the flaps at too low of an airspeed can result in a stall or rapid sink rate. 
+
+##Full Procedure
+
+*Apply full power and set VX pitch attitude. Retract flaps to 20°.
+*Make “Going around,” CALLOUT
+*Once the aircraft has accelerated to 60 KIAS, make “(Current Airspeed), flaps 10,” CALLOUT and retract flaps to 10°
+*Clear of obstacles and above 65 KIAS make “(Current Airspeed), flaps 0,” CALLOUT and retract flaps to 0°
+*Set VY pitch attitude and climb at 74 KIAS
+*Once above 1000’ AGL, Perform CLIMB CHECKLIST
 
 ##References
 !"https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/00_afh_full.pdf#page=181"Airplane Flying Handbook (FAA-H-8083-3C) Chapter 9
