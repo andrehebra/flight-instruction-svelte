@@ -1,6 +1,7 @@
 <script>
     import NavBar from "../components/NavBar.svelte";
     import { Heading, P, A, Mark, Secondary, Card } from "flowbite-svelte";
+    import LessonCard from "../components/LessonCard.svelte";
 </script>
 
 <NavBar></NavBar>
@@ -48,6 +49,7 @@
                 Learn the basics of the normal takeoff
                 </p>
             </Card>
+            <LessonCard title="Go Arounds" sub="Learn how to safely execute a go around and when one is needed" link="/maneuvers/goaround"></LessonCard>
         </div>
 
         <Heading>Private Pilot</Heading>

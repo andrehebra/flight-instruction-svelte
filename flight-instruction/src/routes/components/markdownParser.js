@@ -121,4 +121,4 @@ function parseMarkdown(path) {
     
 }
 
-parseMarkdown("maneuvers/shortfield/takeoff/");
+parseMarkdown("maneuvers/goaround/");
