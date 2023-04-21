@@ -26,7 +26,7 @@
 <Heading tag='h5'>Pride</Heading>
 <P>Going around is not a failure, in fact, it is a good measure of aeronautical decision-making. Maybe you're worried about impressing your DPE, or just a passenger. Trust me, neither of them are going to be impressed with you continuing a bad landing and ripping off the landing gear. Turning a bad approach into an even worse landing is never a good idea, no matter how embarrassing it might feel.</P>
 <Heading tag='h2'>Executing a Go-Around</Heading>
-<div class="image"><Img size="max-w-md" src=https://i.imgur.com/qNfIi53.png></Img></div>
+<div class="image"><Img size="max-w-full" src=https://i.imgur.com/qNfIi53.png></Img></div>
 <P>A proper go-around includes three principles, in this order:</P>
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Power</Li>
 <Li>Attitude</Li>

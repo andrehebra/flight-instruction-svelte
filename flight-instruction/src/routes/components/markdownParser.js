@@ -63,7 +63,7 @@ function parseMarkdown(path) {
                 } else if (singleLine[0] == '@') {
                     console.log(singleLine);
                     singleLine = singleLine.substring(1);
-                    appendSvelte('<div class="image"><Img size="max-w-md" src=' + singleLine + '></Img></div>')
+                    appendSvelte('<div class="image"><Img size="max-w-full" src=' + singleLine + '></Img></div>')
                 }else if (singleLine[0] == '!') {
                     let addressMarker = false;
                     let address = "";
