@@ -15,7 +15,7 @@
 <div class="cardContainer">
     {#each lessons as lesson}
         <div class="cardHolder">
-            <LessonCard  class='lessonCard' title={lesson.title} sub={lesson.sub}/>
+            <LessonCard  link="/lessons/individual-lessons/systems"class='lessonCard' title={lesson.title} sub={lesson.sub}/>
         </div>
     {/each}
 </div>
