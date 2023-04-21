@@ -29,6 +29,8 @@ Going around is not a failure, in fact, it is a good measure of aeronautical dec
 
 ##Executing a Go-Around
 
+@https://i.imgur.com/qNfIi53.png
+
 A proper go-around includes three principles, in this order:
 
 *Power
