@@ -120,3 +120,8 @@ The applicant demonstrates an understanding of:
 *Maintain VY +10/-5 knots to a safe maneuvering altitude
 *Maintain directional control and proper wind-drift correction throughout the climb
 
+
+##Further Reading
+!"https://www.aopa.org/training-and-safety/students/presolo/skills/go-around"AOPA - Go Around
+!"https://www.aopa.org/news-and-media/all-news/2018/february/flight-training-magazine/career-pilot-go-around"AOPA - Why not Go Around?
+!"https://www.boldmethod.com/learn-to-fly/maneuvers/your-guide-to-flying-go-arounds/"Bold Method - Prevent A Crash: Your Guide To Flying Go-Arounds

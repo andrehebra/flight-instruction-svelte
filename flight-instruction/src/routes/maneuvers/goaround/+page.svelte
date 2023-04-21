@@ -89,6 +89,10 @@
 <Li>Maneuver to the side of the runway/landing area when necessary to clear and avoid conflicting traffic</Li>
 <Li>Maintain VY +10/-5 knots to a safe maneuvering altitude</Li>
 <Li>Maintain directional control and proper wind-drift correction throughout the climb</Li></List>
+<Heading tag='h2'>Further Reading</Heading>
+<Button href='https://www.aopa.org/training-and-safety/students/presolo/skills/go-around'>AOPA - Go Around</Button>
+<Button href='https://www.aopa.org/news-and-media/all-news/2018/february/flight-training-magazine/career-pilot-go-around'>AOPA - Why not Go Around?</Button>
+<Button href='https://www.boldmethod.com/learn-to-fly/maneuvers/your-guide-to-flying-go-arounds/'>Bold Method - Prevent A Crash: Your Guide To Flying Go-Arounds</Button>
 </div></div>
 
 
