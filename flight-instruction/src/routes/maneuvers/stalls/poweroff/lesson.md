@@ -35,7 +35,7 @@ This part should be gradual. We are not trying to enter into a stall as quickly 
 *Observe the first indcation of airflow separation and decrease of control effectiveness
 *Make "Stall warning" callout
 *Wait for a sudden decrease in pitch attitude and complete loss of control effectiveness occurs
-*make "Stall" callout
+*Make "Stall" callout
 *Recover
 {/tabs}
 
