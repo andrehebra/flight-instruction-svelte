@@ -1,6 +1,6 @@
 <script>
      import NavBar from '../../../components/NavBar.svelte'; 
-     import {  Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
+     import {  Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
 </script>
 
 <NavBar></NavBar>
@@ -9,6 +9,8 @@
 <div class="holder"><div class="contents">
 
 <Heading tag='h1'>Power-Off Stalls</Heading>
+<P>Power-off stalls are normally performed with normal landing approach conditions to simulate an accidental stall during approach to landing. A power-off stall, however, can occur at any airspeed or pitch attitude, and should be comprehensively trained for in a variety of attitudes and flap settings.</P>
+<Blockquote border bg class="p-4 my-4"><P size="xl" height="relaxed">NOTE: Before practicing any type of stall, it is imperative to have a full understanding of angle of attack and load factor. This is not a maneuver that you can practice without the prerequisite knowledge.</P></Blockquote>
 <Heading tag='h2'>References</Heading>
 <Button href='https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/00_afh_full.pdf#page=122'>Airplane Flying Handbook (FAA-H-8083-3C) Chapter 5</Button>
 <Heading tag='h2'>Completion Standards</Heading>

@@ -1,8 +1,8 @@
 #Power-Off Stalls
 
+Power-off stalls are normally performed with normal landing approach conditions to simulate an accidental stall during approach to landing. A power-off stall, however, can occur at any airspeed or pitch attitude, and should be comprehensively trained for in a variety of attitudes and flap settings.
 
-
-
+$NOTE: Before practicing any type of stall, it is imperative to have a full understanding of angle of attack and load factor. This is not a maneuver that you can practice without the prerequisite knowledge.
 
 
 

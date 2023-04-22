@@ -46,7 +46,7 @@ function parseMarkdown(path) {
         }
         markdown = data;
 
-        appendSvelte("<script>\n     import NavBar from '" + pathCheck + "'; \n     import {  Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'\n</script>\n\n<NavBar></NavBar>\n\n");
+        appendSvelte("<script>\n     import NavBar from '" + pathCheck + "'; \n     import {  Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'\n</script>\n\n<NavBar></NavBar>\n\n");
 
         appendSvelte('<div class="holder"><div class="contents">\n');
         
@@ -67,7 +67,10 @@ function parseMarkdown(path) {
                 } else if (singleLine[0] == '@') {
                     singleLine = singleLine.substring(1);
                     appendSvelte('<div class="image"><Img size="max-w-full" src=' + singleLine + '></Img></div>')
-                }else if (singleLine[0] == '!') {
+                } else if (singleLine[0] == '$') {
+                    singleLine = singleLine.substring(1);
+                    appendSvelte('<Blockquote border bg class="p-4 my-4"><P size="xl" height="relaxed">' + singleLine + '</P></Blockquote>')
+                } else if (singleLine[0] == '!') {
                     let addressMarker = false;
                     let address = "";
                     let text = "";
