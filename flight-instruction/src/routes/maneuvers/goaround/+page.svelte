@@ -1,6 +1,6 @@
 <script>
      import NavBar from '../../components/NavBar.svelte'; 
-     import {  List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
+     import {  Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
 </script>
 
 <NavBar></NavBar>
@@ -104,7 +104,7 @@ justify-content: center;
 align-items: center;
 }
 .contents {
-max-width: 800px;
+max-width: 1000px;
 padding: 20px;
 display: flex;
 flex-direction: column;
