@@ -6,6 +6,10 @@ function parseMarkdown(path) {
     let markdown;
     let writeToFile = '';
     let singleLine = "";
+
+    let tabTracker = false;
+    let individualTabTracker = false;
+
     let pathCheck = path;
     let pathLength = pathCheck.replace(/[^/]/g, "").length;
     pathCheck = '';
@@ -42,7 +46,7 @@ function parseMarkdown(path) {
         }
         markdown = data;
 
-        appendSvelte("<script>\n     import NavBar from '" + pathCheck + "'; \n     import {  List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'\n</script>\n\n<NavBar></NavBar>\n\n");
+        appendSvelte("<script>\n     import NavBar from '" + pathCheck + "'; \n     import {  Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'\n</script>\n\n<NavBar></NavBar>\n\n");
 
         appendSvelte('<div class="holder"><div class="contents">\n');
         
@@ -61,7 +65,6 @@ function parseMarkdown(path) {
                     singleLine = singleLine.substring(1);
                     appendSvelte("<Heading tag='h1'>" + singleLine + "</Heading>");
                 } else if (singleLine[0] == '@') {
-                    console.log(singleLine);
                     singleLine = singleLine.substring(1);
                     appendSvelte('<div class="image"><Img size="max-w-full" src=' + singleLine + '></Img></div>')
                 }else if (singleLine[0] == '!') {
@@ -92,7 +95,6 @@ function parseMarkdown(path) {
                         appendSvelte('<List ulClass="max-w" tag="ul" class="space-y-1"><Li>' + singleLine.substring(1) + "</Li>");
                         listMarker = true;
                     } else if (listMarker == false && markdown.charAt(i+1) != "*") {
-                        console.log(markdown.charAt(i+1))
                         appendSvelte('<List ulClass="max-w" tag="ul" class="space-y-1"><Li>' + singleLine.substring(1) + "</Li></List>");
                     } else if (listMarker == true && markdown.charAt(i+1) != "*") {
                         appendSvelte('<Li>' + singleLine.substring(1) + "</Li></List>");
@@ -100,6 +102,23 @@ function parseMarkdown(path) {
                     } else if (listMarker == true && markdown.charAt(i+1) == "*") {
                         appendSvelte('<Li>' + singleLine.substring(1) + "</Li>");
                     }
+                } else if (singleLine == '{tabs}' || tabTracker == true) {
+                    if (tabTracker == false) {
+                        appendSvelte("<div><Tabs style='underline'>");
+                        tabTracker = true;
+                    } else if (singleLine == '{/tabs}') {
+                        tabTracker = false;
+                        individualTabTracker = false;
+                        appendSvelte("</div></TabItem></Tabs></div>");
+                    } else if (singleLine[0] == '{' && individualTabTracker == false) {
+                        singleLine = singleLine.replace(/({|})/g, "");
+                        appendSvelte('<TabItem open title="' + singleLine + '"><div class="contents">');
+                        individualTabTracker = true;
+                    } else if (singleLine[0] == '{' && individualTabTracker == true) {
+                        singleLine = singleLine.replace(/({|})/g, "");
+                        appendSvelte('</div></TabItem>');
+                        appendSvelte('<TabItem title="' + singleLine + '"><div class="contents">');
+                    } 
                 } else {
                     appendSvelte("<P>" + singleLine + "</P>");
                 }
@@ -112,7 +131,7 @@ function parseMarkdown(path) {
 
         appendSvelte('</div></div>\n\n\n');
 
-        appendSvelte("<style>\n.holder { \ndisplay: flex;\njustify-content: center;\nalign-items: center;\n}\n.contents {\nmax-width: 800px;\npadding: 20px;\ndisplay: flex;\nflex-direction: column;\ngap: 20px;\n}\n.image {\ndisplay: flex;\nalign-items: center;\njustify-content: center;\n}\n</style>");
+        appendSvelte("<style>\n.holder { \ndisplay: flex;\njustify-content: center;\nalign-items: center;\n}\n.contents {\nmax-width: 1000px;\npadding: 20px;\ndisplay: flex;\nflex-direction: column;\ngap: 20px;\n}\n.image {\ndisplay: flex;\nalign-items: center;\njustify-content: center;\n}\n</style>");
 
         writeFile(writeToFile);
     });
@@ -122,3 +141,5 @@ function parseMarkdown(path) {
 }
 
 parseMarkdown("maneuvers/goaround/");
+parseMarkdown("maneuvers/stalls/poweron/");
+parseMarkdown("maneuvers/stalls/poweroff/");
