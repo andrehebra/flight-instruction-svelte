@@ -11,7 +11,29 @@ VFR into IMC, or visual flight rules into instrument meteorological conditions, 
 
 ##Spatial Disorientation
 
-One of the most insidious aspects of spatial disorientation is that it can happen quickly and without warning. A pilot may feel like they are flying straight and level, when in reality they are turning, climbing, or descending. Without the proper training and equipment, a pilot may have difficulty determining their true orientation and could inadvertently make incorrect control inputs, leading to a loss of control of the aircraft.
+One of the most insidious aspects of spatial disorientation is that it can happen quickly and without warning. A pilot may feel like they are flying straight and level, when in reality they are turning, climbing, or descending. Without the proper training and equipment, a pilot may have difficulty determining their true orientation and could inadvertently make incorrect control inputs, leading to a loss of control of the aircraft. The FAA brochure linked below briefly discusses how our body maintains its orientation and some of the common types of vestibular illusions.
+
+!"https://www.faa.gov/pilots/safety/pilotsafetybrochures/media/spatiald.pdf"FAA - Spatial Orientation in Flight
+
+An important takeaway from the article above is to always trust your instruments when you do not have outside visual references, even if all of your instincts are telling you they are wrong. But first, we need to understand how to properly interpret our instruments.
+
+##Methods of Attitude Instrument Flying
+
+Instrument flying does not come naturally to most people. Understanding the fundamental ideas, however, can help you to become proficient in it relatively quickly. Right now we are going to focus on the two methods of attitude instrument flying that are acceptable, that being the "control and performance" method and the "primary and supporting" method. For more information, see the link below:
+
+!"https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/FAA-H-8083-15B.pdf#page=134"FAA-H-8083-15B Instrument Flying Handbook - Chapter 6
+
+###Control and Performance Method
+
+From the Instrument Flying Handbook:
+
+$Aircraft performance is achieved by controlling the aircraft attitude and power. Aircraft attitude is the relationship of both the aircraft’s pitch and roll axes in relation to the Earth’s horizon. An aircraft is flown in instrument flight by controlling the attitude and power, as necessary, to produce both controlled and stabilized flight without reference to a visible horizon. This overall process is known as the control and performance method of attitude instrument flying.
+
+This method of instrument flying divides the flight instruments into either "control" instruments or "performance" instruments. The general idea being that control instruments display immediate attitude and power indications
+
+
+
+
 
 
 

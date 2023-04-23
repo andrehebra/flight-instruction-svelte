@@ -10,7 +10,7 @@
 
 <Heading tag='h1'>Power-Off Stalls</Heading>
 <P>Power-off stalls are normally performed with normal landing approach conditions to simulate an accidental stall during approach to landing. A power-off stall, however, can occur at any airspeed or pitch attitude, and should be comprehensively trained for in a variety of attitudes and flap settings.</P>
-<Blockquote border bg class="p-4 my-4"><P size="xl" height="relaxed">NOTE: Before practicing any type of stall, it is imperative to have a full understanding of angle of attack and load factor. This is not a maneuver that you can practice without the prerequisite knowledge.</P></Blockquote>
+<Blockquote border bg class="p-4 my-4"><P size="sm" height="relaxed">NOTE: Before practicing any type of stall, it is imperative to have a full understanding of angle of attack and load factor. This is not a maneuver that you can practice without the prerequisite knowledge.</P></Blockquote>
 <Heading tag='h2'>Simulated vs Accidental Stalls</Heading>
 <P>All types of stalls are practiced at high altitude to ensure that a pilot has sufficient room to fully regain control of the airplane. However, accidental stalls often occur close to the ground, where there is minimal time and altitude to recover. For this reason, we not only want to train how to recover from a stall, but also how to notice the signs of an impending stall so that we can avoid having to recover in the first place.</P>
 <P>Real life power-off stalls will most likely occur gradually, so that is how we want to train them. There should not be any abrupt control inputs prior to the stall.</P>
@@ -44,7 +44,7 @@
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Add full power</Li>
 <Li>Establish Vx pitch to allow for minimum loss of altitude</Li>
 <Li>Retract flaps to 20 degrees</Li></List>
-<Blockquote border bg class="p-4 my-4"><P size="xl" height="relaxed">NOTE: Do not attempt to level the wings using ailerons while stalled, this may cause the aircraft to enter incipient spin.</P></Blockquote>
+<Blockquote border bg class="p-4 my-4"><P size="sm" height="relaxed">NOTE: Do not attempt to level the wings using ailerons while stalled, this may cause the aircraft to enter incipient spin.</P></Blockquote>
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Passing 60 KIAS, retract flaps to 10 degrees</Li>
 <Li>Set Vy pitch attitude</Li>
 <Li>Passing 70 KIAS, fully retract the flaps</Li>

@@ -69,7 +69,7 @@ function parseMarkdown(path) {
                     appendSvelte('<div class="image"><Img size="max-w-full" src=' + singleLine + '></Img></div>')
                 } else if (singleLine[0] == '$') {
                     singleLine = singleLine.substring(1);
-                    appendSvelte('<Blockquote border bg class="p-4 my-4"><P size="xl" height="relaxed">' + singleLine + '</P></Blockquote>')
+                    appendSvelte('<Blockquote border bg class="p-4 my-4"><P size="md" height="relaxed">' + singleLine + '</P></Blockquote>')
                 } else if (singleLine[0] == '!') {
                     let addressMarker = false;
                     let address = "";
