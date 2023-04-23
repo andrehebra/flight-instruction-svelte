@@ -50,22 +50,30 @@
                 </p>
             </Card>
             <LessonCard title="Go Arounds" sub="Learn how to safely execute a go around and when one is needed" link="/maneuvers/goaround"></LessonCard>
-        </div>
-
-        <Heading>Private Pilot</Heading>
-        <div class="list">
-            <Card href='/maneuvers/slowflight' >
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Slow Flight</h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
-                Learn how to do slow flight
-                </p>
-            </Card>
             <Card href='/maneuvers/forwardslip' >
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Forward Slip to a Landing</h5>
                 <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
                 Learn how to do slow flight
                 </p>
             </Card>
+        </div>
+
+        <Heading>Slow Flight and Stalls</Heading>
+        <div class="list">
+            <Card href='/maneuvers/slowflight' >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Maneuvering During Slow Flight</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+                Learn how to perform slow flight as well as climbs/descents and turns
+                </p>
+            </Card>
+            <LessonCard title="Power-Off Stalls" sub="Learn how to perform power-off stalls and the risks associated with them" link="/maneuvers/stalls/poweroff"></LessonCard>
+            <LessonCard title="Power-On Stalls" sub="Learn how to perform power-on stalls and the risks associated with them" link="/maneuvers/stalls/poweron"></LessonCard>
+
+        </div>
+
+        <Heading>Other Maneuvers</Heading>
+        <div class="list">
+            <LessonCard title="Basic Instrument Maneuvers" sub="Learn the basics of instrument flying to be prepared for a potential VFR into IMC encounter" link="/maneuvers/basicinstrument"></LessonCard>
         </div>
 </div>
 

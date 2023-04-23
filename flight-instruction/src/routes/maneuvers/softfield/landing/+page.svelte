@@ -1,6 +1,6 @@
 <script>
      import NavBar from '../../../components/NavBar.svelte'; 
-     import {  List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
+     import {  Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
 </script>
 
 <NavBar></NavBar>
@@ -11,7 +11,7 @@
 <Heading tag='h1'>Soft-Field Landing</Heading>
 <P>Similar to the soft-field takeoff, our goal with a soft-field landing is to keep the least amount of pressure on the landing gear as is reasonably possible. Because of this, we can think of the soft-field landing as a normal landing with a slightly slower approach speed up until the roundout and flare. </P>
 <Heading tag='h2'>Procedure and Technique</Heading>
-<div class="image"><Img size="max-w-md" src=https://i.imgur.com/jSdVAQk.png></Img></div>
+<div class="image"><Img size="max-w-full" src=https://i.imgur.com/jSdVAQk.png></Img></div>
 <Heading tag='h5'>Approach</Heading>
 <P>Complete a normal pattern until reaching final approach. When turning final, allow the airspeed to fall to 61 kts instead of 65 kts by altering pitch and power for the conditions of the day.</P>
 <Heading tag='h5'>Roundout and Flare</Heading>
@@ -67,7 +67,7 @@ justify-content: center;
 align-items: center;
 }
 .contents {
-max-width: 800px;
+max-width: 1000px;
 padding: 20px;
 display: flex;
 flex-direction: column;

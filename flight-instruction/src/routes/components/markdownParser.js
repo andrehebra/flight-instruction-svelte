@@ -143,6 +143,10 @@ function parseMarkdown(path) {
     
 }
 
+parseMarkdown("maneuvers/shortfield/takeoff/");
+parseMarkdown("maneuvers/softfield/takeoff/");
+parseMarkdown("maneuvers/softfield/landing/");
 parseMarkdown("maneuvers/goaround/");
 parseMarkdown("maneuvers/stalls/poweron/");
 parseMarkdown("maneuvers/stalls/poweroff/");
+parseMarkdown("maneuvers/basicinstrument/");

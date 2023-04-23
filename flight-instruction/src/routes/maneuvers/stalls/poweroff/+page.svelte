@@ -35,7 +35,7 @@
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Observe the first indcation of airflow separation and decrease of control effectiveness</Li>
 <Li>Make "Stall warning" callout</Li>
 <Li>Wait for a sudden decrease in pitch attitude and complete loss of control effectiveness occurs</Li>
-<Li>make "Stall" callout</Li>
+<Li>Make "Stall" callout</Li>
 <Li>Recover</Li></List>
 </div></TabItem></Tabs></div>
 <Heading tag='h5'>Recovery</Heading>
