@@ -46,7 +46,7 @@ function parseMarkdown(path) {
         }
         markdown = data;
 
-        appendSvelte("<script>\n     import NavBar from '" + pathCheck + "'; \n     import {  Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'\n</script>\n\n<NavBar></NavBar>\n\n");
+        appendSvelte("<script>\n     import NavBar from '" + pathCheck + "'; \n     import {  Hr, Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'\n</script>\n\n<NavBar></NavBar>\n\n");
 
         appendSvelte('<div class="holder"><div class="contents">\n');
         
@@ -55,6 +55,9 @@ function parseMarkdown(path) {
                 singleLine = singleLine.replace(/(\r\n|\n|\r)/gm, "");
                 if (singleLine == "") {
 
+                } else if (singleLine[3] == '#') {
+                    singleLine = singleLine.substring(4);
+                    appendSvelte("<Heading tag='h6'>" + singleLine + "</Heading>");
                 } else if (singleLine[2] == '#') {
                     singleLine = singleLine.substring(3);
                     appendSvelte("<Heading tag='h5'>" + singleLine + "</Heading>");
@@ -69,7 +72,7 @@ function parseMarkdown(path) {
                     appendSvelte('<div class="image"><Img size="max-w-full" src=' + singleLine + '></Img></div>')
                 } else if (singleLine[0] == '$') {
                     singleLine = singleLine.substring(1);
-                    appendSvelte('<Blockquote border bg class="p-4 my-4"><P size="md" height="relaxed">' + singleLine + '</P></Blockquote>')
+                    appendSvelte('<Blockquote border bg class="p-4 my-4"><P size="sm" height="relaxed">' + singleLine + '</P></Blockquote>')
                 } else if (singleLine[0] == '!') {
                     let addressMarker = false;
                     let address = "";
@@ -93,6 +96,8 @@ function parseMarkdown(path) {
                     }
 
                     appendSvelte("<Button href='" + address + "'>" + text + "</Button>");
+                } else if (singleLine == '--') {
+                    appendSvelte('<Hr class="my-8" height="h-px" />');
                 } else if (singleLine[0] == "*") {
                     if (listMarker == false && markdown.charAt(i+1) == "*") {
                         appendSvelte('<List ulClass="max-w" tag="ul" class="space-y-1"><Li>' + singleLine.substring(1) + "</Li>");
