@@ -74,6 +74,7 @@
         <Heading>Other Maneuvers</Heading>
         <div class="list">
             <LessonCard title="Basic Instrument Maneuvers" sub="Learn the basics of instrument flying to be prepared for a potential VFR into IMC encounter" link="/maneuvers/basicinstrument"></LessonCard>
+            <LessonCard title="Steep Turns" sub="Learn how to properly perform steep turns and understand the concepts that can make them tricky" link="/maneuvers/steepturns"></LessonCard>
         </div>
 </div>
 
