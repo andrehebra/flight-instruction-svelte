@@ -156,3 +156,4 @@ parseMarkdown("maneuvers/stalls/poweron/");
 parseMarkdown("maneuvers/stalls/poweroff/");
 parseMarkdown("maneuvers/basicinstrument/");
 parseMarkdown("maneuvers/steepturns/");
+parseMarkdown("maneuvers/spinawareness/");
