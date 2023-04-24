@@ -13,7 +13,7 @@
 <div class="image"><Img size="max-w-full" src=https://i.imgur.com/DRXek28.png></Img></div>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>What Causes Spins?</Heading>
-<P>A spin occurs when at least one of the airplane's wings exceeds the critical angle of attack with a sideslip or yaw acting on the airplane. This yaw can be coming from incorrect rudder application, adverse yaw from aileron deflection, or the natural turning tendencies of the airplane.</P>
+<P>A spin occurs when at least one of the airplane's wings exceeds the critical angle of attack with a sideslip or yaw acting on the airplane. This yaw can be coming from incorrect rudder application, adverse yaw from aileron deflection, or the natural turning tendencies of the airplane. Therefore, the key to not entering a spin is maintaining directional control and not allowing the nose to yaw before stall recovery is initiated.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Completion Standards</Heading>
 <P>Spin awareness is included in both the Private and Commercial ACS. The requirements are the same for both.</P>

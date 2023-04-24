@@ -73,6 +73,8 @@ function parseMarkdown(path) {
                 } else if (singleLine[0] == '$') {
                     singleLine = singleLine.substring(1);
                     appendSvelte('<Blockquote border bg class="p-4 my-4"><P size="sm" height="relaxed">' + singleLine + '</P></Blockquote>')
+                } else if (singleLine[0] == '<') {
+                    appendSvelte(singleLine);
                 } else if (singleLine[0] == '!') {
                     let addressMarker = false;
                     let address = "";
@@ -157,3 +159,5 @@ parseMarkdown("maneuvers/stalls/poweroff/");
 parseMarkdown("maneuvers/basicinstrument/");
 parseMarkdown("maneuvers/steepturns/");
 parseMarkdown("maneuvers/spinawareness/");
+
+parseMarkdown("enc1102/article/");
