@@ -34,6 +34,6 @@ Other than that, it honestly shouldn't be that different from a normal emergency
 
 Best of luck to you!
 
-Also, and this goes without saying, don't stage an event and jump out of an airplane with fire extinguishers in your pant legs. You'll look like an idiot, and also lose your pilot's licesnse. One person already did that, and if I catch another one of you pulling this crap I'm gonna lose it!
+Also, and this goes without saying, don't stage an event and jump out of an airplane with fire extinguishers in your pant legs. You'll look like an idiot, and also lose your pilot's license. One person already did that, and if I catch another one of you pulling this crap I'm gonna lose it!
 
 

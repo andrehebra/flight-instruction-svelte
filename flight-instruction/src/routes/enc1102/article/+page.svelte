@@ -28,7 +28,7 @@
 <P>First of all, don't fly at low altitude above the mountains in a 50-year-old single-engine piston airplane. That's a game of Russian roulette that I don't want to play. Good aeronautical decision-making clearly states that "just because you can, doesn't mean you should."</P>
 <P>Other than that, it honestly shouldn't be that different from a normal emergency landing. Declare an emergency, pick a landing spot, and commit to it. Try your best to restart the engine with the remaining time you have. Fully extend the flaps to make the softest landing possible, and if you have a steep spot you might want to even save some energy to start a shallow climb before touchdown.</P>
 <P>Best of luck to you!</P>
-<P>Also, and this goes without saying, don't stage an event and jump out of an airplane with fire extinguishers in your pant legs. You'll look like an idiot, and also lose your pilot's licesnse. One person already did that, and if I catch another one of you pulling this crap I'm gonna lose it!</P>
+<P>Also, and this goes without saying, don't stage an event and jump out of an airplane with fire extinguishers in your pant legs. You'll look like an idiot, and also lose your pilot's license. One person already did that, and if I catch another one of you pulling this crap I'm gonna lose it!</P>
 </div></div>
 
 
