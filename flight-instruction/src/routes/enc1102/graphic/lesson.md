@@ -1,2 +1,0 @@
-@"./forced-landing-graphic.png"
-

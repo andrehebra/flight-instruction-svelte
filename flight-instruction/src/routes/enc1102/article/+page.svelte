@@ -3,7 +3,6 @@
      import {  Hr, Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
 </script>
 
-<NavBar></NavBar>
 
 
 <div class="holder"><div class="contents">

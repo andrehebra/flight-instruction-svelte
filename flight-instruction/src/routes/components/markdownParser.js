@@ -160,4 +160,3 @@ parseMarkdown("maneuvers/basicinstrument/");
 parseMarkdown("maneuvers/steepturns/");
 parseMarkdown("maneuvers/spinawareness/");
 
-parseMarkdown("enc1102/article/");
