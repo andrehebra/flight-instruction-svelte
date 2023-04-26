@@ -1,6 +1,7 @@
 <script>
-     import NavBar from '../../../components/NavBar.svelte'; 
-     import LessonCard from '../../../components/LessonCard.svelte'; 
+     import NavBar from '../../components/NavBar.svelte'; 
+     import LessonCard from '../../components/LessonCard.svelte'; 
+     import QuizQuestion from '../../components/QuizQuestion.svelte';
      import {  Hr, Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
 </script>
 
@@ -8,6 +9,8 @@
 
 
 <div class="holder"><div class="contents">
+
+<QuizQuestion correctAnswer="second" question="What is the correct answer?" type="multiple" options={["first", "second", "third"]}></QuizQuestion>
 
 </div></div>
 

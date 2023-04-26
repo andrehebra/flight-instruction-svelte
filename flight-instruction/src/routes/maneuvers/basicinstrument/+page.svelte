@@ -1,5 +1,6 @@
 <script>
      import NavBar from '../../components/NavBar.svelte'; 
+     import LessonCard from '../../components/LessonCard.svelte'; 
      import {  Hr, Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
 </script>
 

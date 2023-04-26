@@ -16,7 +16,7 @@ function parseMarkdown(path) {
     for (let i = 0; i < pathLength; i++) {
         pathCheck = pathCheck.concat("../");
     }
-    pathCheck = pathCheck.concat("components/NavBar.svelte");
+    pathCheck = pathCheck.concat("components/");
 
     fs.writeFile('../' + path + '+page.svelte', "", err => {
         console.error(err);
@@ -46,7 +46,7 @@ function parseMarkdown(path) {
         }
         markdown = data;
 
-        appendSvelte("<script>\n     import NavBar from '" + pathCheck + "'; \n     import {  Hr, Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'\n</script>\n\n<NavBar></NavBar>\n\n");
+        appendSvelte("<script>\n     import NavBar from '" + pathCheck + "NavBar.svelte'; \n     import LessonCard from '" + pathCheck + "LessonCard.svelte'; \n     import {  Hr, Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'\n</script>\n\n<NavBar></NavBar>\n\n");
 
         appendSvelte('<div class="holder"><div class="contents">\n');
         
@@ -160,3 +160,4 @@ parseMarkdown("maneuvers/basicinstrument/");
 parseMarkdown("maneuvers/steepturns/");
 parseMarkdown("maneuvers/spinawareness/");
 
+parseMarkdown("study/");

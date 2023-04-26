@@ -1,5 +1,6 @@
 <script>
      import NavBar from '../../components/NavBar.svelte'; 
+     import LessonCard from '../../components/LessonCard.svelte'; 
      import {  Hr, Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
 </script>
 
@@ -24,7 +25,7 @@
 <Button href='https://www.faa.gov/sites/faa.gov/files/2022-03/pilot_handbook.pdf#page=121'>PHAK Chapter 5-22 - Forces in Turns</Button>
 <P>For this discussion, we can assume that lift is generated perpendicular to the wings. Therefore, without increasing angle of attack in a banked turn, the airplane will begin to sink. A depiction of this is shown below:</P>
 <div class="image"><Img size="max-w-full" src=https://i.imgur.com/VBECmeT.png></Img></div>
-<P>This concept is true for all banked turns, however it becomes more pronounced with higher bank angles. For example, a 30 degree banked turn will require a 15.47% increase in total lift, while a 45 degree banked turn will require a 41.42% increase in total lift.</P>
+<P>This concept is true for all banked turns, however it becomes more pronounced with higher bank angles. For example, a 30 degree banked turn will require a 15.47% increase in total lift, while a 45 degree banked turn will require a 41.42% increase in total lift, assuming proper coordination.</P>
 <P>In practical terms, the higher the bank angle, the more back pressure required on the elevator to increase angle of attack and therefore increase the total amount of lift being produced.</P>
 <Heading tag='h5'>Higher G-Forces</Heading>
 <Button href='https://www.faa.gov/sites/faa.gov/files/2022-03/pilot_handbook.pdf#page=132'>PHAK Chapter 5-33 - Load Factors</Button>
@@ -51,7 +52,7 @@
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Set power to 2,200 RPM to slow to a speed below Va</Li>
 <Li>Line up with the visual reference point selected and maintain heading and altitude (bug heading and altitude for reference)</Li>
 <Li>Smoothly begin rolling into a bank in the direction of the cleared area while maintaining coordination using ailerons and rudders</Li>
-<Li>As bank angle passes 40 degrees, increase pitch and power by about 150 RPM to maintain altitude and airspeed</Li>
+<Li>As bank angle passes 30 degrees, increase pitch and power by about 150 RPM to maintain altitude and airspeed</Li>
 <Li>Add a full wheel of nose up trim to assist with the backpressure required</Li>
 <Li>Establish the desired bank angle (45 degrees for private, 50 degrees for commercial)</Li>
 <Li>Use the horizon to as an indicator for bank angle and proper pitch attitude required</Li></List>

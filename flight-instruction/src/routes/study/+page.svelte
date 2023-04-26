@@ -1,6 +1,6 @@
 <script>
-     import NavBar from '../../../components/NavBar.svelte'; 
-     import LessonCard from '../../../components/LessonCard.svelte'; 
+     import NavBar from '../components/NavBar.svelte'; 
+     import LessonCard from '../components/LessonCard.svelte'; 
      import {  Hr, Blockquote, Tabs, TabItem, List, Li, Img, Heading, P, A, Mark, Secondary, Listgroup, AccordionItem, Accordion, Video, Button } from 'flowbite-svelte'
 </script>
 
@@ -9,6 +9,7 @@
 
 <div class="holder"><div class="contents">
 
+<Heading tag='h1'>Welcome to the Study Center Project</Heading>
 </div></div>
 
 

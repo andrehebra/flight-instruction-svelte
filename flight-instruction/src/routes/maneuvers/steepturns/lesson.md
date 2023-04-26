@@ -36,7 +36,7 @@ For this discussion, we can assume that lift is generated perpendicular to the w
 
 @https://i.imgur.com/VBECmeT.png
 
-This concept is true for all banked turns, however it becomes more pronounced with higher bank angles. For example, a 30 degree banked turn will require a 15.47% increase in total lift, while a 45 degree banked turn will require a 41.42% increase in total lift.
+This concept is true for all banked turns, however it becomes more pronounced with higher bank angles. For example, a 30 degree banked turn will require a 15.47% increase in total lift, while a 45 degree banked turn will require a 41.42% increase in total lift, assuming proper coordination.
 
 In practical terms, the higher the bank angle, the more back pressure required on the elevator to increase angle of attack and therefore increase the total amount of lift being produced.
 
@@ -85,7 +85,7 @@ Make sure that this reference point is prominent. If there are clouds in the sky
 *Set power to 2,200 RPM to slow to a speed below Va
 *Line up with the visual reference point selected and maintain heading and altitude (bug heading and altitude for reference)
 *Smoothly begin rolling into a bank in the direction of the cleared area while maintaining coordination using ailerons and rudders
-*As bank angle passes 40 degrees, increase pitch and power by about 150 RPM to maintain altitude and airspeed
+*As bank angle passes 30 degrees, increase pitch and power by about 150 RPM to maintain altitude and airspeed
 *Add a full wheel of nose up trim to assist with the backpressure required
 *Establish the desired bank angle (45 degrees for private, 50 degrees for commercial)
 *Use the horizon to as an indicator for bank angle and proper pitch attitude required
@@ -195,5 +195,4 @@ Steep turns are listed in both the private and commercial ACS, with the commerci
 
 ##References
 !"https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/00_afh_full.pdf#page=210"Airplane Flying Handbook (FAA-H-8083-3C) Chapter 10
-
 
