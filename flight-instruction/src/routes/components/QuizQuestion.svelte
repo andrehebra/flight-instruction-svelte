@@ -1,6 +1,7 @@
 <script>
     import {Heading, Radio, Button, Hr} from 'flowbite-svelte';
 
+    export let response;
 
     export let question;
     export let type;
@@ -22,7 +23,7 @@
         if (e.keyCode >= 49 && e.keyCode <= 57 && currentState == "question") {
             selection = options[e.keyCode - 49];
         } else if (e.keyCode >= 49 && e.keyCode <= 52 && currentState == "rate") {
-
+            rateQuestion(e.keyCode - 48);
         }
 
         switch (e.keyCode) {
@@ -40,9 +41,18 @@
             if (correctAnswer == selection) {
                 currentState = "rate";
             } else {
-
+                currentState = "incorrect";
             }
         }
+    }
+
+    function rateQuestion(value) {
+        response = value;
+        console.log(response);
+    }
+
+    function setState(state) {
+        currentState = state;
     }
 
     
@@ -67,18 +77,22 @@
 {:else if (currentState == 'rate')}
     <div class="inline">
         <div class="selection">
-            <Button color="red" >Again (1)</Button>
+            <Button on:click={() => rateQuestion(1)} color="red" >Again (1)</Button>
         </div>
         <div class="selection">
-            <Button color="yellow" >Hard (2)</Button>
+            <Button on:click={() => rateQuestion(2)} color="yellow" >Hard (2)</Button>
         </div>
         <div class="selection">
-            <Button >Good (3)</Button>
+            <Button on:click={() => rateQuestion(3)}>Good (3)</Button>
         </div>
         <div class="selection">
-            <Button color="green" >Easy (4)</Button>
+            <Button on:click={() => rateQuestion(4)} color="green" >Easy (4)</Button>
         </div>
     </div>
+{:else if (currentState == 'incorrect')}
+    <Button>Read Explanation</Button>
+    <Button on:click={() => setState("rate")}>Mark Correct</Button>
+    <Button on:click={() => rateQuestion(1)}>Continue</Button>
 {/if}
 
 <svelte:window on:keydown|preventDefault={onKeyDown} />
