@@ -9,7 +9,6 @@
 
 <div class="holder"><div class="contents">
 
-<Heading tag='h1'>Welcome to the Study Center Project</Heading>
 </div></div>
 
 
