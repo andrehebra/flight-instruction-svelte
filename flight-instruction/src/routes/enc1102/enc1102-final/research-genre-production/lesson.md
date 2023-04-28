@@ -50,7 +50,7 @@ This was one of my artifacts for Project 3, which replicates the genre conventio
 This article mainly took inspiration from Paul Bertorelli and intended to also poke fun at Trevor Jacob, an aviation influencer who purposefully crashed his plane in the mountains.
 
 ###Lesson Plan
-Again from Project 3, I wrote a sample lesson plan following the common genre conventions of fact based lessons that provide no additional information beyond what is required.
+Again from Project 3, I wrote a sample lesson plan following the common genre conventions of fact-based lessons that provide no additional information beyond what is required.
 
 !"/enc1102/enc1102-final/research-genre-production/lesson"Steep Turns Lesson Plan
 
