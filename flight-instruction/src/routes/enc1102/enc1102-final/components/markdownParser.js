@@ -158,3 +158,9 @@ parseMarkdown("/multiple-ways-of-writing/");
 parseMarkdown("/research-genre-production/");
 parseMarkdown("/research-genre-production/article/");
 parseMarkdown("/revision/");
+
+parseMarkdown("/maneuvers/basicinstrument/");
+
+parseMarkdown("/maneuvers/goaround/");
+
+parseMarkdown("/maneuvers/stalls/");

@@ -2,7 +2,7 @@
 
 Each field has specific conventions that follow similar guidelines, whether explicit or implicit. However, inside of those fields are subgenres that conform to their own unique standard. Being able to properly communicate in each of those subgenres allow someone to be an effective communicator.
 
-Throughout this semester, we practiced writing in a multitude of ways, however my article in Project 3 and the in class exercise of writing a post-card were the most beneficial in achieveing this learning outcome.
+Throughout this semester, we practiced writing in a multitude of ways, however my article in Project 3 and the informational graphics I created were the most beneficial in achieveing this learning outcome.
 
 --
 
