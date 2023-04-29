@@ -38,7 +38,7 @@
 <Button href='/enc1102/enc1102-final/research-genre-production/article'>How to Crash Land in the Mountains with Style and Grace</Button>
 <P>This article mainly took inspiration from Paul Bertorelli and intended to also poke fun at Trevor Jacob, an aviation influencer who purposefully crashed his plane in the mountains.</P>
 <Heading tag='h5'>Lesson Plan</Heading>
-<P>Again from Project 3, I wrote a sample lesson plan following the common genre conventions of fact based lessons that provide no additional information beyond what is required.</P>
+<P>Again from Project 3, I wrote a sample lesson plan following the common genre conventions of fact-based lessons that provide no additional information beyond what is required.</P>
 <Button href='/enc1102/enc1102-final/research-genre-production/lesson'>Steep Turns Lesson Plan</Button>
 <P>Both of these artifacts attempted to mainly follow the genre criterion for each medium, with slight twists.</P>
 </div></div>

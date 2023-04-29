@@ -1,7 +1,7 @@
 
 
 <Navbar let:hidden let:toggle>
-    <NavBrand href="/">
+    <NavBrand href="/enc1102/enc1102-final">
       <img
         src={logoDecoded}
         class="mr-3 h-6 sm:h-9"
