@@ -160,5 +160,6 @@ parseMarkdown("maneuvers/basicinstrument/");
 parseMarkdown("maneuvers/steepturns/");
 parseMarkdown("maneuvers/spinawareness/");
 parseMarkdown("maneuvers/groundreference/");
+parseMarkdown("maneuvers/emergency/emergencydescent/");
 
 parseMarkdown("study/");
