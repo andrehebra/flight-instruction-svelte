@@ -71,6 +71,12 @@
 
         </div>
 
+        <Heading>Emergency Maneuvers</Heading>
+        <div class="list">
+            <LessonCard title="Emergency Descent" sub="Learn how to properly execute an emergency descent without overstressing the airplane" link="/maneuvers/emergency/emergencydescent"></LessonCard>
+            <LessonCard title="Engine Failure to a Landing" sub="Learn how to properly deal with an engine failure and make a successful landing" link="/maneuvers/emergency/enginefailure"></LessonCard>
+        </div>
+
         <Heading>Other Maneuvers</Heading>
         <div class="list">
             <LessonCard title="Basic Instrument Maneuvers" sub="Learn the basics of instrument flying to be prepared for a potential VFR into IMC encounter" link="/maneuvers/basicinstrument"></LessonCard>
