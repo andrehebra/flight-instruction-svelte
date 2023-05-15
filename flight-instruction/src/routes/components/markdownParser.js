@@ -162,5 +162,6 @@ parseMarkdown("maneuvers/spinawareness/");
 parseMarkdown("maneuvers/groundreference/");
 parseMarkdown("maneuvers/emergency/emergencydescent/");
 parseMarkdown("maneuvers/emergency/enginefailure/");
+parseMarkdown("maneuvers/steepspiral/");
 
 parseMarkdown("study/");

@@ -83,6 +83,11 @@
             <LessonCard title="Steep Turns" sub="Learn how to properly perform steep turns and understand the concepts that can make them tricky" link="/maneuvers/steepturns"></LessonCard>
             <LessonCard title="Spin Awareness" sub="Learn the causes of spins and proper recovery techniques" link="/maneuvers/spinawareness"></LessonCard>
         </div>
+
+        <Heading>Commercial Maneuvers</Heading>
+        <div class="list">
+            <LessonCard title="Steep Sprial" sub="Learn how to perform a steep spiral" link="/maneuvers/steepspiral"></LessonCard>
+        </div>
 </div>
 
 
