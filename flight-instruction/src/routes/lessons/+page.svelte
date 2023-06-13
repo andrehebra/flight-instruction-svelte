@@ -24,8 +24,22 @@
             <LessonCard  link="/lessons/foi/instructorresponsibilitiesandprofessionalism"class='lessonCard' title="Instructor Responsibilities and Professionalism" sub=""/>
             <LessonCard  link="/lessons/foi/techniquesofflightinstruction"class='lessonCard' title="Techniques of Flight Instruction" sub=""/>
             <LessonCard  link="/lessons/foi/riskmanagement"class='lessonCard' title="Risk Management" sub=""/>
-            
-            
+        </div>
+    <Heading>Technical Subject Areas</Heading>
+        <div class="list">
+            <LessonCard  link="/lessons/technicalsubjects/aeromedical"class='lessonCard' title="Aeromedical Factors" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/incursionavoidance"class='lessonCard' title="Runway Incursion Avoidance" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/scanningandcollisionavoidance"class='lessonCard' title="Visual Scanning and Collision Avoidance" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/principlesofflight"class='lessonCard' title="Principles of Flight" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/flightcontrols"class='lessonCard' title="Airplane Flight Controls" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/weightandbalance"class='lessonCard' title="Weight and Balance" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/navandflightplanning"class='lessonCard' title="Navigation and Flight Planning" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/nightoperations"class='lessonCard' title="Night Operations" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/highaltoperations"class='lessonCard' title="High Altitude Operations" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/cfrandpublications"class='lessonCard' title="14 CFR and Publications" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/nationalairspacesystem"class='lessonCard' title="National Airspace System" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/navigationsystemsandradarservices"class='lessonCard' title="Navigation Systems and Radar Services" sub=""/>
+            <LessonCard  link="/lessons/technicalsubjects/logbookentriesandendorsements"class='lessonCard' title="Logbook Entries and Certificate Endorsements" sub=""/>
         </div>
 </div>
 

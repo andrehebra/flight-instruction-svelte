@@ -172,3 +172,17 @@ parseMarkdown("lessons/foi/learningprocess/");
 parseMarkdown("lessons/foi/riskmanagement/");
 parseMarkdown("lessons/foi/teachingprocess/");
 parseMarkdown("lessons/foi/techniquesofflightinstruction/");
+
+parseMarkdown("lessons/technicalsubjects/aeromedical/");
+parseMarkdown("lessons/technicalsubjects/cfrandpublications/");
+parseMarkdown("lessons/technicalsubjects/flightcontrols/");
+parseMarkdown("lessons/technicalsubjects/highaltoperations/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/");
+parseMarkdown("lessons/technicalsubjects/logbookentriesandendorsements/");
+parseMarkdown("lessons/technicalsubjects/nationalairspacesystem/");
+parseMarkdown("lessons/technicalsubjects/navandflightplanning/");
+parseMarkdown("lessons/technicalsubjects/navigationsystemsandradarservices/");
+parseMarkdown("lessons/technicalsubjects/nightoperations/");
+parseMarkdown("lessons/technicalsubjects/principlesofflight/");
+parseMarkdown("lessons/technicalsubjects/weightandbalance/");
+parseMarkdown("lessons/technicalsubjects/scanningandcollisionavoidance/");
