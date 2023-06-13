@@ -165,4 +165,10 @@ parseMarkdown("maneuvers/emergency/enginefailure/");
 parseMarkdown("maneuvers/steepspiral/");
 parseMarkdown("maneuvers/poweroff180/");
 
-parseMarkdown("study/");
+parseMarkdown("lessons/foi/assessmentandcritique/");
+parseMarkdown("lessons/foi/humanbehaviorandeffectivecommunication/");
+parseMarkdown("lessons/foi/instructorresponsibilitiesandprofessionalism/");
+parseMarkdown("lessons/foi/learningprocess/");
+parseMarkdown("lessons/foi/riskmanagement/");
+parseMarkdown("lessons/foi/teachingprocess/");
+parseMarkdown("lessons/foi/techniquesofflightinstruction/");
