@@ -69,7 +69,10 @@ function parseMarkdown(path) {
                     appendSvelte("<Heading tag='h1'>" + singleLine + "</Heading>");
                 } else if (singleLine[0] == '@') {
                     singleLine = singleLine.substring(1);
-                    appendSvelte('<div class="image"><Img size="max-w-full" src=' + singleLine + '></Img></div>')
+                    appendSvelte('<div class="image"><Img size="max-w-full" src=' + singleLine + '></Img></div>');
+                } else if (singleLine[0] == '&') {
+                    singleLine = singleLine.substring(1);
+                    appendSvelte('<div class="image"><Img size="max-w-full" src="https://imagedelivery.net/bfLWD0Qjtd593vL0tnvGqQ/' + singleLine + '/public"></Img></div>');
                 } else if (singleLine[0] == '$') {
                     singleLine = singleLine.substring(1);
                     appendSvelte('<Blockquote border bg class="p-4 my-4"><P size="sm" height="relaxed">' + singleLine + '</P></Blockquote>')
