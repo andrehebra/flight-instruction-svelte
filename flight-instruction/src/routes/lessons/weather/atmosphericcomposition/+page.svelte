@@ -12,7 +12,7 @@
 <Heading tag='h1'>The Earth's Atmosphere</Heading>
 <P>The basic characteristics of the atmosphere are directly related to the weather. Having a full understanding of the atmosphere can make understanding most weather phenominon much more simple.</P>
 <Heading tag='h2'>Composition</Heading>
-<P>Earth's atmosphere consists of man</P>
+<P>Earth's atmosphere consists of various gasses, but those gasses are </P>
 <div class="image"><Img size="max-w-full" src="https://imagedelivery.net/bfLWD0Qjtd593vL0tnvGqQ/344ed39c-ea1a-4989-dc8b-e400a7da4900/public"></Img></div>
 </div></div>
 

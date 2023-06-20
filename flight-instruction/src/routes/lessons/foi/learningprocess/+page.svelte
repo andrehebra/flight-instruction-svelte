@@ -76,9 +76,8 @@
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Domains of Learning</Heading>
 <P>Cognitive (knowledge), Affective (attitude), and Psychomotor (skills).</P>
-<div class="image"><Img size="max-w-full" src=https://i.imgur.com/aDln6CD.png></Img></div>
+<div class="image"><Img size="max-w-full" src="https://i.imgur.com/aDln6CD.png"></Img></div>
 <Heading tag='h5'>Cognitive Domain</Heading>
-<div class="image"><Img size="max-w-full" src=></Img></div>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Characteristics of Learning</Heading>
 <Hr class="my-8" height="h-px" />

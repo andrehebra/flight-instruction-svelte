@@ -110,11 +110,10 @@ The most recently learned thing is best remembered
 
 Cognitive (knowledge), Affective (attitude), and Psychomotor (skills).
 
-@https://i.imgur.com/aDln6CD.png
+@"https://i.imgur.com/aDln6CD.png"
 
 ###Cognitive Domain
 
-@
 
 
 
