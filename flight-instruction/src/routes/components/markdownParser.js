@@ -186,3 +186,5 @@ parseMarkdown("lessons/technicalsubjects/nightoperations/");
 parseMarkdown("lessons/technicalsubjects/principlesofflight/");
 parseMarkdown("lessons/technicalsubjects/weightandbalance/");
 parseMarkdown("lessons/technicalsubjects/scanningandcollisionavoidance/");
+
+parseMarkdown("lessons/weather/atmosphericcomposition/");
