@@ -10,7 +10,7 @@
 <div class="holder"><div class="contents">
 
 <Heading tag='h1'>Human Needs</Heading>
-<P>Below is a picture of Maslow's heirarchy of needs, which was developed by Abraham Maslow, who studied human needs, motivation, and personality.</P>
+<P>Below is a picture of Maslow's hierarchy of needs, which was developed by Abraham Maslow, who studied human needs, motivation, and personality.</P>
 <div class="image"><Img size="max-w-full" src="https://imagedelivery.net/bfLWD0Qjtd593vL0tnvGqQ/12c077d7-b72d-4973-aec0-f9f39fdbb400/public"></Img></div>
 <P>We can think of these needs as an ordered list. In order to satisfy the need above, one must satisfy the need below. For example, it is not possible for someone to have high self esteem without feeling love. Below is a description of each need. As an instructor, it is important to understand how these needs relate to one's ability to provide instruction to a learner.</P>
 <Hr class="my-8" height="h-px" />

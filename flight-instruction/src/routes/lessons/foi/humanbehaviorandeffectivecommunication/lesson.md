@@ -11,6 +11,10 @@ Understanding human behavior and effective communication is critical in deliveri
 
 We are basically looking for certain predictable patters in the way that many people respond and act in certain situations. This does not mean that every person will act the same, but it can explain general ideas in a way that can be especially useful when attempting to teach concepts to a diverse group of people.
 
+
+--
+
+
 ##Human Needs
 
 All human needs can be thought of as the things that a person requires for normal growth and development. These needs are satisfied in order of importance. Maslow's Hierarchy of Human Needs is a great outline of human needs and the order in which they can be satisfied:
@@ -24,9 +28,28 @@ All human needs can be thought of as the things that a person requires for norma
 *Cognitive and Aesthetic
 *Self-Actualization
 
+
+--
+
+
 ##Motivation
 
 Motivation is the reason that a person acts or behaves in a certain way. It determines the amount of effort a person will put in to reach their goals.
+
+###Where does Motivation Come From?
+
+Motivation, including the motivation to want to become a pilot, can come from various sources. Some people just love airplanes, while others see it as a path to improve their technical skills. Some people simply like to learn new things.
+
+Whatever the case may be, it is important that an instructor understands a learner's motivations and can tailor their instruction to them. Keeping motivation high during training will improve outcomes and keep every interaction fresh.
+
+###Maintaining Motivation
+
+There is not one single way to motivate all people. Instead, look into incorporating the following ideas into your training:
+
+!"humanbehaviorandeffectivecommunication/maintainingmotivation"Methods of Maintaining Motivation Specific to Flight Instruction
+
+--
+
 
 ##Defense Mechanisms
 

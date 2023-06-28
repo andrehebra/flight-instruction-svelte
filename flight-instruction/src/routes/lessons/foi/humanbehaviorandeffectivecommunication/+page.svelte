@@ -16,6 +16,7 @@
 <Li>The product of factors that cause people to act in predictable ways</Li>
 <Li>The result of attempts to satisfy certain needs</Li></List>
 <P>We are basically looking for certain predictable patters in the way that many people respond and act in certain situations. This does not mean that every person will act the same, but it can explain general ideas in a way that can be especially useful when attempting to teach concepts to a diverse group of people.</P>
+<Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Human Needs</Heading>
 <P>All human needs can be thought of as the things that a person requires for normal growth and development. These needs are satisfied in order of importance. Maslow's Hierarchy of Human Needs is a great outline of human needs and the order in which they can be satisfied:</P>
 <Button href='humanbehaviorandeffectivecommunication/humanneeds'>Explanations of Each Human Need</Button>
@@ -25,8 +26,16 @@
 <Li>Esteem (internally and externally)</Li>
 <Li>Cognitive and Aesthetic</Li>
 <Li>Self-Actualization</Li></List>
+<Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Motivation</Heading>
 <P>Motivation is the reason that a person acts or behaves in a certain way. It determines the amount of effort a person will put in to reach their goals.</P>
+<Heading tag='h5'>Where does Motivation Come From?</Heading>
+<P>Motivation, including the motivation to want to become a pilot, can come from various sources. Some people just love airplanes, while others see it as a path to improve their technical skills. Some people simply like to learn new things.</P>
+<P>Whatever the case may be, it is important that an instructor understands a learner's motivations and can tailor their instruction to them. Keeping motivation high during training will improve outcomes and keep every interaction fresh.</P>
+<Heading tag='h5'>Maintaining Motivation</Heading>
+<P>There is not one single way to motivate all people. Instead, look into incorporating the following ideas into your training:</P>
+<Button href='humanbehaviorandeffectivecommunication/maintainingmotivation'>Methods of Maintaining Motivation Specific to Flight Instruction</Button>
+<Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Defense Mechanisms</Heading>
 <P>Defense mechanisms are an unconscious psychological operation that functions to protect a person from anxiety-producing thoughts and feelings related to internal conflicts and outer stressors. These directly go against an instructors ability to properly teach.</P>
 <Button href='humanbehaviorandeffectivecommunication/defensemechanisms'>Explanations of Each Defense Mechanism</Button>

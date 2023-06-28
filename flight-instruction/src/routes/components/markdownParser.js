@@ -173,6 +173,7 @@ parseMarkdown("lessons/foi/assessmentandcritique/");
 parseMarkdown("lessons/foi/humanbehaviorandeffectivecommunication/");
 parseMarkdown("lessons/foi/humanbehaviorandeffectivecommunication/defensemechanisms/");
 parseMarkdown("lessons/foi/humanbehaviorandeffectivecommunication/humanneeds/");
+parseMarkdown("lessons/foi/humanbehaviorandeffectivecommunication/maintainingmotivation/");
 
 parseMarkdown("lessons/foi/instructorresponsibilitiesandprofessionalism/");
 parseMarkdown("lessons/foi/learningprocess/");
