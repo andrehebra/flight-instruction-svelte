@@ -169,7 +169,10 @@ parseMarkdown("maneuvers/steepspiral/");
 parseMarkdown("maneuvers/poweroff180/");
 
 parseMarkdown("lessons/foi/assessmentandcritique/");
+
 parseMarkdown("lessons/foi/humanbehaviorandeffectivecommunication/");
+parseMarkdown("lessons/foi/humanbehaviorandeffectivecommunication/defensemechanisms/");
+
 parseMarkdown("lessons/foi/instructorresponsibilitiesandprofessionalism/");
 parseMarkdown("lessons/foi/learningprocess/");
 parseMarkdown("lessons/foi/riskmanagement/");

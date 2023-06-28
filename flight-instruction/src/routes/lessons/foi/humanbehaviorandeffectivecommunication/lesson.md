@@ -30,6 +30,8 @@ Motivation is the reason that a person acts or behaves in a certain way. It dete
 
 Defense mechanisms are an unconscious psychological operation that functions to protect a person from anxiety-producing thoughts and feelings related to internal conflicts and outer stressors. These directly go against an instructors ability to properly teach.
 
+!"humanbehaviorandeffectivecommunication/defensemechanisms"Explanations of Each Defense Mechanism
+
 *Denial
 *Repression
 *Displacement

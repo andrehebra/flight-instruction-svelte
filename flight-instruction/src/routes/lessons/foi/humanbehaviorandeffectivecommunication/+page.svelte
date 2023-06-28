@@ -28,6 +28,7 @@
 <P>Motivation is the reason that a person acts or behaves in a certain way. It determines the amount of effort a person will put in to reach their goals.</P>
 <Heading tag='h2'>Defense Mechanisms</Heading>
 <P>Defense mechanisms are an unconscious psychological operation that functions to protect a person from anxiety-producing thoughts and feelings related to internal conflicts and outer stressors. These directly go against an instructors ability to properly teach.</P>
+<Button href='humanbehaviorandeffectivecommunication/defensemechanisms'>Explanations of Each Defense Mechanism</Button>
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Denial</Li>
 <Li>Repression</Li>
 <Li>Displacement</Li>
