@@ -1,6 +1,6 @@
 #Human Needs
 
-Below is a picture of Maslow's heirarchy of needs, which was developed by Abraham Maslow, who studied human needs, motivation, and personality.
+Below is a picture of Maslow's hierarchy of needs, which was developed by Abraham Maslow, who studied human needs, motivation, and personality.
 
 &12c077d7-b72d-4973-aec0-f9f39fdbb400
 
