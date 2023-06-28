@@ -15,6 +15,8 @@ We are basically looking for certain predictable patters in the way that many pe
 
 All human needs can be thought of as the things that a person requires for normal growth and development. These needs are satisfied in order of importance. Maslow's Hierarchy of Human Needs is a great outline of human needs and the order in which they can be satisfied:
 
+!"humanbehaviorandeffectivecommunication/humanneeds"Explanations of Each Human Need
+
 *Physiological Needs
 *Security
 *Belonging (social needs)

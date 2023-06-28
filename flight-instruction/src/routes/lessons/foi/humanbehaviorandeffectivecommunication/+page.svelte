@@ -18,6 +18,7 @@
 <P>We are basically looking for certain predictable patters in the way that many people respond and act in certain situations. This does not mean that every person will act the same, but it can explain general ideas in a way that can be especially useful when attempting to teach concepts to a diverse group of people.</P>
 <Heading tag='h2'>Human Needs</Heading>
 <P>All human needs can be thought of as the things that a person requires for normal growth and development. These needs are satisfied in order of importance. Maslow's Hierarchy of Human Needs is a great outline of human needs and the order in which they can be satisfied:</P>
+<Button href='humanbehaviorandeffectivecommunication/humanneeds'>Explanations of Each Human Need</Button>
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Physiological Needs</Li>
 <Li>Security</Li>
 <Li>Belonging (social needs)</Li>
