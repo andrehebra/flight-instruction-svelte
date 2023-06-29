@@ -9,7 +9,7 @@ Understanding human behavior and effective communication is critical in deliveri
 *The product of factors that cause people to act in predictable ways
 *The result of attempts to satisfy certain needs
 
-We are basically looking for certain predictable patters in the way that many people respond and act in certain situations. This does not mean that every person will act the same, but it can explain general ideas in a way that can be especially useful when attempting to teach concepts to a diverse group of people.
+We are basically looking for certain predictable patterns in the way that many people respond and act in certain situations. This does not mean that every person will act the same, but it can explain general ideas in a way that can be especially useful when attempting to teach concepts to a diverse group of people.
 
 
 --
