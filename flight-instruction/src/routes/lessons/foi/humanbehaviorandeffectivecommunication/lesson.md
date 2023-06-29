@@ -66,11 +66,15 @@ Defense mechanisms are an unconscious psychological operation that functions to 
 *Projection
 *Reaction Formation
 
-##Anxiety and Stress
+
+--
+
+
+##Anxiety and Stress / Emotional Reactions
 
 ###Anxiety
 
-Anxiety is a feeling of worry, nervousness often about something that is going to happen
+Anxiety is a feeling of worry, nervousness often about something that is going to happen.
 
 Reactions to anxiety can vary, but generally there are a few ways in which people react to stress.
 
@@ -87,12 +91,21 @@ Rapid and exact response within the limits of the experience and training
 *Inappropriate laughter or singing
 *Marked changes in mood on different lessons
 
+###Seriously Abnormal Students
+
+If an instructor believes a student may be suffering from a serious psychological abnormality, they have a responsibility to refrain from instructing that student.
+
+Additionally, the instructor has the responsibility of assuring that this person does not continue flight training. Possible steps to achieve this goal are:
+
+*Arrange for another instructor to conduct an evaluation flight. That way, you can both determine whether or not further investigation or action is required
+*Do not endorse a student who you believe to be exhibiting seriously abnormal psychological conditions
+
 
 --
 
 ##Effective Communication
 
-Effective communication is extremely important in flight instruction, not only to properly transfer information in a way that a learner can understand, but also in minimizing the amount of time wasted during instruction.
+Effective communication is extremely important in flight instruction, not only to properly transfer information in a way that a learner can understand, but also in minimizing the amount of time wasted during instruction. If endorsements have already been provided, they should be withheld
 
 ###Basic Elements of Communication
 
@@ -100,12 +113,15 @@ Effective communication is extremely important in flight instruction, not only t
 *Symbols (words, expressions, gestures, etc.)
 *Receiver (listener, student, reader, etc.)
 
+!"humanbehaviorandeffectivecommunication/basicelementsofcommunication/"Breakdown of Elements of Communication
+
 ###Barriers to Effective Communication
 
 *Confusion between the symbols and the symbolized object
 *Overuse of abstractions
 *Interference
 *Lack of common experience
+*External Factors
 
 ###Methods of Developing Communication Skills
 

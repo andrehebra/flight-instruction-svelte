@@ -47,9 +47,10 @@
 <Li>Compensation</Li>
 <Li>Projection</Li>
 <Li>Reaction Formation</Li></List>
-<Heading tag='h2'>Anxiety and Stress</Heading>
+<Hr class="my-8" height="h-px" />
+<Heading tag='h2'>Anxiety and Stress / Emotional Reactions</Heading>
 <Heading tag='h5'>Anxiety</Heading>
-<P>Anxiety is a feeling of worry, nervousness often about something that is going to happen</P>
+<P>Anxiety is a feeling of worry, nervousness often about something that is going to happen.</P>
 <P>Reactions to anxiety can vary, but generally there are a few ways in which people react to stress.</P>
 <Heading tag='h5'>Normal Reactions to Stress</Heading>
 <P>Rapid and exact response within the limits of the experience and training</P>
@@ -60,13 +61,19 @@
 <Li>Severe anger directed towards the flight instructor, service personnel, and others</Li>
 <Li>Inappropriate laughter or singing</Li>
 <Li>Marked changes in mood on different lessons</Li></List>
+<Heading tag='h5'>Seriously Abnormal Students</Heading>
+<P>If an instructor believes a student may be suffering from a serious psychological abnormality, they have a responsibility to refrain from instructing that student.</P>
+<P>Additionally, the instructor has the responsibility of assuring that this person does not continue flight training. Possible steps to achieve this goal are:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Arrange for another instructor to conduct an evaluation flight. That way, you can both determine whether or not further investigation or action is required</Li>
+<Li>Do not endorse a student who you believe to be exhibiting seriously abnormal psychological conditions</Li></List>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Effective Communication</Heading>
-<P>Effective communication is extremely important in flight instruction, not only to properly transfer information in a way that a learner can understand, but also in minimizing the amount of time wasted during instruction.</P>
+<P>Effective communication is extremely important in flight instruction, not only to properly transfer information in a way that a learner can understand, but also in minimizing the amount of time wasted during instruction. If endorsements have already been provided, they should be withheld</P>
 <Heading tag='h5'>Basic Elements of Communication</Heading>
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Source (the sender of the information)</Li>
 <Li>Symbols (words, expressions, gestures, etc.)</Li>
 <Li>Receiver (listener, student, reader, etc.)</Li></List>
+<Button href='humanbehaviorandeffectivecommunication/basicelementsofcommunication/'>Breakdown of Elements of Communication</Button>
 <Heading tag='h5'>Barriers to Effective Communication</Heading>
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Confusion between the symbols and the symbolized object</Li>
 <Li>Overuse of abstractions</Li>
