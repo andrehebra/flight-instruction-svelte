@@ -142,6 +142,25 @@ This domain is skill based and includes movement, coordiation, and use of motor 
 ##Characteristics of Learning
 
 
+Being able to learn is a unique gift of humans. People learn throughout their lives, regardless of whether there is an instructor there or not. Understanding how learning works, however, can improve the learning process for learners.
+
+###Learning is Purposeful
+
+Each learner has specific intentions and goals. Aviation instructors need to find ways to relate new learning to a learner's goals to give it a sense of purpose.
+
+###Learning is a Result of Experience
+
+Without experiences, no learning can occur. Because of this, aviation instructors need to provide learning experiences that are meaningful, varied, and appropriate.
+
+###Learning is Multifaceted
+
+Instructors need to tailor their learning experiences to multiple senses and types. Fully exercising a learners mind can accelerate the process of learning.
+
+###Learning is an Active Process
+
+Just because something was said in front of a learner, does not mean that they took in that information or remembered it. Learners need to actively engage in the process to make it effective.
+
+
 --
 
 ##Acquiring Knowledge
@@ -158,6 +177,20 @@ An aviation instructor's job is to help learners acquire knowledge. We can break
 --
 
 ##Types of Practice
+
+Practice is required for a learner to maintain and grow their knowledge. There are three types of practice that are most useful to aviation instructors:
+
+###Deliberate Practice
+
+Deliberate practice involves training to make a specific skill automatic. A specific time should be set aside for this practice, and distractions should be minimized. Feedback should also be brief and explicit. 
+
+###Blocked Practice
+
+Blocked practice involves doing the same drill until the movement is automatic. An example of this would be spending 2 hours doing short field landings. This type of practice may improve short-term performance, but degrade long term performance. Additionally, instructors and learners may be fooled into thinking their skills have dramatically improved.
+
+###Random Practice
+
+This type of practice mixes up the skills to be acquired throughout the practice session. This type of practice leads to the best retention because learners begin to recognize the similarities and differences between different skills and activities.
 
 
 --

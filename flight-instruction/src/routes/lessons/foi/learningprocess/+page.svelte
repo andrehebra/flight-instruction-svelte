@@ -95,6 +95,15 @@
 <Li>Habit</Li></List>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Characteristics of Learning</Heading>
+<P>Being able to learn is a unique gift of humans. People learn throughout their lives, regardless of whether there is an instructor there or not. Understanding how learning works, however, can improve the learning process for learners.</P>
+<Heading tag='h5'>Learning is Purposeful</Heading>
+<P>Each learner has specific intentions and goals. Aviation instructors need to find ways to relate new learning to a learner's goals to give it a sense of purpose.</P>
+<Heading tag='h5'>Learning is a Result of Experience</Heading>
+<P>Without experiences, no learning can occur. Because of this, aviation instructors need to provide learning experiences that are meaningful, varied, and appropriate.</P>
+<Heading tag='h5'>Learning is Multifaceted</Heading>
+<P>Instructors need to tailor their learning experiences to multiple senses and types. Fully exercising a learners mind can accelerate the process of learning.</P>
+<Heading tag='h5'>Learning is an Active Process</Heading>
+<P>Just because something was said in front of a learner, does not mean that they took in that information or remembered it. Learners need to actively engage in the process to make it effective.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Acquiring Knowledge</Heading>
 <P>An aviation instructor's job is to help learners acquire knowledge. We can break down the phases of knowledge into 3 distinct categories:</P>
@@ -103,6 +112,13 @@
 <P>3. Concept Learning: This occurs when individuals formulate generalized concepts from particular facts or steps. Understanding the particular characteristics of a group, a learner can determine whether or not a new item they have never seen before belongs in that group.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Types of Practice</Heading>
+<P>Practice is required for a learner to maintain and grow their knowledge. There are three types of practice that are most useful to aviation instructors:</P>
+<Heading tag='h5'>Deliberate Practice</Heading>
+<P>Deliberate practice involves training to make a specific skill automatic. A specific time should be set aside for this practice, and distractions should be minimized. Feedback should also be brief and explicit. </P>
+<Heading tag='h5'>Blocked Practice</Heading>
+<P>Blocked practice involves doing the same drill until the movement is automatic. An example of this would be spending 2 hours doing short field landings. This type of practice may improve short-term performance, but degrade long term performance. Additionally, instructors and learners may be fooled into thinking their skills have dramatically improved.</P>
+<Heading tag='h5'>Random Practice</Heading>
+<P>This type of practice mixes up the skills to be acquired throughout the practice session. This type of practice leads to the best retention because learners begin to recognize the similarities and differences between different skills and activities.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Scenario-Based Training</Heading>
 <Hr class="my-8" height="h-px" />
