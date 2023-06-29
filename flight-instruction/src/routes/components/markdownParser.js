@@ -181,7 +181,9 @@ parseMarkdown("lessons/foi/humanbehaviorandeffectivecommunication/basicelementso
 
 parseMarkdown("lessons/foi/instructorresponsibilitiesandprofessionalism/");
 parseMarkdown("lessons/foi/learningprocess/");
+
 parseMarkdown("lessons/foi/riskmanagement/");
+parseMarkdown("lessons/foi/riskmanagement/principles/");
 
 parseMarkdown("lessons/foi/teachingprocess/");
 parseMarkdown("lessons/foi/teachingprocess/lessonintroduction/");
