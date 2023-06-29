@@ -169,6 +169,9 @@ parseMarkdown("maneuvers/steepspiral/");
 parseMarkdown("maneuvers/poweroff180/");
 
 parseMarkdown("lessons/foi/assessmentandcritique/");
+parseMarkdown("lessons/foi/assessmentandcritique/writtentest/");
+parseMarkdown("lessons/foi/assessmentandcritique/effectiveassessment/");
+parseMarkdown("lessons/foi/assessmentandcritique/authenticassessment/");
 
 parseMarkdown("lessons/foi/humanbehaviorandeffectivecommunication/");
 parseMarkdown("lessons/foi/humanbehaviorandeffectivecommunication/defensemechanisms/");
