@@ -179,7 +179,14 @@ parseMarkdown("lessons/foi/humanbehaviorandeffectivecommunication/basicelementso
 parseMarkdown("lessons/foi/instructorresponsibilitiesandprofessionalism/");
 parseMarkdown("lessons/foi/learningprocess/");
 parseMarkdown("lessons/foi/riskmanagement/");
+
 parseMarkdown("lessons/foi/teachingprocess/");
+parseMarkdown("lessons/foi/teachingprocess/lessonintroduction/");
+parseMarkdown("lessons/foi/teachingprocess/lessondevelopment/");
+parseMarkdown("lessons/foi/teachingprocess/guideddiscussion/");
+parseMarkdown("lessons/foi/teachingprocess/demonstrationperformancemethod/");
+
+
 parseMarkdown("lessons/foi/techniquesofflightinstruction/");
 
 parseMarkdown("lessons/technicalsubjects/aeromedical/");
