@@ -124,8 +124,15 @@ Cognitive (knowledge), Affective (attitude), and Psychomotor (skills).
 
 --
 
-##Acquiring Skill Knowledge
+##Acquiring Knowledge
 
+An aviation instructor's job is to help learners acquire knowledge. We can break down the phases of knowledge into 3 distinct categories:
+
+1. Memorization: memorization of facts is a great way to quickly injest large amounts of information. For example, someone may memorize which dials on the altimeter give which readings. In this stage, people will not have an in depth understanding of a topic and cannot answer in depth questions that aren't directly asking about the information that was memorized.
+
+2. Understanding: This stage is marked by the ability to notice similarities and make associations between facts. When a learner organizes known facts into coherent groups, they are at the undertanding stage. Additionally, they should be able to answer more complex questions about a topic spanning multiple groups of information.
+
+3. Concept Learning: This occurs when individuals formulate generalized concepts from particular facts or steps. Understanding the particular characteristics of a group, a learner can determine whether or not a new item they have never seen before belongs in that group.
 
 
 --
