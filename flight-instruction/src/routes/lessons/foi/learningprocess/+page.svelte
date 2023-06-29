@@ -121,10 +121,41 @@
 <P>This type of practice mixes up the skills to be acquired throughout the practice session. This type of practice leads to the best retention because learners begin to recognize the similarities and differences between different skills and activities.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Scenario-Based Training</Heading>
+<P>Scenario-Based Training involves practicing in realistic scenarios. This type of training is critical to creating compitent pilots. Asking learners real world questions can be challenging, as it will involve many different skills converging into one question. A good SBT question will:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Have a clear set of objectives</Li>
+<Li>Be tailored to the needs of the learner</Li>
+<Li>Capitalize on the nuances of the local environment</Li></List>
+<P>This type of training is also useful for both the instructor and learner to recognize what needs more practice or what is unknown.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Errors</Heading>
+<P>Errors will always occur, even for experienced pilots. It is important to understand the types of errors that can occur to reduce them. These are:</P>
+<P>1. Slip: A slip is when a person plans to do one thing, but then inadvertently does something else. These can be defined as errors of action.</P>
+<P>2. Mistake: A mistake is when a person plans to do the wrong thing and is successful in doing that incorrect thing. </P>
+<P>The important distinction between these two is the previous intentions before the error has occured. Understanding whether an error was a slip or mistake will make a difference in the evaluation and additional training required.</P>
+<Heading tag='h5'>Reducing Errors</Heading>
+<P>While errors will never be completely eliminated, there are a few useful tips to use to reduce them:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Learning and practicing</Li>
+<Li>Taking time</Li>
+<Li>Checking for errors</Li>
+<Li>Using reminders</Li>
+<Li>Developing routines</Li>
+<Li>Raising awareness</Li></List>
+<Heading tag='h5'>Error Recovery</Heading>
+<P>All learners should practice recovery from common errors to be prepared for them. An instructor cannot assume that their learner will not make errors.</P>
+<Heading tag='h5'>Learning from Errors</Heading>
+<P>When a learner makes an error, it is important that an instructor constructively teach about the hazards and reasons the error occured. </P>
+<P>Often times, instructors and learners can dismiss errors as one time occurances without reflecting on them, but this does not lead to safety, accepting errors and working to prevent them in the future does.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Memory and Forgetting</Heading>
+<P>Memory is the linke between the learner learning/retaining information and the cognitive process of applying what is learned. Overall, memory is the ability to encode perceptions, store them, and retrieve that information at another time. We can break down memory into subsequent parts:</P>
+<Heading tag='h5'>Sensory Memory</Heading>
+<P>The part of the memory system that receives initial stimuli from the environment and processes them according to the individuals preconceived concept of what is important.</P>
+<Heading tag='h5'>Short Term Memory</Heading>
+<P>Short term memory is generally stored for about 30 seconds, where it will either fade or be converted into long-term memory. Rehersal and reptition are good strategies for retaining information in this system.</P>
+<P>Short term memory will sort information into categories or chunks in a process called coding. </P>
+<Heading tag='h5'>Long Term Memory</Heading>
+<P>Long term memory has an essentially infinite capacity. Memories in this system can remain for a lifetime. Information transferred to long term memory generally has a great amount of significance attached to it.</P>
+<P>Information in long term memory is stored in interrelated networks of schemas which are the cognitive frameworks that help people organize and interpret information. New information will be interpreted based on these schemas.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Retention of Learning</Heading>
 <Hr class="my-8" height="h-px" />

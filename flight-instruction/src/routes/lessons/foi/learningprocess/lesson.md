@@ -197,19 +197,69 @@ This type of practice mixes up the skills to be acquired throughout the practice
 
 ##Scenario-Based Training
 
+Scenario-Based Training involves practicing in realistic scenarios. This type of training is critical to creating compitent pilots. Asking learners real world questions can be challenging, as it will involve many different skills converging into one question. A good SBT question will:
+
+*Have a clear set of objectives
+*Be tailored to the needs of the learner
+*Capitalize on the nuances of the local environment
+
+This type of training is also useful for both the instructor and learner to recognize what needs more practice or what is unknown.
 
 
 --
 
 ##Errors
 
+Errors will always occur, even for experienced pilots. It is important to understand the types of errors that can occur to reduce them. These are:
 
+1. Slip: A slip is when a person plans to do one thing, but then inadvertently does something else. These can be defined as errors of action.
+
+2. Mistake: A mistake is when a person plans to do the wrong thing and is successful in doing that incorrect thing. 
+
+The important distinction between these two is the previous intentions before the error has occured. Understanding whether an error was a slip or mistake will make a difference in the evaluation and additional training required.
+
+###Reducing Errors
+
+While errors will never be completely eliminated, there are a few useful tips to use to reduce them:
+
+*Learning and practicing
+*Taking time
+*Checking for errors
+*Using reminders
+*Developing routines
+*Raising awareness
+
+###Error Recovery
+
+All learners should practice recovery from common errors to be prepared for them. An instructor cannot assume that their learner will not make errors.
+
+###Learning from Errors
+
+When a learner makes an error, it is important that an instructor constructively teach about the hazards and reasons the error occured. 
+
+Often times, instructors and learners can dismiss errors as one time occurances without reflecting on them, but this does not lead to safety, accepting errors and working to prevent them in the future does.
 
 --
 
 ##Memory and Forgetting
 
+Memory is the linke between the learner learning/retaining information and the cognitive process of applying what is learned. Overall, memory is the ability to encode perceptions, store them, and retrieve that information at another time. We can break down memory into subsequent parts:
 
+###Sensory Memory
+
+The part of the memory system that receives initial stimuli from the environment and processes them according to the individuals preconceived concept of what is important.
+
+###Short Term Memory
+
+Short term memory is generally stored for about 30 seconds, where it will either fade or be converted into long-term memory. Rehersal and reptition are good strategies for retaining information in this system.
+
+Short term memory will sort information into categories or chunks in a process called coding. 
+
+###Long Term Memory
+
+Long term memory has an essentially infinite capacity. Memories in this system can remain for a lifetime. Information transferred to long term memory generally has a great amount of significance attached to it.
+
+Information in long term memory is stored in interrelated networks of schemas which are the cognitive frameworks that help people organize and interpret information. New information will be interpreted based on these schemas.
 
 --
 
