@@ -15,7 +15,7 @@
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>An attempt to explain how and why humans function the way they do</Li>
 <Li>The product of factors that cause people to act in predictable ways</Li>
 <Li>The result of attempts to satisfy certain needs</Li></List>
-<P>We are basically looking for certain predictable patters in the way that many people respond and act in certain situations. This does not mean that every person will act the same, but it can explain general ideas in a way that can be especially useful when attempting to teach concepts to a diverse group of people.</P>
+<P>We are basically looking for certain predictable patterns in the way that many people respond and act in certain situations. This does not mean that every person will act the same, but it can explain general ideas in a way that can be especially useful when attempting to teach concepts to a diverse group of people.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Human Needs</Heading>
 <P>All human needs can be thought of as the things that a person requires for normal growth and development. These needs are satisfied in order of importance. Maslow's Hierarchy of Human Needs is a great outline of human needs and the order in which they can be satisfied:</P>
@@ -78,7 +78,8 @@
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Confusion between the symbols and the symbolized object</Li>
 <Li>Overuse of abstractions</Li>
 <Li>Interference</Li>
-<Li>Lack of common experience</Li></List>
+<Li>Lack of common experience</Li>
+<Li>External Factors</Li></List>
 <Heading tag='h5'>Methods of Developing Communication Skills</Heading>
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Listening</Li>
 <Li>Instructional Communication</Li>
