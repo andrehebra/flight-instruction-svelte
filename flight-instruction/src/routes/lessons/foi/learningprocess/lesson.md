@@ -114,7 +114,7 @@ Cognitive (knowledge), Affective (attitude), and Psychomotor (skills).
 
 ###Cognitive Domain
 
-This group indluces remembering specific facts and concepts that help develop intellectual abilities and skills. There are six major categories of this domain going from simple to complex. 
+This group includes remembering specific facts and concepts that help develop intellectual abilities and skills. There are six major categories of this domain going from simple to complex. 
 
 &c098f8bb-1c3f-49e1-e0a8-35df11961700
 
@@ -130,7 +130,7 @@ The affective domain focuses on a learner's emotions toward the educational expe
 
 ###Psychomotor
 
-This domain is skill based and includes movement, coordiation, and use of motor skills. Instructors should understand that this domain level includes:
+This domain is skill based and includes movement, coordination, and use of motor skills. Instructors should understand that this domain level includes:
 
 *Observation
 *Imitation
@@ -167,9 +167,9 @@ Just because something was said in front of a learner, does not mean that they t
 
 An aviation instructor's job is to help learners acquire knowledge. We can break down the phases of knowledge into 3 distinct categories:
 
-1. Memorization: memorization of facts is a great way to quickly injest large amounts of information. For example, someone may memorize which dials on the altimeter give which readings. In this stage, people will not have an in depth understanding of a topic and cannot answer in depth questions that aren't directly asking about the information that was memorized.
+1. Memorization: memorization of facts is a great way to quickly ingest large amounts of information. For example, someone may memorize which dials on the altimeter give which readings. In this stage, people will not have an in depth understanding of a topic and cannot answer in depth questions that aren't directly asking about the information that was memorized.
 
-2. Understanding: This stage is marked by the ability to notice similarities and make associations between facts. When a learner organizes known facts into coherent groups, they are at the undertanding stage. Additionally, they should be able to answer more complex questions about a topic spanning multiple groups of information.
+2. Understanding: This stage is marked by the ability to notice similarities and make associations between facts. When a learner organizes known facts into coherent groups, they are at the understanding stage. Additionally, they should be able to answer more complex questions about a topic spanning multiple groups of information.
 
 3. Concept Learning: This occurs when individuals formulate generalized concepts from particular facts or steps. Understanding the particular characteristics of a group, a learner can determine whether or not a new item they have never seen before belongs in that group.
 
@@ -197,7 +197,7 @@ This type of practice mixes up the skills to be acquired throughout the practice
 
 ##Scenario-Based Training
 
-Scenario-Based Training involves practicing in realistic scenarios. This type of training is critical to creating compitent pilots. Asking learners real world questions can be challenging, as it will involve many different skills converging into one question. A good SBT question will:
+Scenario-Based Training involves practicing in realistic scenarios. This type of training is critical to creating competent pilots. Asking learners real world questions can be challenging, as it will involve many different skills converging into one question. A good SBT question will:
 
 *Have a clear set of objectives
 *Be tailored to the needs of the learner
@@ -216,7 +216,7 @@ Errors will always occur, even for experienced pilots. It is important to unders
 
 2. Mistake: A mistake is when a person plans to do the wrong thing and is successful in doing that incorrect thing. 
 
-The important distinction between these two is the previous intentions before the error has occured. Understanding whether an error was a slip or mistake will make a difference in the evaluation and additional training required.
+The important distinction between these two is the previous intentions before the error has occurred. Understanding whether an error was a slip or mistake will make a difference in the evaluation and additional training required.
 
 ###Reducing Errors
 
@@ -235,15 +235,15 @@ All learners should practice recovery from common errors to be prepared for them
 
 ###Learning from Errors
 
-When a learner makes an error, it is important that an instructor constructively teach about the hazards and reasons the error occured. 
+When a learner makes an error, it is important that an instructor constructively teach about the hazards and reasons the error occurred. 
 
-Often times, instructors and learners can dismiss errors as one time occurances without reflecting on them, but this does not lead to safety, accepting errors and working to prevent them in the future does.
+Often times, instructors and learners can dismiss errors as one time occurrences without reflecting on them, but this does not lead to safety, accepting errors and working to prevent them in the future does.
 
 --
 
 ##Memory and Forgetting
 
-Memory is the linke between the learner learning/retaining information and the cognitive process of applying what is learned. Overall, memory is the ability to encode perceptions, store them, and retrieve that information at another time. We can break down memory into subsequent parts:
+Memory is the link between the learner learning/retaining information and the cognitive process of applying what is learned. Overall, memory is the ability to encode perceptions, store them, and retrieve that information at another time. We can break down memory into subsequent parts:
 
 ###Sensory Memory
 
@@ -251,7 +251,7 @@ The part of the memory system that receives initial stimuli from the environment
 
 ###Short Term Memory
 
-Short term memory is generally stored for about 30 seconds, where it will either fade or be converted into long-term memory. Rehersal and reptition are good strategies for retaining information in this system.
+Short term memory is generally stored for about 30 seconds, where it will either fade or be converted into long-term memory. Rehearsal and repetition are good strategies for retaining information in this system.
 
 Short term memory will sort information into categories or chunks in a process called coding. 
 
@@ -265,6 +265,31 @@ Information in long term memory is stored in interrelated networks of schemas wh
 
 ##Retention of Learning
 
+When we think of forgetting information, it is generally not completely lost, but unable for recall. There are many different strategies that can be used to increase retention, however. Some of these strategies are shown below:
+
+###Praise
+
+Praise is generally encouraging, as pleasurable responses tend to be repeated. Giving praise and maintaining a positive environment can go a long way for a learner to retain large amounts of information.
+
+###Recall is Promoted by Association
+
+Information is organized into schemas in memory. It is much easier to remember a new piece of information if it is related to an already understood concept. Make sure to relate new ideas into something that a learner already has experience in.
+
+###Favorable Attitudes Aid Retention
+
+People generally remember what they wish to known. If there is no motivation to learn something, it will not be remembered.
+
+###Utilize All Senses
+
+Learners will be far more likely to retain information if it comes from multiple different senses and perceptions. Explaining and demonstrating a manuever will always be more effective than simply explaining it.
+
+###Use Meaningful Repetition
+
+Going back to the law of exercise, it is important that information be recalled on a regular basis to make a stronger connection to it in memory. Repetition also forces learners to actively engage in the material, which subsequently increases retention.
+
+###Use Mnemonics
+
+Mnemonics can be especially useful when introducing new concepts that can be hard to organize in the brain. While they will generally be rote memorizations, these can be strengthened over time into a greater understanding. 
 
 
 --
@@ -272,6 +297,7 @@ Information in long term memory is stored in interrelated networks of schemas wh
 ##Transfer of Learning
 
 
+Transfer of Learning occurs when knowledge or procedures learned in one context is utilized into new context. We can divide this transfer into near and far. Near transfer would be the transfer of learning from a similar idea or procedure to a new one. For example, near transfer could apply to the procedures used in power off stall recovery into power on stall recovery. Far transfer, on the other hand, would be something like applying the principles of slow flight into flying an approach to landing.
 
 
 
