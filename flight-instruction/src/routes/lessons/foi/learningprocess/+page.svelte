@@ -78,6 +78,21 @@
 <P>Cognitive (knowledge), Affective (attitude), and Psychomotor (skills).</P>
 <div class="image"><Img size="max-w-full" src="https://i.imgur.com/aDln6CD.png"></Img></div>
 <Heading tag='h5'>Cognitive Domain</Heading>
+<P>This group indluces remembering specific facts and concepts that help develop intellectual abilities and skills. There are six major categories of this domain going from simple to complex. </P>
+<div class="image"><Img size="max-w-full" src="https://imagedelivery.net/bfLWD0Qjtd593vL0tnvGqQ/c098f8bb-1c3f-49e1-e0a8-35df11961700/public"></Img></div>
+<Heading tag='h5'>Affective Domain</Heading>
+<P>The affective domain focuses on a learner's emotions toward the educational experience. This domain includes feelings, values, motivations, and attitudes. This domain has 5 levels: </P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Awareness</Li>
+<Li>Response</Li>
+<Li>Value</Li>
+<Li>Organizing</Li>
+<Li>Integration</Li></List>
+<Heading tag='h5'>Psychomotor</Heading>
+<P>This domain is skill based and includes movement, coordiation, and use of motor skills. Instructors should understand that this domain level includes:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Observation</Li>
+<Li>Imitation</Li>
+<Li>Practice</Li>
+<Li>Habit</Li></List>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Characteristics of Learning</Heading>
 <Hr class="my-8" height="h-px" />

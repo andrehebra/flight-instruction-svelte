@@ -114,8 +114,28 @@ Cognitive (knowledge), Affective (attitude), and Psychomotor (skills).
 
 ###Cognitive Domain
 
+This group indluces remembering specific facts and concepts that help develop intellectual abilities and skills. There are six major categories of this domain going from simple to complex. 
 
+&c098f8bb-1c3f-49e1-e0a8-35df11961700
 
+###Affective Domain
+
+The affective domain focuses on a learner's emotions toward the educational experience. This domain includes feelings, values, motivations, and attitudes. This domain has 5 levels: 
+
+*Awareness
+*Response
+*Value
+*Organizing
+*Integration
+
+###Psychomotor
+
+This domain is skill based and includes movement, coordiation, and use of motor skills. Instructors should understand that this domain level includes:
+
+*Observation
+*Imitation
+*Practice
+*Habit
 
 --
 
