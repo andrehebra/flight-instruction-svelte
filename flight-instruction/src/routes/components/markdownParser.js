@@ -209,3 +209,6 @@ parseMarkdown("lessons/technicalsubjects/weightandbalance/");
 parseMarkdown("lessons/technicalsubjects/scanningandcollisionavoidance/");
 
 parseMarkdown("lessons/weather/atmosphericcomposition/");
+
+
+parseMarkdown("lessons/cfi/privilegesandlimitations/");

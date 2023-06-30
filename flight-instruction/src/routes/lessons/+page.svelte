@@ -41,6 +41,13 @@
             <LessonCard  link="/lessons/technicalsubjects/navigationsystemsandradarservices"class='lessonCard' title="Navigation Systems and Radar Services" sub=""/>
             <LessonCard  link="/lessons/technicalsubjects/logbookentriesandendorsements"class='lessonCard' title="Logbook Entries and Certificate Endorsements" sub=""/>
         </div>
+    
+
+        <Heading>Additional Lessons</Heading>
+        <div class="list">
+            <LessonCard  link="/lessons/cfi/privilegesandlimitations"class='lessonCard' title="CFI Privileges and Limitations" sub=""/>
+            
+        </div>
 </div>
 
 
