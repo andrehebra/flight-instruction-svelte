@@ -6,7 +6,10 @@ The information provided on this page is taken from the current regulations at t
 
 !"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-H/section-61.189"FAR 61.189: Flight Instructor Records
 
-A flight instructor must sign the logbook of each person to whom that instructor has given instruction.
+A flight instructor must sign the logbook of each person to whom that instructor has given instruction. The logbook entry should include:
+*Flight instructor certificate number
+*Expiration date
+*CFI signature
 
 A flight instructor must maintain a record in a logbook or a separate document that contains the following:
 *The name of each person whose logbook that instructor has endorsed for solo flight privileges, and the date of the endorsement; and
