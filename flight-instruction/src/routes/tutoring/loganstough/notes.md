@@ -108,6 +108,10 @@ Stated that the difference in pressure is what causes lift
 doesn't fully understand what causes a stall
 stated that the higher wing will stall first - explained that it has to do with turning in a direction, not which wing is higher
 
+--
 
+7/7/2023
+
+cancelled early in the morning same day. will try to reschedule. 
 
 
