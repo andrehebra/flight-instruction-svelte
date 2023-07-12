@@ -49,9 +49,15 @@
 <Button href='aeromedical/hyperventilation'>Causes and Symptoms of Hyperventilation</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Middle Ear and Sinus Problems</Heading>
-<Button href='aeromedical/middleear'>Understanding the Middle Ear</Button>
+<P>Sinus issues and ear pain are common in flight due to the rapid changes in pressure that are normally experienced. It is important to understand how to deal with these problems for both the pilot and passengers.</P>
+<Button href='aeromedical/middleear'>The Middle Ear and Ear Block</Button>
+<Button href='aeromedical/sinusproblems'>Sinus Problems Related to Flight</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Spatial Disorientation</Heading>
+<P>Spatial disorientation refers to anytime a pilot loses orientation with regard to the position, attitude, or movement of the airplane in space. Spatial disorientation can be divided into many different categories, as explained in the link below:</P>
+<Button href='aeromedical/spatialdisorientation'>Spatial Disorientation</Button>
+<P>Additionally, it is important to understand how the inner ear helps us to maintain orientation. See the link below for more information:</P>
+<Button href='aeromedical/innerear'>Inner Ear and Otolith Organs</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Motion Sickness</Heading>
 <Hr class="my-8" height="h-px" />

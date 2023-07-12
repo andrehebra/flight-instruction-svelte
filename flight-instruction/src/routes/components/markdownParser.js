@@ -201,6 +201,9 @@ parseMarkdown("lessons/technicalsubjects/aeromedical/certificatevalidity/");
 parseMarkdown("lessons/technicalsubjects/aeromedical/effectsofhypoxia/");
 parseMarkdown("lessons/technicalsubjects/aeromedical/hyperventilation/");
 parseMarkdown("lessons/technicalsubjects/aeromedical/middleear/");
+parseMarkdown("lessons/technicalsubjects/aeromedical/sinusproblems/");
+parseMarkdown("lessons/technicalsubjects/aeromedical/spatialdisorientation/");
+parseMarkdown("lessons/technicalsubjects/aeromedical/innerear/");
 
 
 parseMarkdown("lessons/technicalsubjects/cfrandpublications/");

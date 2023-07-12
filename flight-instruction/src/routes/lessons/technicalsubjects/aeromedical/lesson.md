@@ -82,11 +82,23 @@ Hyperventilation is a rapid or deep breathing that is generally caused by anxiet
 
 ##Middle Ear and Sinus Problems
 
-!"aeromedical/middleear"Understanding the Middle Ear
+Sinus issues and ear pain are common in flight due to the rapid changes in pressure that are normally experienced. It is important to understand how to deal with these problems for both the pilot and passengers.
+
+!"aeromedical/middleear"The Middle Ear and Ear Block
+
+!"aeromedical/sinusproblems"Sinus Problems Related to Flight
 
 --
 
 ##Spatial Disorientation
+
+Spatial disorientation refers to anytime a pilot loses orientation with regard to the position, attitude, or movement of the airplane in space. Spatial disorientation can be divided into many different categories, as explained in the link below:
+
+!"aeromedical/spatialdisorientation"Spatial Disorientation
+
+Additionally, it is important to understand how the inner ear helps us to maintain orientation. See the link below for more information:
+
+!"aeromedical/innerear"Inner Ear and Otolith Organs
 
 --
 
