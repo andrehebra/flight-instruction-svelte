@@ -37,30 +37,52 @@ BasicMed allows a pilot to legally operate without a valid medical certificate. 
 
 ###Dealing With Health Conditions in Relation to a Medical Certificate
 
+Remember that just because you have a medical certificate, you cannot operate an aircraft if you are currently experiencing a condition that would not allow you to obtain that same medical certificate again. Beyond the legal aspect, it is important to understand that any condition will have a negative impact on your performance and should be considered before taking the responsibility of flying an airplane.
+
 --
 
 ##Hypoxia
 
+A state of oxygen deficiency in the body sufficient to impair functions of the brain and other organs. See the information below for the symptoms of hypoxia:
+
+!"aeromedical/effectsofhypoxia"Effects and Symptoms of Hypoxia
+
 ###Hypoxic Hypoxia
+
+Caused by increased pressure altitude or a blocked airway. Can be thought of as not enough oxygen being able to enter into the lungs. This is the most common occurrence of hypoxia in aviation. 
 
 
 ###Hypemic Hypoxia
 
+Caused by blood not being able to take up oxygen and transport it. Carbon monoxide poisoning is an example of this. The hemoglobin in your body will bind to the Carbon Monoxide instead of oxygen, and therefore transport it instead.
+
 
 ###Stagnant Hypoxia
+
+Caused by the circulatory system not being able to circulate enough oxygenated blood throughout the body. This could be caused by high g maneuvers in airplanes, where the body can't push oxygenated blood into the brain.
+
+Additionally, stagnant hypoxia can be caused by diseases like sickle cell anemia, or hypothermia, which causes blood vessels to constrict.
 
 
 ###Histotoxic Hypoxia
 
+Caused by cells not being able to use the oxygen that is transported to it. This can often times be caused by the use of alcohol or drugs which impair cell functions in accepting oxygen.
+
+The best example of this would be cyanide poisoning, which directly prevents cells from using oxygen and is fatal.
 
 --
 
 ##Hyperventilation
 
+Hyperventilation is a rapid or deep breathing that is generally caused by anxiety or panic. The excessive breathing can lead to low levels of carbon dioxide in your blood, which causes many of the symptoms that you may feel if you hyperventilate.
+
+!"aeromedical/hyperventilation"Causes and Symptoms of Hyperventilation
 
 --
 
 ##Middle Ear and Sinus Problems
+
+!"aeromedical/middleear"Understanding the Middle Ear
 
 --
 

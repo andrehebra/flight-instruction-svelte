@@ -28,16 +28,28 @@
 <P>BasicMed allows a pilot to legally operate without a valid medical certificate. The requirements are outlined in the link below:</P>
 <Button href='aeromedical/basicmed/'>BasicMed Information</Button>
 <Heading tag='h5'>Dealing With Health Conditions in Relation to a Medical Certificate</Heading>
+<P>Remember that just because you have a medical certificate, you cannot operate an aircraft if you are currently experiencing a condition that would not allow you to obtain that same medical certificate again. Beyond the legal aspect, it is important to understand that any condition will have a negative impact on your performance and should be considered before taking the responsibility of flying an airplane.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Hypoxia</Heading>
+<P>A state of oxygen deficiency in the body sufficient to impair functions of the brain and other organs. See the information below for the symptoms of hypoxia:</P>
+<Button href='aeromedical/effectsofhypoxia'>Effects and Symptoms of Hypoxia</Button>
 <Heading tag='h5'>Hypoxic Hypoxia</Heading>
+<P>Caused by increased pressure altitude or a blocked airway. Can be thought of as not enough oxygen being able to enter into the lungs. This is the most common occurrence of hypoxia in aviation. </P>
 <Heading tag='h5'>Hypemic Hypoxia</Heading>
+<P>Caused by blood not being able to take up oxygen and transport it. Carbon monoxide poisoning is an example of this. The hemoglobin in your body will bind to the Carbon Monoxide instead of oxygen, and therefore transport it instead.</P>
 <Heading tag='h5'>Stagnant Hypoxia</Heading>
+<P>Caused by the circulatory system not being able to circulate enough oxygenated blood throughout the body. This could be caused by high g maneuvers in airplanes, where the body can't push oxygenated blood into the brain.</P>
+<P>Additionally, stagnant hypoxia can be caused by diseases like sickle cell anemia, or hypothermia, which causes blood vessels to constrict.</P>
 <Heading tag='h5'>Histotoxic Hypoxia</Heading>
+<P>Caused by cells not being able to use the oxygen that is transported to it. This can often times be caused by the use of alcohol or drugs which impair cell functions in accepting oxygen.</P>
+<P>The best example of this would be cyanide poisoning, which directly prevents cells from using oxygen and is fatal.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Hyperventilation</Heading>
+<P>Hyperventilation is a rapid or deep breathing that is generally caused by anxiety or panic. The excessive breathing can lead to low levels of carbon dioxide in your blood, which causes many of the symptoms that you may feel if you hyperventilate.</P>
+<Button href='aeromedical/hyperventilation'>Causes and Symptoms of Hyperventilation</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Middle Ear and Sinus Problems</Heading>
+<Button href='aeromedical/middleear'>Understanding the Middle Ear</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Spatial Disorientation</Heading>
 <Hr class="my-8" height="h-px" />
