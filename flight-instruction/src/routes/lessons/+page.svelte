@@ -25,7 +25,7 @@
             <LessonCard  link="/lessons/foi/techniquesofflightinstruction"class='lessonCard' title="Techniques of Flight Instruction" sub=""/>
             <LessonCard  link="/lessons/foi/riskmanagement"class='lessonCard' title="Risk Management" sub=""/>
         </div>
-    <Heading>Technical Subject Areas</Heading>
+        <Heading>Technical Subject Areas</Heading>
         <div class="list">
             <LessonCard  link="/lessons/technicalsubjects/aeromedical"class='lessonCard' title="Aeromedical Factors" sub=""/>
             <LessonCard  link="/lessons/technicalsubjects/incursionavoidance"class='lessonCard' title="Runway Incursion Avoidance" sub=""/>
@@ -40,6 +40,15 @@
             <LessonCard  link="/lessons/technicalsubjects/nationalairspacesystem"class='lessonCard' title="National Airspace System" sub=""/>
             <LessonCard  link="/lessons/technicalsubjects/navigationsystemsandradarservices"class='lessonCard' title="Navigation Systems and Radar Services" sub=""/>
             <LessonCard  link="/lessons/technicalsubjects/logbookentriesandendorsements"class='lessonCard' title="Logbook Entries and Certificate Endorsements" sub=""/>
+        </div>
+        <Heading>Preflight Preparation</Heading>
+        <div class="list">
+            <LessonCard  link="/lessons/preflightprep/certsanddocs"class='lessonCard' title="Certificates and Documents" sub=""/>
+            <LessonCard  link="/lessons/preflightprep/weather"class='lessonCard' title="Weather Information" sub=""/>
+            <LessonCard  link="/lessons/preflightprep/systems"class='lessonCard' title="Operation of Systems" sub=""/>
+            <LessonCard  link="/lessons/preflightprep/performanceandlimitations"class='lessonCard' title="Performance and Limitations" sub=""/>
+            <LessonCard  link="/lessons/preflightprep/airworthinessrequirements"class='lessonCard' title="Airworthiness Requirements" sub=""/>
+            
         </div>
     
 
