@@ -24,7 +24,7 @@
                 <P>{item[1]}</P>
             {:else if item[0] == "image"}
                 <div class="image">
-                    <Img size="max-w-md" src={item[1]}></Img>
+                    <Img size="max-w-sm" src={item[1]}></Img>
                 </div>
             {:else if item[0] == "list"}
                 <List ulClass='max-w' tag="ul" class="space-y-1">
@@ -52,7 +52,6 @@
 
 <style>
     .holder {
-        
         display: flex;
         justify-content: center;
         align-items: center;
