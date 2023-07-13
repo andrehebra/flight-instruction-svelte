@@ -165,25 +165,105 @@ Seek medical treatment after landing.
 
 ##Fatigue
 
-Fatigue is directly hazardous to flight safety. 
+Fatigue is directly hazardous to flight safety. It is a condition characterized by increased discomfort with lessened capacity for work and is usually accompanied by a feeling of weariness and tiredness. It can be characterized into either Acute of Chronic:
 
 {tabs}
 {Acute Fatigue}
-*hello
+Acute fatigue is tiredness after a period of short term physical or mental exertion.
+
+Potential Causes:
+*Lack of rest the night before
+*A recent stressful event
+
+Treatment:
+*Rest
+
+
 {Chronic Fatigue}
+Chronic fatigue can be thought of as insufficient recovery from many periods of acute fatigue.
+
+Unfortunately, this can make it more difficult to diagnose and treat, as there needs to be lifestyle considerations taken into account.
+
+Potential Causes:
+*Chronic stress
+*Inability to sleep well
+*Busy lifestyle with little downtime
+
+Treatment:
+*Sufficient rest
+*Solving issues with sleep (sleep apnea/insomnia)
+*Reducing overall stress
+*Lifestyle changes
+
 {/tabs}
 
+Fatigue can dramatically reduce a pilot's performance, reaction time, reasoning, and decision-making. It is imperative to make sure that you are not dealing with fatigue before flying an airplane.
+
+The FAA brochure linked below includes more information regarding fatigue:
+
+!"https://www.faa.gov/pilots/safety/pilotsafetybrochures/media/fatigue_aviation.pdf"FAA Brochure: Fatigue in Aviation
 
 --
 
 ##Dehydration
 
+Dehydration is simply an insufficient amount of water within the body. Pilots are especially susceptible to dehydration because they will often spend long periods of time in hot, unventilated cockpits.
+
+Make sure that you are drinking plenty of water before and during your flights.
+
+Symptoms of dehydration:
+*Headache
+*Fatigue
+*Cramps
+*Sleepiness
+*Dizziness
+
 --
 
 ##Alcohol and Drugs
 
+Do NOT operate an aircraft under the influence of alcohol or drugs.
+
+###Regulations Related to Alcohol
+
+!"https://www.ecfr.gov/current/title-14/part-91/section-91.17#p-91.17(a)"FAR 91.19(a): Alcohol
+
+A person may not act as a crewmember when:
+*Within 8 hours of drinking
+*With a BAC >0.04
+*While under the influence
+
+Remember that being hungover still applies to being under the influence of alcohol. Additionally, these are simply the legal requirements. Never allow alcohol to impair your ability to be a safe pilot, even if you fall within what is considered "legal"
+
+###Regulations Related to Medications/Medical Conditions
+
+A person may not act as PIC or a crewmember when that person:
+
+*Knows or has reason to know of any medical condition that would make the person unable to meet the requirements for the medical certificate necessary for the pilot operation; or
+*Is taking medication or receiving other treatment for a medical condition that results in the person being unable to meet the requirements for the medical certificate necessary for the pilot operation.
+
+!"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.53"FAR 61.53: Prohibitions on Operations During Medical Deficiency
+
+###How to Tell Which Medications are Allowed
+
+!"https://www.faa.gov/licenses_certificates/medical_certification/media/OTCMedicationsforPilots.pdf"FAA OTC Medication Checklist
+
 --
 
 ##Nitrogen
+
+After scuba diving, a person will have dissolved nitrogen in their bloodstream from the increased pressure under water. This needs time to rid itself of the body. Flying at altitude can cause bubbles of nitrogen to form in the bloodstream and can cause an emergency or be fatal.
+
+AIM 8-1-2(d) recommends the following limitations regarding flight after scuba diving:
+*Wait at least 12 hours after diving for flight altitudes of up to 8,000 feet for a nondecompression stop dive
+*Wait at least 24 hours after diving for flight altitudes above 8,000 feet for a nondecompression stop dive
+*Wait at least 24 hours after any dive requiring a decompression stop for flight at any altitude
+
+
+--
+
+##Additional Information
+
+!"https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"AIM Chapter 8: Medical Facts for Pilots
 
 

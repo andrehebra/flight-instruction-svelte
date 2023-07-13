@@ -95,19 +95,69 @@
 <P>Seek medical treatment after landing.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Fatigue</Heading>
-<P>Fatigue is directly hazardous to flight safety. </P>
+<P>Fatigue is directly hazardous to flight safety. It is a condition characterized by increased discomfort with lessened capacity for work and is usually accompanied by a feeling of weariness and tiredness. It can be characterized into either Acute of Chronic:</P>
 <div><Tabs style='underline'>
 <TabItem open title="Acute Fatigue"><div class="contents">
-<List ulClass="max-w" tag="ul" class="space-y-1"><Li>hello</Li></List>
+<P>Acute fatigue is tiredness after a period of short term physical or mental exertion.</P>
+<P>Potential Causes:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Lack of rest the night before</Li>
+<Li>A recent stressful event</Li></List>
+<P>Treatment:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Rest</Li></List>
 </div></TabItem>
 <TabItem title="Chronic Fatigue"><div class="contents">
+<P>Chronic fatigue can be thought of as insufficient recovery from many periods of acute fatigue.</P>
+<P>Unfortunately, this can make it more difficult to diagnose and treat, as there needs to be lifestyle considerations taken into account.</P>
+<P>Potential Causes:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Chronic stress</Li>
+<Li>Inability to sleep well</Li>
+<Li>Busy lifestyle with little downtime</Li></List>
+<P>Treatment:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Sufficient rest</Li>
+<Li>Solving issues with sleep (sleep apnea/insomnia)</Li>
+<Li>Reducing overall stress</Li>
+<Li>Lifestyle changes</Li></List>
 </div></TabItem></Tabs></div>
+<P>Fatigue can dramatically reduce a pilot's performance, reaction time, reasoning, and decision-making. It is imperative to make sure that you are not dealing with fatigue before flying an airplane.</P>
+<P>The FAA brochure linked below includes more information regarding fatigue:</P>
+<Button href='https://www.faa.gov/pilots/safety/pilotsafetybrochures/media/fatigue_aviation.pdf'>FAA Brochure: Fatigue in Aviation</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Dehydration</Heading>
+<P>Dehydration is simply an insufficient amount of water within the body. Pilots are especially susceptible to dehydration because they will often spend long periods of time in hot, unventilated cockpits.</P>
+<P>Make sure that you are drinking plenty of water before and during your flights.</P>
+<P>Symptoms of dehydration:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Headache</Li>
+<Li>Fatigue</Li>
+<Li>Cramps</Li>
+<Li>Sleepiness</Li>
+<Li>Dizziness</Li></List>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Alcohol and Drugs</Heading>
+<P>Do NOT operate an aircraft under the influence of alcohol or drugs.</P>
+<Heading tag='h5'>Regulations Related to Alcohol</Heading>
+<Button href='https://www.ecfr.gov/current/title-14/part-91/section-91.17#p-91.17(a)'>FAR 91.19(a): Alcohol</Button>
+<P>A person may not act as a crewmember when:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Within 8 hours of drinking</Li>
+<Li>With a BAC >0.04</Li>
+<Li>While under the influence</Li></List>
+<P>Remember that being hungover still applies to being under the influence of alcohol. Additionally, these are simply the legal requirements. Never allow alcohol to impair your ability to be a safe pilot, even if you fall within what is considered "legal"</P>
+<Heading tag='h5'>Regulations Related to Medications/Medical Conditions</Heading>
+<P>A person may not act as PIC or a crewmember when that person:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Knows or has reason to know of any medical condition that would make the person unable to meet the requirements for the medical certificate necessary for the pilot operation; or</Li>
+<Li>Is taking medication or receiving other treatment for a medical condition that results in the person being unable to meet the requirements for the medical certificate necessary for the pilot operation.</Li></List>
+<Button href='https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.53'>FAR 61.53: Prohibitions on Operations During Medical Deficiency</Button>
+<Heading tag='h5'>How to Tell Which Medications are Allowed</Heading>
+<Button href='https://www.faa.gov/licenses_certificates/medical_certification/media/OTCMedicationsforPilots.pdf'>FAA OTC Medication Checklist</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Nitrogen</Heading>
+<P>After scuba diving, a person will have dissolved nitrogen in their bloodstream from the increased pressure under water. This needs time to rid itself of the body. Flying at altitude can cause bubbles of nitrogen to form in the bloodstream and can cause an emergency or be fatal.</P>
+<P>AIM 8-1-2(d) recommends the following limitations regarding flight after scuba diving:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Wait at least 12 hours after diving for flight altitudes of up to 8,000 feet for a nondecompression stop dive</Li>
+<Li>Wait at least 24 hours after diving for flight altitudes above 8,000 feet for a nondecompression stop dive</Li>
+<Li>Wait at least 24 hours after any dive requiring a decompression stop for flight at any altitude</Li></List>
+<Hr class="my-8" height="h-px" />
+<Heading tag='h2'>Additional Information</Heading>
+<Button href='https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html'>AIM Chapter 8: Medical Facts for Pilots</Button>
 </div></div>
 
 

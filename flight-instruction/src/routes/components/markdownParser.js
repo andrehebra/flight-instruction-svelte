@@ -131,7 +131,9 @@ function parseMarkdown(path) {
                         singleLine = singleLine.replace(/({|})/g, "");
                         appendSvelte('</div></TabItem>');
                         appendSvelte('<TabItem title="' + singleLine + '"><div class="contents">');
-                    } 
+                    } else {
+                        appendSvelte("<P>" + singleLine + "</P>");
+                    }
                 } else {
                     appendSvelte("<P>" + singleLine + "</P>");
                 }
