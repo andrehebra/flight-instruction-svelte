@@ -204,6 +204,7 @@ parseMarkdown("lessons/technicalsubjects/aeromedical/middleear/");
 parseMarkdown("lessons/technicalsubjects/aeromedical/sinusproblems/");
 parseMarkdown("lessons/technicalsubjects/aeromedical/spatialdisorientation/");
 parseMarkdown("lessons/technicalsubjects/aeromedical/innerear/");
+parseMarkdown("lessons/technicalsubjects/aeromedical/opticalillusions/");
 
 
 parseMarkdown("lessons/technicalsubjects/cfrandpublications/");
