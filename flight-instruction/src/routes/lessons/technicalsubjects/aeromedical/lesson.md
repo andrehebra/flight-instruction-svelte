@@ -100,21 +100,78 @@ Additionally, it is important to understand how the inner ear helps us to mainta
 
 !"aeromedical/innerear"Inner Ear and Otolith Organs
 
+###Optical Illusions
+
+There are also many different optical illusions that can be hazardous for pilots. See the link below for more information:
+
+!"aeromedical/opticalillusions"Optical Illusions
+
 --
 
 ##Motion Sickness
+
+Motion sickness arises from the body receiving conflicting messages about its orientation. Remember that our bodies were not designed to be in flight, and therefore will not naturally be accustomed to all of the different forces involved in even a calm flight.
+
+###Motion Sickness in Learners
+
+Motion sickness is common in new pilots who are flying for the first time. Especially in light aircraft. It will generally go away after the first few lessons.
+
+Once a learner becomes sick, however, it is important to stop instructing and make them comfortable. People can not learn when they are sick, and there is no point in needlessly making someone uncomfortable.
+
+Anxiety and stress will also contribute to motion sickness.
+
+###Symptoms of Motion Sickness
+
+Symptoms include:
+*General discomfort
+*Nausea
+*Dizziness
+*Paleness
+*Sweating
+*Vomiting
+
+###Treating Motion Sickness
+*Open air vents
+*Focus outside the airplane on a distant object
+*Avoid unnecessary head movements
+
+If the symptoms of motion sickness persist beyond the first few lessons, it is important to consult an AME and suspend training until adequately treated.
 
 --
 
 ##Carbon Monoxide Poisoning
 
+Carbon monoxide poisoning causes hypemic hypoxia and is incredibly dangerous.
+
+Carbon monoxide is in exhaust fumes, which means that if exhaust fumes are able to enter into the cabin it could be easily inhaled.
+
+Carbon monoxide is colorless, odorless, and tasteless, meaning that you will not be able to tell if you are inhaling it. Combining that with the difficulty in identifying symptoms of hypoxia, it can easily become fatal.
+
+###Detecting Carbon Monoxide
+
+Many newer ADS-B receivers have carbon monoxide alarms included with them. You should test the alarm on it so that you can quickly identify the noise.
+
+Additionally, many aircraft have carbon monoxide detectors installed in them. However, these will not have an audible alarm and need to be consistently monitored for a change in color. An example of one is shown below: 
+
+&dfa041ca-ae18-440f-c601-fa77dce9de00
+
+###Dealing with Carbon Monoxide
+
+If you detect the smell of exhaust fumes, or have an indication on a carbon monoxide monitor immediately turn off the cabin heat, open air vents and windows, and land as soon as possible.
+
+Seek medical treatment after landing.
+
 --
 
 ##Fatigue
 
-###Acute Fatigue
+Fatigue is directly hazardous to flight safety. 
 
-###Chronic Fatigue
+{tabs}
+{Acute Fatigue}
+*hello
+{Chronic Fatigue}
+{/tabs}
 
 
 --

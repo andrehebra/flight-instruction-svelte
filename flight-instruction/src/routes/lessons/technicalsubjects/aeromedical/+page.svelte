@@ -58,14 +58,50 @@
 <Button href='aeromedical/spatialdisorientation'>Spatial Disorientation</Button>
 <P>Additionally, it is important to understand how the inner ear helps us to maintain orientation. See the link below for more information:</P>
 <Button href='aeromedical/innerear'>Inner Ear and Otolith Organs</Button>
+<Heading tag='h5'>Optical Illusions</Heading>
+<P>There are also many different optical illusions that can be hazardous for pilots. See the link below for more information:</P>
+<Button href='aeromedical/opticalillusions'>Optical Illusions</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Motion Sickness</Heading>
+<P>Motion sickness arises from the body receiving conflicting messages about its orientation. Remember that our bodies were not designed to be in flight, and therefore will not naturally be accustomed to all of the different forces involved in even a calm flight.</P>
+<Heading tag='h5'>Motion Sickness in Learners</Heading>
+<P>Motion sickness is common in new pilots who are flying for the first time. Especially in light aircraft. It will generally go away after the first few lessons.</P>
+<P>Once a learner becomes sick, however, it is important to stop instructing and make them comfortable. People can not learn when they are sick, and there is no point in needlessly making someone uncomfortable.</P>
+<P>Anxiety and stress will also contribute to motion sickness.</P>
+<Heading tag='h5'>Symptoms of Motion Sickness</Heading>
+<P>Symptoms include:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>General discomfort</Li>
+<Li>Nausea</Li>
+<Li>Dizziness</Li>
+<Li>Paleness</Li>
+<Li>Sweating</Li>
+<Li>Vomiting</Li></List>
+<Heading tag='h5'>Treating Motion Sickness</Heading>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Open air vents</Li>
+<Li>Focus outside the airplane on a distant object</Li>
+<Li>Avoid unnecessary head movements</Li></List>
+<P>If the symptoms of motion sickness persist beyond the first few lessons, it is important to consult an AME and suspend training until adequately treated.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Carbon Monoxide Poisoning</Heading>
+<P>Carbon monoxide poisoning causes hypemic hypoxia and is incredibly dangerous.</P>
+<P>Carbon monoxide is in exhaust fumes, which means that if exhaust fumes are able to enter into the cabin it could be easily inhaled.</P>
+<P>Carbon monoxide is colorless, odorless, and tasteless, meaning that you will not be able to tell if you are inhaling it. Combining that with the difficulty in identifying symptoms of hypoxia, it can easily become fatal.</P>
+<Heading tag='h5'>Detecting Carbon Monoxide</Heading>
+<P>Many newer ADS-B receivers have carbon monoxide alarms included with them. You should test the alarm on it so that you can quickly identify the noise.</P>
+<P>Additionally, many aircraft have carbon monoxide detectors installed in them. However, these will not have an audible alarm and need to be consistently monitored for a change in color. An example of one is shown below: </P>
+<div class="image"><Img size="max-w-full" src="https://imagedelivery.net/bfLWD0Qjtd593vL0tnvGqQ/dfa041ca-ae18-440f-c601-fa77dce9de00/public"></Img></div>
+<Heading tag='h5'>Dealing with Carbon Monoxide</Heading>
+<P>If you detect the smell of exhaust fumes, or have an indication on a carbon monoxide monitor immediately turn off the cabin heat, open air vents and windows, and land as soon as possible.</P>
+<P>Seek medical treatment after landing.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Fatigue</Heading>
-<Heading tag='h5'>Acute Fatigue</Heading>
-<Heading tag='h5'>Chronic Fatigue</Heading>
+<P>Fatigue is directly hazardous to flight safety. </P>
+<div><Tabs style='underline'>
+<TabItem open title="Acute Fatigue"><div class="contents">
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>hello</Li></List>
+</div></TabItem>
+<TabItem title="Chronic Fatigue"><div class="contents">
+</div></TabItem></Tabs></div>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Dehydration</Heading>
 <Hr class="my-8" height="h-px" />
