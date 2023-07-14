@@ -215,6 +215,10 @@ parseMarkdown("lessons/technicalsubjects/highaltoperations/");
 
 parseMarkdown("lessons/technicalsubjects/incursionavoidance/");
 parseMarkdown("lessons/technicalsubjects/incursionavoidance/safetaxi/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/runway/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/taxiway/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/hold/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/other/");
 
 
 parseMarkdown("lessons/technicalsubjects/logbookentriesandendorsements/");
