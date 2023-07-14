@@ -34,16 +34,25 @@
 <List ulClass="max-w" tag="ul" class="space-y-1"><Li>Crossing a runway hold marking without a clearance</Li></List>
 </div></TabItem></Tabs></div>
 <Heading tag='h5'>Causal Factors of Runway Incursions</Heading>
+<P>The following are common causal factors that lead to runway incursions:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Failure to comply with ATC instructions</Li>
+<Li>Lack of airport familiarity</Li></List>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Sterile Cockpit</Heading>
+<P>During any critical phase of flight, it is imperative that pilots are not being distracted by nonessential activities or conversations.</P>
+<P>Make sure to refrain from anything distracting during:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Taxi</Li>
+<Li>Takeoff</Li>
+<Li>Climbout</Li>
+<Li>Approach</Li>
+<Li>Landing</Li></List>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Taxiing Safely</Heading>
-<Heading tag='h5'>Towered Airports</Heading>
-<Heading tag='h5'>Non-towered Airports</Heading>
-<Heading tag='h5'>Crossing Runways</Heading>
-<Heading tag='h5'>ForeFlight Taxi Routing</Heading>
+<P>See the link below for more information on taxiing safely:</P>
+<Button href='incursionavoidance/safetaxi/'>Taxiing Safely: Towered and Uncontrolled Airports</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Hold Short Instructions and Markings</Heading>
+<div class="image"><Img size="max-w-full" src="https://imagedelivery.net/bfLWD0Qjtd593vL0tnvGqQ/d0047bb2-3f8e-46d7-51cb-b10758edf400/public"></Img></div>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Line Up and Wait (LUAW) Operations</Heading>
 <Hr class="my-8" height="h-px" />

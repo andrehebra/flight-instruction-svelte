@@ -147,7 +147,7 @@
 <Li>Is taking medication or receiving other treatment for a medical condition that results in the person being unable to meet the requirements for the medical certificate necessary for the pilot operation.</Li></List>
 <Button href='https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.53'>FAR 61.53: Prohibitions on Operations During Medical Deficiency</Button>
 <Heading tag='h5'>How to Tell Which Medications are Allowed</Heading>
-<Button href='https://www.faa.gov/licenses_certificates/medical_certification/media/OTCMedicationsforPilots.pdf'>FAA OTC Medication Checklist</Button>
+<Button href='https://www.faa.gov/sites/faa.gov/files/licenses_certificates/medical_certification/medications/OTCMedicationsforPilots.pdf'>FAA OTC Medication Checklist</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Nitrogen</Heading>
 <P>After scuba diving, a person will have dissolved nitrogen in their bloodstream from the increased pressure under water. This needs time to rid itself of the body. Flying at altitude can cause bubbles of nitrogen to form in the bloodstream and can cause an emergency or be fatal.</P>

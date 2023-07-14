@@ -246,7 +246,7 @@ A person may not act as PIC or a crewmember when that person:
 
 ###How to Tell Which Medications are Allowed
 
-!"https://www.faa.gov/licenses_certificates/medical_certification/media/OTCMedicationsforPilots.pdf"FAA OTC Medication Checklist
+!"https://www.faa.gov/sites/faa.gov/files/licenses_certificates/medical_certification/medications/OTCMedicationsforPilots.pdf"FAA OTC Medication Checklist
 
 --
 

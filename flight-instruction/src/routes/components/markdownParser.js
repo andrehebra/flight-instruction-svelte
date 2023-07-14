@@ -212,7 +212,11 @@ parseMarkdown("lessons/technicalsubjects/aeromedical/opticalillusions/");
 parseMarkdown("lessons/technicalsubjects/cfrandpublications/");
 parseMarkdown("lessons/technicalsubjects/flightcontrols/");
 parseMarkdown("lessons/technicalsubjects/highaltoperations/");
+
 parseMarkdown("lessons/technicalsubjects/incursionavoidance/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/safetaxi/");
+
+
 parseMarkdown("lessons/technicalsubjects/logbookentriesandendorsements/");
 parseMarkdown("lessons/technicalsubjects/nationalairspacesystem/");
 parseMarkdown("lessons/technicalsubjects/navandflightplanning/");

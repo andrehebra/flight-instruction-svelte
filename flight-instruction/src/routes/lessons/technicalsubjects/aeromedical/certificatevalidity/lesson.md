@@ -51,7 +51,7 @@ A pilot may operate under BasicMed if all of the following conditions are met:
 
 ##Length of Validity
 
-Each class of medical certificate has specific durations of validity applying to different types of operations. There is a common misconception that a first class medical steps down to a second class, however this is not the case. The table below displays the duration of medical certificate validity:
+Each class of medical certificate has specific durations of validity applying to different types of operations. There is a common misconception that a first class medical steps down to a second class, however this is not the case. There is a table in 61.23 which outlines the duration of validity (linked above).
 
 
 

@@ -34,24 +34,35 @@ There are three main contributing factors that lead to runway incursions:
 
 ###Causal Factors of Runway Incursions
 
+The following are common causal factors that lead to runway incursions:
+*Failure to comply with ATC instructions
+*Lack of airport familiarity
+
 --
 ##Sterile Cockpit
+
+During any critical phase of flight, it is imperative that pilots are not being distracted by nonessential activities or conversations.
+
+Make sure to refrain from anything distracting during:
+*Taxi
+*Takeoff
+*Climbout
+*Approach
+*Landing
 
 
 --
 ##Taxiing Safely
 
-###Towered Airports
+See the link below for more information on taxiing safely:
 
-###Non-towered Airports
-
-###Crossing Runways
-
-###ForeFlight Taxi Routing
+!"incursionavoidance/safetaxi/"Taxiing Safely: Towered and Uncontrolled Airports
 
 
 --
 ##Hold Short Instructions and Markings
+
+&d0047bb2-3f8e-46d7-51cb-b10758edf400
 
 
 --

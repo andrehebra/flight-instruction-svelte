@@ -39,7 +39,7 @@
 <Li>The pilot has available in their logbook the completed medical examination checklist required under FAR 68.7 and the certificate of course completion required under FAR 61.23(c)(3)</Li></List>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Length of Validity</Heading>
-<P>Each class of medical certificate has specific durations of validity applying to different types of operations. There is a common misconception that a first class medical steps down to a second class, however this is not the case. The table below displays the duration of medical certificate validity:</P>
+<P>Each class of medical certificate has specific durations of validity applying to different types of operations. There is a common misconception that a first class medical steps down to a second class, however this is not the case. There is a table in 61.23 which outlines the duration of validity (linked above).</P>
 </div></div>
 
 
