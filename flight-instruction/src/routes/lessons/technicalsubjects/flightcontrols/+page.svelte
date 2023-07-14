@@ -9,6 +9,13 @@
 
 <div class="holder"><div class="contents">
 
+<Heading tag='h1'>Flight Controls</Heading>
+<Hr class="my-8" height="h-px" />
+<Heading tag='h2'>Primary Flight Controls</Heading>
+<Hr class="my-8" height="h-px" />
+<Heading tag='h2'>Secondary Flight Controls</Heading>
+<Hr class="my-8" height="h-px" />
+<Heading tag='h2'>Trim Controls</Heading>
 </div></div>
 
 

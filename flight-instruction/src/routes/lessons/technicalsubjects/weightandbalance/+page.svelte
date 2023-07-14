@@ -9,6 +9,15 @@
 
 <div class="holder"><div class="contents">
 
+<Heading tag='h1'>Weight and Balance</Heading>
+<Hr class="my-8" height="h-px" />
+<Heading tag='h2'>Weight and Balance Terms</Heading>
+<Hr class="my-8" height="h-px" />
+<Heading tag='h2'>Effect of Weight and Balance on Aircraft Performance</Heading>
+<Hr class="my-8" height="h-px" />
+<Heading tag='h2'>Methods of Weight and Balance Control</Heading>
+<Hr class="my-8" height="h-px" />
+<Heading tag='h2'>Determination of Total Weight and Center of Gravity</Heading>
 </div></div>
 
 
