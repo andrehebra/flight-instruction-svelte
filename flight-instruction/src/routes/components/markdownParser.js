@@ -243,3 +243,13 @@ parseMarkdown("lessons/weather/atmosphericcomposition/");
 
 
 parseMarkdown("lessons/cfi/privilegesandlimitations/");
+
+
+
+parseMarkdown("lessons/preflightprep/certsanddocs/");
+parseMarkdown("lessons/preflightprep/weather/");
+parseMarkdown("lessons/preflightprep/systems/");
+parseMarkdown("lessons/preflightprep/performanceandlimitations/");
+parseMarkdown("lessons/preflightprep/airworthinessrequirements/");
+
+
