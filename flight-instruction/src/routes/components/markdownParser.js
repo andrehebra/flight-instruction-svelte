@@ -219,6 +219,12 @@ parseMarkdown("lessons/technicalsubjects/incursionavoidance/runway/");
 parseMarkdown("lessons/technicalsubjects/incursionavoidance/taxiway/");
 parseMarkdown("lessons/technicalsubjects/incursionavoidance/hold/");
 parseMarkdown("lessons/technicalsubjects/incursionavoidance/other/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/signs/destination/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/signs/direction/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/signs/distanceremaining/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/signs/information/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/signs/instruction/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/signs/location/");
 
 
 parseMarkdown("lessons/technicalsubjects/logbookentriesandendorsements/");
