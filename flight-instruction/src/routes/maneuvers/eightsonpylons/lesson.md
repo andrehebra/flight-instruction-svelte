@@ -5,6 +5,12 @@ Eights on Pylons is one of the most fun, but also most difficult maneuvers to ma
 Before we can learn how to do them, we have to understand a few new concepts.
 
 --
+##Why Learn Eights on Pylons?
+
+Eights on pylons develop a pilot's ability to maneuver an airplane accurately. Similar to how other ground reference maneuvers develop a pilot's skills in maintaining a constant track across the ground, eights on pylons allow pilot's to master their ability to control the radius of a turn using airspeed, all while dividing their attention between that and a ground reference.
+
+
+--
 ##Pivotal Altitude
 
 ###What is Pivotal Altitude

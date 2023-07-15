@@ -48,7 +48,6 @@
             <LessonCard  link="/lessons/preflightprep/systems"class='lessonCard' title="Operation of Systems" sub=""/>
             <LessonCard  link="/lessons/preflightprep/performanceandlimitations"class='lessonCard' title="Performance and Limitations" sub=""/>
             <LessonCard  link="/lessons/preflightprep/airworthinessrequirements"class='lessonCard' title="Airworthiness Requirements" sub=""/>
-            
         </div>
     
 

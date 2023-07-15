@@ -13,6 +13,9 @@
 <P>Eights on Pylons is one of the most fun, but also most difficult maneuvers to master. It takes elements from ground reference maneuvers, and expands them into another dimension.</P>
 <P>Before we can learn how to do them, we have to understand a few new concepts.</P>
 <Hr class="my-8" height="h-px" />
+<Heading tag='h2'>Why Learn Eights on Pylons?</Heading>
+<P>Eights on pylons develop a pilot's ability to maneuver an airplane accurately. Similar to how other ground reference maneuvers develop a pilot's skills in maintaining a constant track across the ground, eights on pylons allow pilot's to master their ability to control the radius of a turn using airspeed, all while dividing their attention between that and a ground reference.</P>
+<Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Pivotal Altitude</Heading>
 <Heading tag='h5'>What is Pivotal Altitude</Heading>
 <P>The pivotal altitude is the altitude where, for a given groundspeed, the projection of a visual reference line to a pylon appears to pivot. See the image below:</P>
