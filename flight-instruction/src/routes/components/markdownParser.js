@@ -169,6 +169,7 @@ parseMarkdown("maneuvers/emergency/emergencydescent/");
 parseMarkdown("maneuvers/emergency/enginefailure/");
 parseMarkdown("maneuvers/steepspiral/");
 parseMarkdown("maneuvers/poweroff180/");
+parseMarkdown("maneuvers/eightsonpylons/");
 
 parseMarkdown("lessons/foi/assessmentandcritique/");
 parseMarkdown("lessons/foi/assessmentandcritique/writtentest/");
