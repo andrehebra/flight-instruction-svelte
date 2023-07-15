@@ -125,14 +125,35 @@
 <Button href='incursionavoidance/signs/distanceremaining'>Runway Distance Remaining Signs</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>ILS Critical Area Purpose and Markings</Heading>
+<P>ATC will protect the ILS critical areas when an arriving aircraft is inside the outer marker/final approach fix on an ILS approach and the ceiling is less than 800 feet or visibility is less than 2 miles.</P>
+<P>Typically, you're not going to have to worry much about them, but make sure to always stay clear of the critical area when ATC tells you to hold short of it.</P>
+<P>The signs and markings for the ILS critical area can be found above.</P>
 <Hr class="my-8" height="h-px" />
-<Heading tag='h2'>Airport Lighting</Heading>
+<Heading tag='h2'>Taxiway Lighting</Heading>
+<Button href='incursionavoidance/lighting/taxiway'>Taxiway Lighting</Button>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Airport Hot Spots</Heading>
+<P>Hot spots are generally a complex or confusing taxiway or taxiway and runway intersection.</P>
+<P>They are designated because of historical incidents or a potential risk of collision or runway incursion.</P>
+<div class="image"><Img size="max-w-full" src="https://imagedelivery.net/bfLWD0Qjtd593vL0tnvGqQ/fc7c764f-7b0c-48f9-014e-70aa83ff5700/public"></Img></div>
+<P>Hot spots will be displayed on FAA airport diagrams, and they should be looked into further by going to the chart supplement.</P>
+<P>Additionally, information regarding the hotspot can be found on ForeFlight.</P>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Night Operations</Heading>
+<P>Pilots need to have extra vigilance at night, as it can be more difficult to maintain situational awareness and keep track of other aircraft and vehicles.</P>
+<P>Tips for taxiing at night:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Make sure that the aircraft is visible by turning on lights</Li>
+<Li>Remember that the strobe light can potentially harm the vision of other pilots in the area</Li>
+<Li>Use dim or red lights and dim cockpit displays to maintain night vision</Li></List>
+<P>Tips for taking off/landing:</P>
+<List ulClass="max-w" tag="ul" class="space-y-1"><Li>Always double check that your compass aligns with the runway heading</Li>
+<Li>Make sure to pay attention to other traffic, especially at uncontrolled airports</Li>
+<Li>Look closely for moving aircraft lights on the ground and near runways of intended use</Li></List>
 <Hr class="my-8" height="h-px" />
 <Heading tag='h2'>Low Visibility Operations</Heading>
+<P>If you find yourself in low visibility conditions, remember that you may not be visible to ATC</P>
+<P>If at any point you become disoriented or confused about your position, NOTIFY ATC IMMEDIATELY</P>
+<P>Beyond sterile cockpit, your entire focus should be on taxiing with no other activities allowed.</P>
 <Hr class="my-8" height="h-px" />
 </div></div>
 

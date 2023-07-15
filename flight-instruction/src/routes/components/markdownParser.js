@@ -226,6 +226,9 @@ parseMarkdown("lessons/technicalsubjects/incursionavoidance/signs/information/")
 parseMarkdown("lessons/technicalsubjects/incursionavoidance/signs/instruction/");
 parseMarkdown("lessons/technicalsubjects/incursionavoidance/signs/location/");
 
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/lighting/taxiway/");
+parseMarkdown("lessons/technicalsubjects/incursionavoidance/lighting/runway/");
+
 
 parseMarkdown("lessons/technicalsubjects/logbookentriesandendorsements/");
 parseMarkdown("lessons/technicalsubjects/nationalairspacesystem/");
