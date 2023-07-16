@@ -244,6 +244,7 @@ parseMarkdown("lessons/weather/atmosphericcomposition/");
 
 
 parseMarkdown("lessons/cfi/privilegesandlimitations/");
+parseMarkdown("lessons/cfi/systemsandequipmentmalfunctions/");
 
 
 

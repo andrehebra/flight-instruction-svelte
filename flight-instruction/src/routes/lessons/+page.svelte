@@ -54,6 +54,7 @@
         <Heading>Additional Lessons</Heading>
         <div class="list">
             <LessonCard  link="/lessons/cfi/privilegesandlimitations"class='lessonCard' title="CFI Privileges and Limitations" sub=""/>
+            <LessonCard  link="/lessons/cfi/systemsandequipmentmalfunctions"class='lessonCard' title="Systems and Equipment Malfunctions" sub=""/>
             
         </div>
 </div>

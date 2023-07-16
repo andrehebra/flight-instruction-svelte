@@ -1,0 +1,159 @@
+#Systems and Equipment Malfunctions
+
+It is imperative to always make decisions in the best interest of safety. You need to know which decisions to make, especially in situations where the isn't much time.
+
+--
+
+##Smoke, fire, or both, during ground or flight operations
+
+Always assume that smoke means fire!
+
+A fire will typically be either electrical or engine related.
+
+###Electrical/Cabin Fire in Flight 
+
+&0cc50268-02bf-4025-ca91-38b88246c200
+
+###Fire During Engine Start: 
+
+&c921e631-952a-4f6b-d406-dda0b7707b00
+
+###Engine Fire in Flight
+
+&d0620407-0bc7-4201-997c-f4681bb49d00
+
+###Wing Fire in Flight
+
+&72fed903-ba8c-4e3e-90ce-cba200708900
+
+
+
+--
+##Rough running engine or partial power loss
+
+Remember that these can be more common than a total loss of power and difficult to diagnose.
+
+It is possible that one of the magnetos has failed and is firing at the incorrect time, cycling the magnetos could be helpful.
+
+It could be useful to go through the engine failure in flight checklist to make sure that there is adequate fuel going into the engine.
+
+If you are unable to fix the problem, it will be a decision between attempting to make an airfield or landing off airport.
+
+If you are within gliding distance of an airport, land there immediately.
+
+If not, consider the risks in attempting to go to another airport vs the landing options you currently have within gliding distance.
+
+
+--
+##Loss of engine oil pressure
+
+This is an emergency and requires immediate attention.
+
+Follow the checklist, and if the oil temperature continually increases, land immediately.
+
+&3c479c72-1f36-4c12-286e-3f7d14fd2800
+
+
+
+--
+##Fuel starvation
+
+The first signs of fuel starvation will generally be a rough running engine.
+
+Assuming you haven't actually run out of gas, the first step to do would be to follow the engine failure in flight checklist to make sure that fuel is properly going into the engine.
+
+If you have run out of fuel, go ahead and start planning for a forced landing, hopefully at an airport within gliding distance.
+
+
+
+
+--
+##Engine overheat
+
+An overheating engine is an event that requires immediate action.
+
+It is a good idea to reduce the power that you are using, and if you have altitude available, increase your airspeed to allow the engine to cool down.
+
+This could likely be the beginning of an engine failure, so keep that in mind as you are flying and look out for potential landing spots.
+
+
+--
+##Hydraulic malfunction
+
+If for some reason you have a hydraulic malfunction, it will only affect the brakes.
+
+This is the main reason we check the brakes when initially taxiing out.
+
+If you touchdown and find that your brakes are not working, consider if it would be possible to go around while you still have sufficient airspeed.
+
+If you are already slowing down, attempt to use aerodynamic braking and retract the flaps to increase the amount of weight on the wheels.
+
+Attempt to keep the airplane straight with the rudder peddles for as long as possible until you come to a stop.
+
+
+--
+##Electrical malfunction
+
+Electrical malfunctions can come in a variety of forms, but they need to be taken seriously.
+
+Alternator malfunctions will generally not be directly dangerous, but make sure to turn off the alternator switch and consider landing while you still have electrical power from the main battery to power the flaps.
+
+If you have a total electrical failure, remember that you can fly the airplane visually. With no flaps available, you should consider a longer runway if it is available to you and increase your approach speed.
+
+
+
+--
+##Carburetor or induction icing
+
+Induction icing will generally only be possible in conditions that are conducive to airframe icing.
+
+In this case, attempt to exit visible moisture as quickly as possible and get to an altitude with a lower temperature.
+
+
+--
+##Door or window opening in flight
+
+ALWAYS FLY THE AIRPLANE
+
+It might be jarring, but you and your passengers should be seated with your seat belts fastened.
+
+As you are maintaining control of the airplane, attempt to close the window or door.
+
+If you are not able to close it, attempt a landing at a nearby airport to fix and investigate the issue.
+
+
+
+--
+##Inoperative or “runaway” trim
+
+During a runaway trim situation, you want to fly the airplane and disconnect the source of power to the trim, which in this case is the autopilot.
+
+Pull the autopilot circuit breaker to close the connection and retrim the airplane as necessary.
+
+
+--
+##Landing gear or flap malfunction
+
+A flap malfunction will either result in the flaps not extending or retracting at all or one flap extending or retracting more than the other.
+
+If one flap is not extending, be careful and remember that no flap landings are perfectly acceptable.
+
+If one flap is not retracting, consider your options. If you need to climb, you may be able to correct for the yawing/rolling generated by the uneven flap extension. If the airplane is under control and not descending, it could be acceptable to leave the flaps extended.
+
+
+
+--
+##Pressurization malfunction
+
+The time of useful consciousness at high altitudes is very short. Descend quickly, and always use supplemental oxygen if you have it available. 
+
+There have been many fatalities resulting from pressurization malfunctions that could have been prevented.
+
+
+--
+
+
+
+
+
+
