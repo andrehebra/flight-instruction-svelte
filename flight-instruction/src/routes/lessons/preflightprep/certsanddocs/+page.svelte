@@ -9,6 +9,8 @@
 
 <div class="holder"><div class="contents">
 
+<Heading tag='h1'>Certificates and Documents</Heading>
+<Button href='https://1drv.ms/w/s!AtlIdUfWw473gdo9qNNt-QlMcSn-AQ?e=XkhTBq'>Certificates and Documents Lesson</Button>
 </div></div>
 
 

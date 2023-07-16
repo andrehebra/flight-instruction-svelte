@@ -1,20 +1,5 @@
 #Weight and Balance
 
---
-##Weight and Balance Terms
-
-
---
-##Effect of Weight and Balance on Aircraft Performance
-
-
---
-##Methods of Weight and Balance Control
-
-
---
-##Determination of Total Weight and Center of Gravity
-
-
+!"https://1drv.ms/w/s!AtlIdUfWw473gdpCubeG3pOUTZeXsQ?e=nhqkRe"Weight and Balance Lesson
 
 

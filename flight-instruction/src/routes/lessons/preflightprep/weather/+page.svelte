@@ -9,6 +9,8 @@
 
 <div class="holder"><div class="contents">
 
+<Heading tag='h1'>Weather Information</Heading>
+<P>Weather information lesson can be found on OneNote</P>
 </div></div>
 
 
