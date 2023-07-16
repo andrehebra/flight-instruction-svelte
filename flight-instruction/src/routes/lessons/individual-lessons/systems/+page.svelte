@@ -224,7 +224,11 @@
 
         ]}, {drop: true, title: "Avionics", contents: [
             {title: "Avionics", contents: [
-                {widget: "header", text: "Avionics"}
+                {widget: "header", text: "Avionics"},
+                {widget: "image", caption: "Diagram of G1000", src: "https://imagedelivery.net/bfLWD0Qjtd593vL0tnvGqQ/08d0a03a-13f1-4ebb-3410-eea87bc8f200/public"},
+                {widget: "image", caption: "Pitot Static Systems", src: "https://imagedelivery.net/bfLWD0Qjtd593vL0tnvGqQ/2dd33171-7e86-4cce-2d85-e8b20dee8200/public"},
+                {widget: "image", caption: "Altimeter", src: "https://imagedelivery.net/bfLWD0Qjtd593vL0tnvGqQ/08d34b0e-5384-41be-d24e-c8082af69d00/public"},
+                {widget: "image", caption: "Pitot Static Systems", src: "https://imagedelivery.net/bfLWD0Qjtd593vL0tnvGqQ/0690daa1-11fe-4e65-fa3c-910b13245c00/public"},
             ]}, {title: "Autopilot", contents: [
                 {widget: "header", text: "Autopilot"}
             ]}
