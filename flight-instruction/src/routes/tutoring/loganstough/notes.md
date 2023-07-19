@@ -114,4 +114,49 @@ stated that the higher wing will stall first - explained that it has to do with 
 
 cancelled early in the morning same day. will try to reschedule. 
 
+--
 
+7/19
+
+Stated a few hours ago that he is not able to meet in person. Asked me if I could go and meet him in a coffee shop again. Said no. Will try to reschedule in person for next week if possible. Will not allow another meeting on discord after this without meeting in person.
+
+Stated that he wants to go over oscars notes, asked him to email them to me before our session. He hasn't responded yet.
+
+Notes:
+
+He is currently driving to a job interview while talking to me on discord. Told me Oscar's notes, he wants to go over:
+
+*AHRS
+went through the different instruments located on the AHRS and ADC
+
+*Electrical System
+talked about alternator, main, standby battery.
+Talked about what is on the essential bus
+brief discussion on how the alternator works
+
+*Pitot-Static System
+
+airspeed, vertical speed, altimeter
+pitot tube and static port blockages and what indications would show up
+
+
+*Engine failure above and below 1000 feet
+
+
+Post notes:
+
+He is confused about the AHRS and ADC, and had trouble describing pitot static system malfunctions.
+
+I went over basic information about what to do during engine failures, he seems to have that pretty well understood, but was lacking in the memory items for the engine failure.
+
+I went over advection fog and radiation fog again. I explained each one in detail. He then attempted to state them back to me and gave me completely incorrect explanations. This is concerning. I have explained it to him a few times in the past, and he still is having trouble with understanding both fog and dewpoint. He was also unable to describe what fog is.
+
+Next time I need to meet with him in person. I am not currently confident in his abilities, and he does not seem to have improved much since we started tutoring. Meeting in person should be more helpful in judging his abilities and maybe in forming a better connection with visual aids.
+
+He has texted me immediately before our sessions on more than two occasions stating that he cannot meet in person. If he is unable to do so on our next session, I'm going to have to deal with it more directly. I'm not sure if he is anxious or it could just be that it is a long way to drive. Either way, I need to set expectations better on what is appropriate, as I am giving my time for free.
+
+I am concerned that he has a learning disability of some kind. I will discuss this further with the flight school.
+
+
+
+--
