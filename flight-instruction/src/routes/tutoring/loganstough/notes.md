@@ -115,3 +115,8 @@ stated that the higher wing will stall first - explained that it has to do with 
 cancelled early in the morning same day. will try to reschedule. 
 
 
+--
+7/26/2023
+
+was scheduled for 7am, I texted him to confirm if he was still able to meet in person. Stated that he couldn't meet in person and asked if I could do discord at 10am. I said that I need the next time to be in person. I asked about his availability on friday, and he stated that he would let me know today or tomorrow.
+
