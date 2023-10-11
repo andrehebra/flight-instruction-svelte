@@ -49,6 +49,23 @@ Runway headings
 --
 7/24/2023
 
+Notes:
+
+Slow flight clean and dirty:
+felt like it went well
+
+
+
+
+--
+
+7/26/2023
+
+pre-notes:
+Talked about coaching session.
+Said moving to 2 days a week sessions.
+Stated that it is overwhelming
+
 
 
 
