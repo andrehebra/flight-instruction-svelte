@@ -5,7 +5,7 @@
     import { onMount } from "svelte";
     import { writable } from "svelte/store";
 
-    let metarData = writable(null);
+    let metarData = false;
     let selectedRunway = writable("07"); // Default runway selection
     let crosswind = writable(0);
     let headwind = writable(0);
@@ -28,6 +28,8 @@
         },
     };
 
+    let metarObject = {};
+
     async function fetchMETAR() {
         try {
         const response = await fetch(
@@ -35,7 +37,7 @@
         );
         const text = await response.json();
 
-        const metarObject = text[0];
+        metarObject = text[0];
         /*const metarLines = text.split("\n");
         const metarObject = {
             raw_text: metarLines[1] || "No METAR data",
@@ -47,6 +49,8 @@
         console.log(metarData);
         console.log(metarObject); */
         console.log(metarObject);
+
+        metarData = true;
         
         } catch (error) {
         console.error("Error fetching METAR data:", error);
@@ -62,17 +66,21 @@
     }
 
     function evaluateFlightApproval(metar) {
-        if (!metar) return { dual_rental: false, solo: false };
-        const windMatch = metar.wind.match(/(\d{3})(\d{2})G?(\d{2})?/);
-        console.log("Wind Match: " + windMatch);
-        if (!windMatch) return { dual_rental: false, solo: false };
 
-        const windSpeed = parseInt(windMatch[2]);
-        const windGusts = windMatch[3] ? parseInt(windMatch[3]) : 0;
-        const windDirection = parseInt(windMatch[1]);
         const selectedRunwayHeading = parseInt(selectedRunway) * 10;
 
-        calculateWindComponents(windDirection, windSpeed, selectedRunwayHeading);
+        let highestWind = 0;
+        if (!metar.wgst) {
+            highestWind = metar.wspd;
+        } else {
+            highestWind = metar.wgst;
+        }
+
+        calculateWindComponents(metar.wdir, highestWind, selectedRunwayHeading);
+
+        const windSpeed = metar.wspd;
+        const windGusts =   highestWind;
+        const windDirection = metar.wdir;
 
         const dualRentalApproved =
         windSpeed <= flightLimits.dual_rental.max_wind.sustained &&
@@ -92,7 +100,7 @@
 
     // Watch for changes in METAR or runway selection
     $: if ($metarData) {
-        evaluateFlightApproval($metarData);
+        evaluateFlightApproval(metarObject);
     }
 
     onMount(fetchMETAR);
