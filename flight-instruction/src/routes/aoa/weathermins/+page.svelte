@@ -1,6 +1,8 @@
 <script>
     import { onMount } from "svelte";
     import { writable } from "svelte/store";
+
+    import NavBar from "../../components/NavBar.svelte";
   
     let metarData = writable(null);
     let selectedRunway = writable("07"); // Default runway selection
@@ -77,6 +79,7 @@
   </script>
   
   <main>
+    <NavBar />
     <h1>KORL Weather Check</h1>
     {#if $metarData}
       <p><strong>METAR:</strong> {$metarData.raw_text}</p>
