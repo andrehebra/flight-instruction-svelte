@@ -81,7 +81,7 @@
   
   <main>
     <NavBar />
-    <Heading tag="h2" customSize="text-4xl font-extrabold ">KORL Weather Check</Heading tag="h2" customSize="text-4xl font-extrabold ">
+    <Heading tag="h2" customSize="text-4xl font-extrabold ">KORL Weather Check</Heading>
     {#if $metarData}
       <P><strong>METAR:</strong> {$metarData.raw_text}</P>
       <label for="runway">Select Runway:</label>
