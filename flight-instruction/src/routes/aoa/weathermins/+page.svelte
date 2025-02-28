@@ -28,10 +28,17 @@
     async function fetchMETAR() {
       try {
         const response = await fetch(
-          "https://aviationweather.gov/api/data/metar?ids=KORL&format=json"
+          "https://corsproxy.io/?https://aviationweather.gov/cgi-bin/data/metar.php?ids=KORL&format=decoded"
         );
-        const data = await response.json();
-        metarData.set(data[0]);
+        const text = await response.text();
+        const metarLines = text.split("\n");
+        const metarObject = {
+          raw_text: metarLines[1],
+          wind: metarLines.find(line => line.includes("Wind")) || "", 
+          visibility: parseFloat(metarLines.find(line => line.includes("Visibility"))?.match(/\d+/)?.[0] || "0"),
+          ceiling: parseInt(metarLines.find(line => line.includes("Cloud Base"))?.match(/\d+/)?.[0] || "9999"),
+        };
+        metarData.set(metarObject);
       } catch (error) {
         console.error("Error fetching METAR data:", error);
       }
@@ -46,11 +53,14 @@
     }
   
     function evaluateFlightApproval(metar) {
-      const { wind, visibility, ceiling } = metar;
-      const windSpeed = parseInt(wind.match(/(\d{3})(\d{2})G?(\d{2})?/)[2]);
-      const windGusts = wind.match(/G(\d{2})/) ? parseInt(wind.match(/G(\d{2})/)[1]) : 0;
-      const windDirection = parseInt(wind.substring(0, 3));
-      const selectedRunwayHeading = parseInt(selectedRunway) * 10;
+      if (!metar) return { dual_rental: false, solo: false };
+      const windMatch = metar.wind.match(/(\d{3})(\d{2})G?(\d{2})?/);
+      if (!windMatch) return { dual_rental: false, solo: false };
+      
+      const windSpeed = parseInt(windMatch[2]);
+      const windGusts = windMatch[3] ? parseInt(windMatch[3]) : 0;
+      const windDirection = parseInt(windMatch[1]);
+      const selectedRunwayHeading = parseInt($selectedRunway) * 10;
       
       calculateWindComponents(windDirection, windSpeed, selectedRunwayHeading);
       
@@ -59,7 +69,7 @@
           (!windGusts || windGusts <= flightLimits.dual_rental.max_wind.gusts),
         solo: windSpeed <= flightLimits.solo.max_wind &&
           (!windGusts || windGusts <= flightLimits.solo.max_wind) &&
-          crosswind <= flightLimits.solo.max_crosswind,
+          $crosswind <= flightLimits.solo.max_crosswind,
       };
     }
   
@@ -93,6 +103,7 @@
           <td>{evaluateFlightApproval($metarData).solo ? "Approved" : "Not Approved"}</td>
         </tr>
       </table>
+    {:else}
+      <p>Loading METAR data...</p>
     {/if}
   </main>
-  
