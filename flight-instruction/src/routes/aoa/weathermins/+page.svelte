@@ -78,9 +78,9 @@
   
     onMount(fetchMETAR);
   </script>
-  
+  <NavBar />
   <main>
-    <NavBar />
+    <div class="display"><div class="holder">
     <Heading tag="h2" customSize="text-4xl font-extrabold ">KORL Weather Check</Heading>
     {#if $metarData}
       <P><strong>METAR:</strong> {$metarData.raw_text}</P>
@@ -110,4 +110,20 @@
     {:else}
       <P>Loading METAR data...</P>
     {/if}
+    </div></div>
   </main>
+
+  <style>
+    .holder {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        gap: 15px;
+    }
+    .display {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
