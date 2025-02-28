@@ -1,15 +1,15 @@
 <script>
+    import NavBar from "../../components/NavBar.svelte";
+    import { Heading, P } from "flowbite-svelte";
+    
     import { onMount } from "svelte";
     import { writable } from "svelte/store";
 
-    import NavBar from "../../components/NavBar.svelte";
-    import { Heading, P } from "flowbite-svelte";
-  
     let metarData = writable(null);
     let selectedRunway = writable("07"); // Default runway selection
     let crosswind = writable(0);
     let headwind = writable(0);
-  
+
     const flightLimits = {
       dual_rental: {
         day_vfr: { ceiling: 1500, visibility: 3 },
@@ -27,7 +27,7 @@
         xc_min: { ceiling: 4000, visibility: 6 },
       },
     };
-  
+
     async function fetchMETAR() {
       try {
         const response = await fetch(
@@ -46,7 +46,7 @@
         console.error("Error fetching METAR data:", error);
       }
     }
-  
+
     function calculateWindComponents(windDirection, windSpeed, runwayHeading) {
       const windAngle = ((windDirection - runwayHeading + 360) % 360) * (Math.PI / 180);
       const headwindComponent = Math.cos(windAngle) * windSpeed;
@@ -54,7 +54,7 @@
       crosswind.set(Math.abs(crosswindComponent));
       headwind.set(headwindComponent);
     }
-  
+
     function evaluateFlightApproval(metar) {
       if (!metar) return { dual_rental: false, solo: false };
       const windMatch = metar.wind.match(/(\d{3})(\d{2})G?(\d{2})?/);
@@ -67,15 +67,22 @@
       
       calculateWindComponents(windDirection, windSpeed, selectedRunwayHeading);
       
-      return {
-        dual_rental: windSpeed <= flightLimits.dual_rental.max_wind.sustained &&
-          (!windGusts || windGusts <= flightLimits.dual_rental.max_wind.gusts),
-        solo: windSpeed <= flightLimits.solo.max_wind &&
-          (!windGusts || windGusts <= flightLimits.solo.max_wind) &&
-          $crosswind <= flightLimits.solo.max_crosswind,
-      };
+      const dualRentalApproved = 
+        windSpeed <= flightLimits.dual_rental.max_wind.sustained &&
+        (!windGusts || windGusts <= flightLimits.dual_rental.max_wind.gusts) &&
+        metar.ceiling >= flightLimits.dual_rental.day_vfr.ceiling &&
+        metar.visibility >= flightLimits.dual_rental.day_vfr.visibility;
+      
+      const soloApproved = 
+        windSpeed <= flightLimits.solo.max_wind &&
+        (!windGusts || windGusts <= flightLimits.solo.max_wind) &&
+        $crosswind <= flightLimits.solo.max_crosswind &&
+        metar.ceiling >= flightLimits.solo.pattern_min.ceiling &&
+        metar.visibility >= flightLimits.solo.pattern_min.visibility;
+      
+      return { dual_rental: dualRentalApproved, solo: soloApproved };
     }
-  
+
     onMount(fetchMETAR);
   </script>
   <NavBar />
