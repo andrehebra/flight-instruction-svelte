@@ -31,10 +31,12 @@
     async function fetchMETAR() {
         try {
         const response = await fetch(
-            "https://corsproxy.io/?https://aviationweather.gov/cgi-bin/data/metar.php?ids=KORL&format=decoded"
+            "https://corsproxy.io/?https://aviationweather.gov/api/data/metar?ids=KORL&format=json&taf=false&hours=2"
         );
-        const text = await response.text();
-        const metarLines = text.split("\n");
+        const text = await response.json();
+
+        const metarObject = text;
+        /*const metarLines = text.split("\n");
         const metarObject = {
             raw_text: metarLines[1] || "No METAR data",
             wind: metarLines.find(line => line.includes("Wind")) || "",
@@ -43,6 +45,7 @@
         };
         metarData.set(metarObject);
         console.log(metarData);
+        console.log(metarObject); */
         console.log(metarObject);
         } catch (error) {
         console.error("Error fetching METAR data:", error);
