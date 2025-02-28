@@ -42,6 +42,7 @@
             ceiling: parseInt(metarLines.find(line => line.includes("Cloud Base"))?.match(/\d+/)?.[0] || "9999"),
         };
         metarData.set(metarObject);
+        console.log(metarData);
         } catch (error) {
         console.error("Error fetching METAR data:", error);
         }
