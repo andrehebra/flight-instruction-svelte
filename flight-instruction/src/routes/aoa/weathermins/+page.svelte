@@ -3,6 +3,7 @@
     import { writable } from "svelte/store";
 
     import NavBar from "../../components/NavBar.svelte";
+    import { Heading, P } from "flowbite-svelte";
   
     let metarData = writable(null);
     let selectedRunway = writable("07"); // Default runway selection
@@ -80,17 +81,17 @@
   
   <main>
     <NavBar />
-    <h1>KORL Weather Check</h1>
+    <Heading tag="h2" customSize="text-4xl font-extrabold ">KORL Weather Check</Heading tag="h2" customSize="text-4xl font-extrabold ">
     {#if $metarData}
-      <p><strong>METAR:</strong> {$metarData.raw_text}</p>
+      <P><strong>METAR:</strong> {$metarData.raw_text}</P>
       <label for="runway">Select Runway:</label>
       <select bind:value={$selectedRunway}>
         <option value="07">07</option>
         <option value="25">25</option>
       </select>
       <h2>Wind Components</h2>
-      <p>Crosswind: {$crosswind.toFixed(1)} knots</p>
-      <p>Headwind: {$headwind.toFixed(1)} knots</p>
+      <P>Crosswind: {$crosswind.toFixed(1)} knots</P>
+      <P>Headwind: {$headwind.toFixed(1)} knots</P>
       <h2>Flight Approval</h2>
       <table>
         <tr>
@@ -107,6 +108,6 @@
         </tr>
       </table>
     {:else}
-      <p>Loading METAR data...</p>
+      <P>Loading METAR data...</P>
     {/if}
   </main>
