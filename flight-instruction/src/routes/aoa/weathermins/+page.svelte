@@ -89,10 +89,10 @@
         <option value="07">07</option>
         <option value="25">25</option>
       </select>
-      <h2>Wind Components</h2>
+      <Heading tag="h3" customSize="text-4xl font-extrabold ">Wind Components</Heading>
       <P>Crosswind: {$crosswind.toFixed(1)} knots</P>
       <P>Headwind: {$headwind.toFixed(1)} knots</P>
-      <h2>Flight Approval</h2>
+      <Heading tag="h3" customSize="text-4xl font-extrabold ">Flight Approval</Heading>
       <table>
         <tr>
           <th>Flight Type</th>
