@@ -43,6 +43,7 @@
         };
         metarData.set(metarObject);
         console.log(metarData);
+        console.log(metarObject);
         } catch (error) {
         console.error("Error fetching METAR data:", error);
         }
