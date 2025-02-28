@@ -9,78 +9,83 @@
     let selectedRunway = writable("07"); // Default runway selection
     let crosswind = writable(0);
     let headwind = writable(0);
+    let flightApproval = writable({ dual_rental: false, solo: false });
 
     const flightLimits = {
-      dual_rental: {
+        dual_rental: {
         day_vfr: { ceiling: 1500, visibility: 3 },
-        day_other: { ceiling: 2500, visibility: 5 },
         night_vfr: { ceiling: 2500, visibility: 5 },
-        max_crosswind: "AFM", // Check AFM for aircraft-specific limits
+        max_crosswind: "AFM",
         max_tailwind: 10,
         max_wind: { sustained: 25, gusts: 30 },
-      },
-      solo: {
+        },
+        solo: {
         max_crosswind: 10,
         max_wind: 20,
         pattern_min: { ceiling: 2000, visibility: 5 },
         local_min: { ceiling: 3000, visibility: 6 },
         xc_min: { ceiling: 4000, visibility: 6 },
-      },
+        },
     };
 
     async function fetchMETAR() {
-      try {
+        try {
         const response = await fetch(
-          "https://corsproxy.io/?https://aviationweather.gov/cgi-bin/data/metar.php?ids=KORL&format=decoded"
+            "https://corsproxy.io/?https://aviationweather.gov/cgi-bin/data/metar.php?ids=KORL&format=decoded"
         );
         const text = await response.text();
         const metarLines = text.split("\n");
         const metarObject = {
-          raw_text: metarLines[1],
-          wind: metarLines.find(line => line.includes("Wind")) || "", 
-          visibility: parseFloat(metarLines.find(line => line.includes("Visibility"))?.match(/\d+/)?.[0] || "0"),
-          ceiling: parseInt(metarLines.find(line => line.includes("Cloud Base"))?.match(/\d+/)?.[0] || "9999"),
+            raw_text: metarLines[1] || "No METAR data",
+            wind: metarLines.find(line => line.includes("Wind")) || "",
+            visibility: parseFloat(metarLines.find(line => line.includes("Visibility"))?.match(/\d+/)?.[0] || "0"),
+            ceiling: parseInt(metarLines.find(line => line.includes("Cloud Base"))?.match(/\d+/)?.[0] || "9999"),
         };
         metarData.set(metarObject);
-      } catch (error) {
+        } catch (error) {
         console.error("Error fetching METAR data:", error);
-      }
+        }
     }
 
     function calculateWindComponents(windDirection, windSpeed, runwayHeading) {
-      const windAngle = ((windDirection - runwayHeading + 360) % 360) * (Math.PI / 180);
-      const headwindComponent = Math.cos(windAngle) * windSpeed;
-      const crosswindComponent = Math.sin(windAngle) * windSpeed;
-      crosswind.set(Math.abs(crosswindComponent));
-      headwind.set(headwindComponent);
+        const windAngle = ((windDirection - runwayHeading + 360) % 360) * (Math.PI / 180);
+        const headwindComponent = Math.cos(windAngle) * windSpeed;
+        const crosswindComponent = Math.sin(windAngle) * windSpeed;
+        crosswind.set(Math.abs(crosswindComponent));
+        headwind.set(headwindComponent);
     }
 
     function evaluateFlightApproval(metar) {
-      if (!metar) return { dual_rental: false, solo: false };
-      const windMatch = metar.wind.match(/(\d{3})(\d{2})G?(\d{2})?/);
-      if (!windMatch) return { dual_rental: false, solo: false };
-      
-      const windSpeed = parseInt(windMatch[2]);
-      const windGusts = windMatch[3] ? parseInt(windMatch[3]) : 0;
-      const windDirection = parseInt(windMatch[1]);
-      const selectedRunwayHeading = parseInt($selectedRunway) * 10;
-      
-      calculateWindComponents(windDirection, windSpeed, selectedRunwayHeading);
-      
-      const dualRentalApproved = 
+        if (!metar) return { dual_rental: false, solo: false };
+        const windMatch = metar.wind.match(/(\d{3})(\d{2})G?(\d{2})?/);
+        if (!windMatch) return { dual_rental: false, solo: false };
+
+        const windSpeed = parseInt(windMatch[2]);
+        const windGusts = windMatch[3] ? parseInt(windMatch[3]) : 0;
+        const windDirection = parseInt(windMatch[1]);
+        const selectedRunwayHeading = parseInt(selectedRunway) * 10;
+
+        calculateWindComponents(windDirection, windSpeed, selectedRunwayHeading);
+
+        const dualRentalApproved =
         windSpeed <= flightLimits.dual_rental.max_wind.sustained &&
         (!windGusts || windGusts <= flightLimits.dual_rental.max_wind.gusts) &&
         metar.ceiling >= flightLimits.dual_rental.day_vfr.ceiling &&
         metar.visibility >= flightLimits.dual_rental.day_vfr.visibility;
-      
-      const soloApproved = 
+
+        const soloApproved =
         windSpeed <= flightLimits.solo.max_wind &&
         (!windGusts || windGusts <= flightLimits.solo.max_wind) &&
         $crosswind <= flightLimits.solo.max_crosswind &&
         metar.ceiling >= flightLimits.solo.pattern_min.ceiling &&
         metar.visibility >= flightLimits.solo.pattern_min.visibility;
-      
-      return { dual_rental: dualRentalApproved, solo: soloApproved };
+
+        flightApproval.set({ dual_rental: dualRentalApproved, solo: soloApproved });
+    }
+
+    // Watch for changes in METAR or runway selection
+    $: if ($metarData) {
+        evaluateFlightApproval($metarData);
     }
 
     onMount(fetchMETAR);
