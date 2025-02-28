@@ -35,7 +35,7 @@
         );
         const text = await response.json();
 
-        const metarObject = text;
+        const metarObject = text[0];
         /*const metarLines = text.split("\n");
         const metarObject = {
             raw_text: metarLines[1] || "No METAR data",
@@ -47,6 +47,7 @@
         console.log(metarData);
         console.log(metarObject); */
         console.log(metarObject);
+        
         } catch (error) {
         console.error("Error fetching METAR data:", error);
         }
