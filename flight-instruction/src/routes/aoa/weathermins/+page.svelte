@@ -15,7 +15,7 @@
         dual_rental: {
         day_vfr: { ceiling: 1500, visibility: 3 },
         night_vfr: { ceiling: 2500, visibility: 5 },
-        max_crosswind: "AFM",
+        max_crosswind: 15,
         max_tailwind: 10,
         max_wind: { sustained: 25, gusts: 30 },
         },
@@ -58,6 +58,7 @@
     function evaluateFlightApproval(metar) {
         if (!metar) return { dual_rental: false, solo: false };
         const windMatch = metar.wind.match(/(\d{3})(\d{2})G?(\d{2})?/);
+        console.log("Wind Match: " + windMatch);
         if (!windMatch) return { dual_rental: false, solo: false };
 
         const windSpeed = parseInt(windMatch[2]);
